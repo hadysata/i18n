@@ -43,34 +43,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: 'en_ISO',
           ERAS: const ['BC', 'AD'],
           ERANAMES: const ['Before Christ', 'Anno Domini'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'January',
             'February',
@@ -99,20 +73,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'November',
             'December'
           ],
-          SHORTMONTHS: const [
-            'Jan',
-            'Feb',
-            'Mar',
-            'Apr',
-            'May',
-            'Jun',
-            'Jul',
-            'Aug',
-            'Sep',
-            'Oct',
-            'Nov',
-            'Dec'
-          ],
+          SHORTMONTHS: const ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
           STANDALONESHORTMONTHS: const [
             'Jan',
             'Feb',
@@ -127,65 +88,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nov',
             'Dec'
           ],
-          WEEKDAYS: const [
-            'Sunday',
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Sunday',
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday'
-          ],
-          SHORTWEEKDAYS: const [
-            'Sun',
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Sun',
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat'
-          ],
+          WEEKDAYS: const ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          STANDALONEWEEKDAYS: const ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          SHORTWEEKDAYS: const ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+          STANDALONESHORTWEEKDAYS: const ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
           NARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
-          QUARTERS: const [
-            '1st quarter',
-            '2nd quarter',
-            '3rd quarter',
-            '4th quarter'
-          ],
+          QUARTERS: const ['1st quarter', '2nd quarter', '3rd quarter', '4th quarter'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, y MMMM dd',
-            'y MMMM d',
-            'y MMM d',
-            'yyyy-MM-dd'
-          ],
+          DATEFORMATS: const ['EEEE, y MMMM dd', 'y MMMM d', 'y MMM d', 'yyyy-MM-dd'],
           TIMEFORMATS: const ['HH:mm:ss v', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
-          DATETIMEFORMATS: const [
-            '{1} \'at\' {0}',
-            '{1} \'at\' {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATETIMEFORMATS: const ['{1} \'at\' {0}', '{1} \'at\' {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 3),
@@ -195,34 +109,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "af",
           ERAS: const ['v.C.', 'n.C.'],
           ERANAMES: const ['voor Christus', 'na Christus'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'Januarie',
             'Februarie',
@@ -279,64 +167,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nov.',
             'Des.'
           ],
-          WEEKDAYS: const [
-            'Sondag',
-            'Maandag',
-            'Dinsdag',
-            'Woensdag',
-            'Donderdag',
-            'Vrydag',
-            'Saterdag'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Sondag',
-            'Maandag',
-            'Dinsdag',
-            'Woensdag',
-            'Donderdag',
-            'Vrydag',
-            'Saterdag'
-          ],
-          SHORTWEEKDAYS: const [
-            'So.',
-            'Ma.',
-            'Di.',
-            'Wo.',
-            'Do.',
-            'Vr.',
-            'Sa.'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'So.',
-            'Ma.',
-            'Di.',
-            'Wo.',
-            'Do.',
-            'Vr.',
-            'Sa.'
-          ],
+          WEEKDAYS: const ['Sondag', 'Maandag', 'Dinsdag', 'Woensdag', 'Donderdag', 'Vrydag', 'Saterdag'],
+          STANDALONEWEEKDAYS: const ['Sondag', 'Maandag', 'Dinsdag', 'Woensdag', 'Donderdag', 'Vrydag', 'Saterdag'],
+          SHORTWEEKDAYS: const ['So.', 'Ma.', 'Di.', 'Wo.', 'Do.', 'Vr.', 'Sa.'],
+          STANDALONESHORTWEEKDAYS: const ['So.', 'Ma.', 'Di.', 'Wo.', 'Do.', 'Vr.', 'Sa.'],
           NARROWWEEKDAYS: const ['S', 'M', 'D', 'W', 'D', 'V', 'S'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'D', 'W', 'D', 'V', 'S'],
           SHORTQUARTERS: const ['K1', 'K2', 'K3', 'K4'],
-          QUARTERS: const [
-            '1ste kwartaal',
-            '2de kwartaal',
-            '3de kwartaal',
-            '4de kwartaal'
-          ],
+          QUARTERS: const ['1ste kwartaal', '2de kwartaal', '3de kwartaal', '4de kwartaal'],
           AMPMS: const ['vm.', 'nm.'],
-          DATEFORMATS: const [
-            'EEEE dd MMMM y',
-            'dd MMMM y',
-            'dd MMM y',
-            'y-MM-dd'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['EEEE dd MMMM y', 'dd MMMM y', 'dd MMM y', 'y-MM-dd'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
@@ -346,34 +187,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "am",
           ERAS: const ['ዓ/ዓ', 'ዓ/ም'],
           ERANAMES: const ['ዓመተ ዓለም', 'ዓመተ ምሕረት'],
-          NARROWMONTHS: const [
-            'ጃ',
-            'ፌ',
-            'ማ',
-            'ኤ',
-            'ሜ',
-            'ጁ',
-            'ጁ',
-            'ኦ',
-            'ሴ',
-            'ኦ',
-            'ኖ',
-            'ዲ'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'ጃ',
-            'ፌ',
-            'ማ',
-            'ኤ',
-            'ሜ',
-            'ጁ',
-            'ጁ',
-            'ኦ',
-            'ሴ',
-            'ኦ',
-            'ኖ',
-            'ዲ'
-          ],
+          NARROWMONTHS: const ['ጃ', 'ፌ', 'ማ', 'ኤ', 'ሜ', 'ጁ', 'ጁ', 'ኦ', 'ሴ', 'ኦ', 'ኖ', 'ዲ'],
+          STANDALONENARROWMONTHS: const ['ጃ', 'ፌ', 'ማ', 'ኤ', 'ሜ', 'ጁ', 'ጁ', 'ኦ', 'ሴ', 'ኦ', 'ኖ', 'ዲ'],
           MONTHS: const [
             'ጃንዩወሪ',
             'ፌብሩወሪ',
@@ -402,20 +217,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'ኖቬምበር',
             'ዲሴምበር'
           ],
-          SHORTMONTHS: const [
-            'ጃንዩ',
-            'ፌብሩ',
-            'ማርች',
-            'ኤፕሪ',
-            'ሜይ',
-            'ጁን',
-            'ጁላይ',
-            'ኦገስ',
-            'ሴፕቴ',
-            'ኦክቶ',
-            'ኖቬም',
-            'ዲሴም'
-          ],
+          SHORTMONTHS: const ['ጃንዩ', 'ፌብሩ', 'ማርች', 'ኤፕሪ', 'ሜይ', 'ጁን', 'ጁላይ', 'ኦገስ', 'ሴፕቴ', 'ኦክቶ', 'ኖቬም', 'ዲሴም'],
           STANDALONESHORTMONTHS: const [
             'ጃንዩ',
             'ፌብሩ',
@@ -431,42 +233,16 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'ዲሴም'
           ],
           WEEKDAYS: const ['እሑድ', 'ሰኞ', 'ማክሰኞ', 'ረቡዕ', 'ሐሙስ', 'ዓርብ', 'ቅዳሜ'],
-          STANDALONEWEEKDAYS: const [
-            'እሑድ',
-            'ሰኞ',
-            'ማክሰኞ',
-            'ረቡዕ',
-            'ሐሙስ',
-            'ዓርብ',
-            'ቅዳሜ'
-          ],
+          STANDALONEWEEKDAYS: const ['እሑድ', 'ሰኞ', 'ማክሰኞ', 'ረቡዕ', 'ሐሙስ', 'ዓርብ', 'ቅዳሜ'],
           SHORTWEEKDAYS: const ['እሑድ', 'ሰኞ', 'ማክሰ', 'ረቡዕ', 'ሐሙስ', 'ዓርብ', 'ቅዳሜ'],
-          STANDALONESHORTWEEKDAYS: const [
-            'እሑድ',
-            'ሰኞ',
-            'ማክሰ',
-            'ረቡዕ',
-            'ሐሙስ',
-            'ዓርብ',
-            'ቅዳሜ'
-          ],
+          STANDALONESHORTWEEKDAYS: const ['እሑድ', 'ሰኞ', 'ማክሰ', 'ረቡዕ', 'ሐሙስ', 'ዓርብ', 'ቅዳሜ'],
           NARROWWEEKDAYS: const ['እ', 'ሰ', 'ማ', 'ረ', 'ሐ', 'ዓ', 'ቅ'],
           STANDALONENARROWWEEKDAYS: const ['እ', 'ሰ', 'ማ', 'ረ', 'ሐ', 'ዓ', 'ቅ'],
           SHORTQUARTERS: const ['ሩብ1', 'ሩብ2', 'ሩብ3', 'ሩብ4'],
           QUARTERS: const ['1ኛው ሩብ', '2ኛው ሩብ', '3ኛው ሩብ', '4ኛው ሩብ'],
           AMPMS: const ['ጥዋት', 'ከሰዓት'],
-          DATEFORMATS: const [
-            'y MMMM d, EEEE',
-            'd MMMM y',
-            'd MMM y',
-            'dd/MM/y'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
+          DATEFORMATS: const ['y MMMM d, EEEE', 'd MMMM y', 'd MMM y', 'dd/MM/y'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
@@ -477,34 +253,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           ZERODIGIT: '\u0660',
           ERAS: const ['ق.م', 'م'],
           ERANAMES: const ['قبل الميلاد', 'ميلادي'],
-          NARROWMONTHS: const [
-            'ي',
-            'ف',
-            'م',
-            'أ',
-            'و',
-            'ن',
-            'ل',
-            'غ',
-            'س',
-            'ك',
-            'ب',
-            'د'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'ي',
-            'ف',
-            'م',
-            'أ',
-            'و',
-            'ن',
-            'ل',
-            'غ',
-            'س',
-            'ك',
-            'ب',
-            'د'
-          ],
+          NARROWMONTHS: const ['ي', 'ف', 'م', 'أ', 'و', 'ن', 'ل', 'غ', 'س', 'ك', 'ب', 'د'],
+          STANDALONENARROWMONTHS: const ['ي', 'ف', 'م', 'أ', 'و', 'ن', 'ل', 'غ', 'س', 'ك', 'ب', 'د'],
           MONTHS: const [
             'يناير',
             'فبراير',
@@ -561,75 +311,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'نوفمبر',
             'ديسمبر'
           ],
-          WEEKDAYS: const [
-            'الأحد',
-            'الاثنين',
-            'الثلاثاء',
-            'الأربعاء',
-            'الخميس',
-            'الجمعة',
-            'السبت'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'الأحد',
-            'الاثنين',
-            'الثلاثاء',
-            'الأربعاء',
-            'الخميس',
-            'الجمعة',
-            'السبت'
-          ],
-          SHORTWEEKDAYS: const [
-            'الأحد',
-            'الاثنين',
-            'الثلاثاء',
-            'الأربعاء',
-            'الخميس',
-            'الجمعة',
-            'السبت'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'الأحد',
-            'الاثنين',
-            'الثلاثاء',
-            'الأربعاء',
-            'الخميس',
-            'الجمعة',
-            'السبت'
-          ],
+          WEEKDAYS: const ['الأحد', 'الاثنين', 'الثلاثاء', 'الأربعاء', 'الخميس', 'الجمعة', 'السبت'],
+          STANDALONEWEEKDAYS: const ['الأحد', 'الاثنين', 'الثلاثاء', 'الأربعاء', 'الخميس', 'الجمعة', 'السبت'],
+          SHORTWEEKDAYS: const ['الأحد', 'الاثنين', 'الثلاثاء', 'الأربعاء', 'الخميس', 'الجمعة', 'السبت'],
+          STANDALONESHORTWEEKDAYS: const ['الأحد', 'الاثنين', 'الثلاثاء', 'الأربعاء', 'الخميس', 'الجمعة', 'السبت'],
           NARROWWEEKDAYS: const ['ح', 'ن', 'ث', 'ر', 'خ', 'ج', 'س'],
           STANDALONENARROWWEEKDAYS: const ['ح', 'ن', 'ث', 'ر', 'خ', 'ج', 'س'],
-          SHORTQUARTERS: const [
-            'الربع الأول',
-            'الربع الثاني',
-            'الربع الثالث',
-            'الربع الرابع'
-          ],
-          QUARTERS: const [
-            'الربع الأول',
-            'الربع الثاني',
-            'الربع الثالث',
-            'الربع الرابع'
-          ],
+          SHORTQUARTERS: const ['الربع الأول', 'الربع الثاني', 'الربع الثالث', 'الربع الرابع'],
+          QUARTERS: const ['الربع الأول', 'الربع الثاني', 'الربع الثالث', 'الربع الرابع'],
           AMPMS: const ['ص', 'م'],
-          DATEFORMATS: const [
-            'EEEE، d MMMM y',
-            'd MMMM y',
-            'dd‏/MM‏/y',
-            'd‏/M‏/y'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}، {0}',
-            '{1}، {0}',
-            '{1}، {0}',
-            '{1}، {0}'
-          ],
+          DATEFORMATS: const ['EEEE، d MMMM y', 'd MMMM y', 'dd‏/MM‏/y', 'd‏/M‏/y'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
+          DATETIMEFORMATS: const ['{1}، {0}', '{1}، {0}', '{1}، {0}', '{1}، {0}'],
           FIRSTDAYOFWEEK: 5,
           WEEKENDRANGE: const [4, 5],
           FIRSTWEEKCUTOFFDAY: 4),
@@ -638,34 +331,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "ar_DZ",
           ERAS: const ['ق.م', 'م'],
           ERANAMES: const ['قبل الميلاد', 'ميلادي'],
-          NARROWMONTHS: const [
-            'ج',
-            'ف',
-            'م',
-            'أ',
-            'م',
-            'ج',
-            'ج',
-            'أ',
-            'س',
-            'أ',
-            'ن',
-            'د'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'ج',
-            'ف',
-            'م',
-            'أ',
-            'م',
-            'ج',
-            'ج',
-            'أ',
-            'س',
-            'أ',
-            'ن',
-            'د'
-          ],
+          NARROWMONTHS: const ['ج', 'ف', 'م', 'أ', 'م', 'ج', 'ج', 'أ', 'س', 'أ', 'ن', 'د'],
+          STANDALONENARROWMONTHS: const ['ج', 'ف', 'م', 'أ', 'م', 'ج', 'ج', 'أ', 'س', 'أ', 'ن', 'د'],
           MONTHS: const [
             'جانفي',
             'فيفري',
@@ -722,75 +389,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'نوفمبر',
             'ديسمبر'
           ],
-          WEEKDAYS: const [
-            'الأحد',
-            'الاثنين',
-            'الثلاثاء',
-            'الأربعاء',
-            'الخميس',
-            'الجمعة',
-            'السبت'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'الأحد',
-            'الاثنين',
-            'الثلاثاء',
-            'الأربعاء',
-            'الخميس',
-            'الجمعة',
-            'السبت'
-          ],
-          SHORTWEEKDAYS: const [
-            'الأحد',
-            'الاثنين',
-            'الثلاثاء',
-            'الأربعاء',
-            'الخميس',
-            'الجمعة',
-            'السبت'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'الأحد',
-            'الاثنين',
-            'الثلاثاء',
-            'الأربعاء',
-            'الخميس',
-            'الجمعة',
-            'السبت'
-          ],
+          WEEKDAYS: const ['الأحد', 'الاثنين', 'الثلاثاء', 'الأربعاء', 'الخميس', 'الجمعة', 'السبت'],
+          STANDALONEWEEKDAYS: const ['الأحد', 'الاثنين', 'الثلاثاء', 'الأربعاء', 'الخميس', 'الجمعة', 'السبت'],
+          SHORTWEEKDAYS: const ['الأحد', 'الاثنين', 'الثلاثاء', 'الأربعاء', 'الخميس', 'الجمعة', 'السبت'],
+          STANDALONESHORTWEEKDAYS: const ['الأحد', 'الاثنين', 'الثلاثاء', 'الأربعاء', 'الخميس', 'الجمعة', 'السبت'],
           NARROWWEEKDAYS: const ['ح', 'ن', 'ث', 'ر', 'خ', 'ج', 'س'],
           STANDALONENARROWWEEKDAYS: const ['ح', 'ن', 'ث', 'ر', 'خ', 'ج', 'س'],
-          SHORTQUARTERS: const [
-            'الربع الأول',
-            'الربع الثاني',
-            'الربع الثالث',
-            'الربع الرابع'
-          ],
-          QUARTERS: const [
-            'الربع الأول',
-            'الربع الثاني',
-            'الربع الثالث',
-            'الربع الرابع'
-          ],
+          SHORTQUARTERS: const ['الربع الأول', 'الربع الثاني', 'الربع الثالث', 'الربع الرابع'],
+          QUARTERS: const ['الربع الأول', 'الربع الثاني', 'الربع الثالث', 'الربع الرابع'],
           AMPMS: const ['ص', 'م'],
-          DATEFORMATS: const [
-            'EEEE، d MMMM y',
-            'd MMMM y',
-            'dd‏/MM‏/y',
-            'd‏/M‏/y'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}، {0}',
-            '{1}، {0}',
-            '{1}، {0}',
-            '{1}، {0}'
-          ],
+          DATEFORMATS: const ['EEEE، d MMMM y', 'd MMMM y', 'dd‏/MM‏/y', 'd‏/M‏/y'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
+          DATETIMEFORMATS: const ['{1}، {0}', '{1}، {0}', '{1}، {0}', '{1}، {0}'],
           FIRSTDAYOFWEEK: 5,
           WEEKENDRANGE: const [4, 5],
           FIRSTWEEKCUTOFFDAY: 4),
@@ -801,34 +411,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           ZERODIGIT: '\u0660',
           ERAS: const ['ق.م', 'م'],
           ERANAMES: const ['قبل الميلاد', 'ميلادي'],
-          NARROWMONTHS: const [
-            'ي',
-            'ف',
-            'م',
-            'أ',
-            'و',
-            'ن',
-            'ل',
-            'غ',
-            'س',
-            'ك',
-            'ب',
-            'د'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'ي',
-            'ف',
-            'م',
-            'أ',
-            'و',
-            'ن',
-            'ل',
-            'غ',
-            'س',
-            'ك',
-            'ب',
-            'د'
-          ],
+          NARROWMONTHS: const ['ي', 'ف', 'م', 'أ', 'و', 'ن', 'ل', 'غ', 'س', 'ك', 'ب', 'د'],
+          STANDALONENARROWMONTHS: const ['ي', 'ف', 'م', 'أ', 'و', 'ن', 'ل', 'غ', 'س', 'ك', 'ب', 'د'],
           MONTHS: const [
             'يناير',
             'فبراير',
@@ -885,75 +469,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'نوفمبر',
             'ديسمبر'
           ],
-          WEEKDAYS: const [
-            'الأحد',
-            'الاثنين',
-            'الثلاثاء',
-            'الأربعاء',
-            'الخميس',
-            'الجمعة',
-            'السبت'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'الأحد',
-            'الاثنين',
-            'الثلاثاء',
-            'الأربعاء',
-            'الخميس',
-            'الجمعة',
-            'السبت'
-          ],
-          SHORTWEEKDAYS: const [
-            'الأحد',
-            'الاثنين',
-            'الثلاثاء',
-            'الأربعاء',
-            'الخميس',
-            'الجمعة',
-            'السبت'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'الأحد',
-            'الاثنين',
-            'الثلاثاء',
-            'الأربعاء',
-            'الخميس',
-            'الجمعة',
-            'السبت'
-          ],
+          WEEKDAYS: const ['الأحد', 'الاثنين', 'الثلاثاء', 'الأربعاء', 'الخميس', 'الجمعة', 'السبت'],
+          STANDALONEWEEKDAYS: const ['الأحد', 'الاثنين', 'الثلاثاء', 'الأربعاء', 'الخميس', 'الجمعة', 'السبت'],
+          SHORTWEEKDAYS: const ['الأحد', 'الاثنين', 'الثلاثاء', 'الأربعاء', 'الخميس', 'الجمعة', 'السبت'],
+          STANDALONESHORTWEEKDAYS: const ['الأحد', 'الاثنين', 'الثلاثاء', 'الأربعاء', 'الخميس', 'الجمعة', 'السبت'],
           NARROWWEEKDAYS: const ['ح', 'ن', 'ث', 'ر', 'خ', 'ج', 'س'],
           STANDALONENARROWWEEKDAYS: const ['ح', 'ن', 'ث', 'ر', 'خ', 'ج', 'س'],
-          SHORTQUARTERS: const [
-            'الربع الأول',
-            'الربع الثاني',
-            'الربع الثالث',
-            'الربع الرابع'
-          ],
-          QUARTERS: const [
-            'الربع الأول',
-            'الربع الثاني',
-            'الربع الثالث',
-            'الربع الرابع'
-          ],
+          SHORTQUARTERS: const ['الربع الأول', 'الربع الثاني', 'الربع الثالث', 'الربع الرابع'],
+          QUARTERS: const ['الربع الأول', 'الربع الثاني', 'الربع الثالث', 'الربع الرابع'],
           AMPMS: const ['ص', 'م'],
-          DATEFORMATS: const [
-            'EEEE، d MMMM y',
-            'd MMMM y',
-            'dd‏/MM‏/y',
-            'd‏/M‏/y'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}، {0}',
-            '{1}، {0}',
-            '{1}، {0}',
-            '{1}، {0}'
-          ],
+          DATEFORMATS: const ['EEEE، d MMMM y', 'd MMMM y', 'dd‏/MM‏/y', 'd‏/M‏/y'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
+          DATETIMEFORMATS: const ['{1}، {0}', '{1}، {0}', '{1}، {0}', '{1}، {0}'],
           FIRSTDAYOFWEEK: 5,
           WEEKENDRANGE: const [4, 5],
           FIRSTWEEKCUTOFFDAY: 4),
@@ -963,34 +490,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           ZERODIGIT: '\u09E6',
           ERAS: const ['খ্ৰীঃ পূঃ', 'খ্ৰীঃ'],
           ERANAMES: const ['খ্ৰীষ্টপূৰ্ব', 'খ্ৰীষ্টাব্দ'],
-          NARROWMONTHS: const [
-            'জ',
-            'ফ',
-            'ম',
-            'এ',
-            'ম',
-            'জ',
-            'জ',
-            'আ',
-            'ছ',
-            'অ',
-            'ন',
-            'ড'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'জ',
-            'ফ',
-            'ম',
-            'এ',
-            'ম',
-            'জ',
-            'জ',
-            'আ',
-            'ছ',
-            'অ',
-            'ন',
-            'ড'
-          ],
+          NARROWMONTHS: const ['জ', 'ফ', 'ম', 'এ', 'ম', 'জ', 'জ', 'আ', 'ছ', 'অ', 'ন', 'ড'],
+          STANDALONENARROWMONTHS: const ['জ', 'ফ', 'ম', 'এ', 'ম', 'জ', 'জ', 'আ', 'ছ', 'অ', 'ন', 'ড'],
           MONTHS: const [
             'জানুৱাৰী',
             'ফেব্ৰুৱাৰী',
@@ -1047,64 +548,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'নৱে',
             'ডিচে'
           ],
-          WEEKDAYS: const [
-            'দেওবাৰ',
-            'সোমবাৰ',
-            'মঙ্গলবাৰ',
-            'বুধবাৰ',
-            'বৃহস্পতিবাৰ',
-            'শুক্ৰবাৰ',
-            'শনিবাৰ'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'দেওবাৰ',
-            'সোমবাৰ',
-            'মঙ্গলবাৰ',
-            'বুধবাৰ',
-            'বৃহস্পতিবাৰ',
-            'শুক্ৰবাৰ',
-            'শনিবাৰ'
-          ],
-          SHORTWEEKDAYS: const [
-            'দেও',
-            'সোম',
-            'মঙ্গল',
-            'বুধ',
-            'বৃহ',
-            'শুক্ৰ',
-            'শনি'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'দেও',
-            'সোম',
-            'মঙ্গল',
-            'বুধ',
-            'বৃহ',
-            'শুক্ৰ',
-            'শনি'
-          ],
+          WEEKDAYS: const ['দেওবাৰ', 'সোমবাৰ', 'মঙ্গলবাৰ', 'বুধবাৰ', 'বৃহস্পতিবাৰ', 'শুক্ৰবাৰ', 'শনিবাৰ'],
+          STANDALONEWEEKDAYS: const ['দেওবাৰ', 'সোমবাৰ', 'মঙ্গলবাৰ', 'বুধবাৰ', 'বৃহস্পতিবাৰ', 'শুক্ৰবাৰ', 'শনিবাৰ'],
+          SHORTWEEKDAYS: const ['দেও', 'সোম', 'মঙ্গল', 'বুধ', 'বৃহ', 'শুক্ৰ', 'শনি'],
+          STANDALONESHORTWEEKDAYS: const ['দেও', 'সোম', 'মঙ্গল', 'বুধ', 'বৃহ', 'শুক্ৰ', 'শনি'],
           NARROWWEEKDAYS: const ['দ', 'স', 'ম', 'ব', 'ব', 'শ', 'শ'],
           STANDALONENARROWWEEKDAYS: const ['দ', 'স', 'ম', 'ব', 'ব', 'শ', 'শ'],
           SHORTQUARTERS: const ['১মঃ তিঃ', '২য়ঃ তিঃ', '৩য়ঃ তিঃ', '৪ৰ্থঃ তিঃ'],
-          QUARTERS: const [
-            'প্ৰথম তিনিমাহ',
-            'দ্বিতীয় তিনিমাহ',
-            'তৃতীয় তিনিমাহ',
-            'চতুৰ্থ তিনিমাহ'
-          ],
+          QUARTERS: const ['প্ৰথম তিনিমাহ', 'দ্বিতীয় তিনিমাহ', 'তৃতীয় তিনিমাহ', 'চতুৰ্থ তিনিমাহ'],
           AMPMS: const ['পূৰ্বাহ্ন', 'অপৰাহ্ন'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM, y',
-            'd MMMM, y',
-            'dd-MM-y',
-            'd-M-y'
-          ],
-          TIMEFORMATS: const [
-            'a h.mm.ss zzzz',
-            'a h.mm.ss z',
-            'a h.mm.ss',
-            'a h.mm'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM, y', 'd MMMM, y', 'dd-MM-y', 'd-M-y'],
+          TIMEFORMATS: const ['a h.mm.ss zzzz', 'a h.mm.ss z', 'a h.mm.ss', 'a h.mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [6, 6],
@@ -1114,34 +568,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "az",
           ERAS: const ['e.ə.', 'y.e.'],
           ERANAMES: const ['eramızdan əvvəl', 'yeni era'],
-          NARROWMONTHS: const [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5',
-            '6',
-            '7',
-            '8',
-            '9',
-            '10',
-            '11',
-            '12'
-          ],
-          STANDALONENARROWMONTHS: const [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5',
-            '6',
-            '7',
-            '8',
-            '9',
-            '10',
-            '11',
-            '12'
-          ],
+          NARROWMONTHS: const ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+          STANDALONENARROWMONTHS: const ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
           MONTHS: const [
             'yanvar',
             'fevral',
@@ -1170,20 +598,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'noyabr',
             'dekabr'
           ],
-          SHORTMONTHS: const [
-            'yan',
-            'fev',
-            'mar',
-            'apr',
-            'may',
-            'iyn',
-            'iyl',
-            'avq',
-            'sen',
-            'okt',
-            'noy',
-            'dek'
-          ],
+          SHORTMONTHS: const ['yan', 'fev', 'mar', 'apr', 'may', 'iyn', 'iyl', 'avq', 'sen', 'okt', 'noy', 'dek'],
           STANDALONESHORTMONTHS: const [
             'yan',
             'fev',
@@ -1198,15 +613,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'noy',
             'dek'
           ],
-          WEEKDAYS: const [
-            'bazar',
-            'bazar ertəsi',
-            'çərşənbə axşamı',
-            'çərşənbə',
-            'cümə axşamı',
-            'cümə',
-            'şənbə'
-          ],
+          WEEKDAYS: const ['bazar', 'bazar ertəsi', 'çərşənbə axşamı', 'çərşənbə', 'cümə axşamı', 'cümə', 'şənbə'],
           STANDALONEWEEKDAYS: const [
             'bazar',
             'bazar ertəsi',
@@ -1217,37 +624,14 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'şənbə'
           ],
           SHORTWEEKDAYS: const ['B.', 'B.e.', 'Ç.a.', 'Ç.', 'C.a.', 'C.', 'Ş.'],
-          STANDALONESHORTWEEKDAYS: const [
-            'B.',
-            'B.E.',
-            'Ç.A.',
-            'Ç.',
-            'C.A.',
-            'C.',
-            'Ş.'
-          ],
+          STANDALONESHORTWEEKDAYS: const ['B.', 'B.E.', 'Ç.A.', 'Ç.', 'C.A.', 'C.', 'Ş.'],
           NARROWWEEKDAYS: const ['7', '1', '2', '3', '4', '5', '6'],
           STANDALONENARROWWEEKDAYS: const ['7', '1', '2', '3', '4', '5', '6'],
           SHORTQUARTERS: const ['1-ci kv.', '2-ci kv.', '3-cü kv.', '4-cü kv.'],
-          QUARTERS: const [
-            '1-ci kvartal',
-            '2-ci kvartal',
-            '3-cü kvartal',
-            '4-cü kvartal'
-          ],
+          QUARTERS: const ['1-ci kvartal', '2-ci kvartal', '3-cü kvartal', '4-cü kvartal'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'd MMMM y, EEEE',
-            'd MMMM y',
-            'd MMM y',
-            'dd.MM.yy'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['d MMMM y, EEEE', 'd MMMM y', 'd MMM y', 'dd.MM.yy'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -1257,34 +641,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "be",
           ERAS: const ['да н.э.', 'н.э.'],
           ERANAMES: const ['да нараджэння Хрыстова', 'ад нараджэння Хрыстова'],
-          NARROWMONTHS: const [
-            'с',
-            'л',
-            'с',
-            'к',
-            'м',
-            'ч',
-            'л',
-            'ж',
-            'в',
-            'к',
-            'л',
-            'с'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'с',
-            'л',
-            'с',
-            'к',
-            'м',
-            'ч',
-            'л',
-            'ж',
-            'в',
-            'к',
-            'л',
-            'с'
-          ],
+          NARROWMONTHS: const ['с', 'л', 'с', 'к', 'м', 'ч', 'л', 'ж', 'в', 'к', 'л', 'с'],
+          STANDALONENARROWMONTHS: const ['с', 'л', 'с', 'к', 'м', 'ч', 'л', 'ж', 'в', 'к', 'л', 'с'],
           MONTHS: const [
             'студзеня',
             'лютага',
@@ -1313,20 +671,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'лістапад',
             'снежань'
           ],
-          SHORTMONTHS: const [
-            'сту',
-            'лют',
-            'сак',
-            'кра',
-            'мая',
-            'чэр',
-            'ліп',
-            'жні',
-            'вер',
-            'кас',
-            'ліс',
-            'сне'
-          ],
+          SHORTMONTHS: const ['сту', 'лют', 'сак', 'кра', 'мая', 'чэр', 'ліп', 'жні', 'вер', 'кас', 'ліс', 'сне'],
           STANDALONESHORTMONTHS: const [
             'сту',
             'лют',
@@ -1341,62 +686,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'ліс',
             'сне'
           ],
-          WEEKDAYS: const [
-            'нядзеля',
-            'панядзелак',
-            'аўторак',
-            'серада',
-            'чацвер',
-            'пятніца',
-            'субота'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'нядзеля',
-            'панядзелак',
-            'аўторак',
-            'серада',
-            'чацвер',
-            'пятніца',
-            'субота'
-          ],
+          WEEKDAYS: const ['нядзеля', 'панядзелак', 'аўторак', 'серада', 'чацвер', 'пятніца', 'субота'],
+          STANDALONEWEEKDAYS: const ['нядзеля', 'панядзелак', 'аўторак', 'серада', 'чацвер', 'пятніца', 'субота'],
           SHORTWEEKDAYS: const ['нд', 'пн', 'аў', 'ср', 'чц', 'пт', 'сб'],
-          STANDALONESHORTWEEKDAYS: const [
-            'нд',
-            'пн',
-            'аў',
-            'ср',
-            'чц',
-            'пт',
-            'сб'
-          ],
+          STANDALONESHORTWEEKDAYS: const ['нд', 'пн', 'аў', 'ср', 'чц', 'пт', 'сб'],
           NARROWWEEKDAYS: const ['н', 'п', 'а', 'с', 'ч', 'п', 'с'],
           STANDALONENARROWWEEKDAYS: const ['н', 'п', 'а', 'с', 'ч', 'п', 'с'],
           SHORTQUARTERS: const ['1-шы кв.', '2-гі кв.', '3-ці кв.', '4-ты кв.'],
-          QUARTERS: const [
-            '1-шы квартал',
-            '2-гі квартал',
-            '3-ці квартал',
-            '4-ты квартал'
-          ],
+          QUARTERS: const ['1-шы квартал', '2-гі квартал', '3-ці квартал', '4-ты квартал'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM y \'г\'.',
-            'd MMMM y \'г\'.',
-            'd MMM y \'г\'.',
-            'd.MM.yy'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss, zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM y \'г\'.', 'd MMMM y \'г\'.', 'd MMM y \'г\'.', 'd.MM.yy'],
+          TIMEFORMATS: const ['HH:mm:ss, zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 6),
@@ -1405,34 +706,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "bg",
           ERAS: const ['пр.Хр.', 'сл.Хр.'],
           ERANAMES: const ['преди Христа', 'след Христа'],
-          NARROWMONTHS: const [
-            'я',
-            'ф',
-            'м',
-            'а',
-            'м',
-            'ю',
-            'ю',
-            'а',
-            'с',
-            'о',
-            'н',
-            'д'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'я',
-            'ф',
-            'м',
-            'а',
-            'м',
-            'ю',
-            'ю',
-            'а',
-            'с',
-            'о',
-            'н',
-            'д'
-          ],
+          NARROWMONTHS: const ['я', 'ф', 'м', 'а', 'м', 'ю', 'ю', 'а', 'с', 'о', 'н', 'д'],
+          STANDALONENARROWMONTHS: const ['я', 'ф', 'м', 'а', 'м', 'ю', 'ю', 'а', 'с', 'о', 'н', 'д'],
           MONTHS: const [
             'януари',
             'февруари',
@@ -1461,20 +736,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'ноември',
             'декември'
           ],
-          SHORTMONTHS: const [
-            'яну',
-            'фев',
-            'март',
-            'апр',
-            'май',
-            'юни',
-            'юли',
-            'авг',
-            'сеп',
-            'окт',
-            'ное',
-            'дек'
-          ],
+          SHORTMONTHS: const ['яну', 'фев', 'март', 'апр', 'май', 'юни', 'юли', 'авг', 'сеп', 'окт', 'ное', 'дек'],
           STANDALONESHORTMONTHS: const [
             'яну',
             'фев',
@@ -1489,62 +751,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'ное',
             'дек'
           ],
-          WEEKDAYS: const [
-            'неделя',
-            'понеделник',
-            'вторник',
-            'сряда',
-            'четвъртък',
-            'петък',
-            'събота'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'неделя',
-            'понеделник',
-            'вторник',
-            'сряда',
-            'четвъртък',
-            'петък',
-            'събота'
-          ],
+          WEEKDAYS: const ['неделя', 'понеделник', 'вторник', 'сряда', 'четвъртък', 'петък', 'събота'],
+          STANDALONEWEEKDAYS: const ['неделя', 'понеделник', 'вторник', 'сряда', 'четвъртък', 'петък', 'събота'],
           SHORTWEEKDAYS: const ['нд', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'],
-          STANDALONESHORTWEEKDAYS: const [
-            'нд',
-            'пн',
-            'вт',
-            'ср',
-            'чт',
-            'пт',
-            'сб'
-          ],
+          STANDALONESHORTWEEKDAYS: const ['нд', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'],
           NARROWWEEKDAYS: const ['н', 'п', 'в', 'с', 'ч', 'п', 'с'],
           STANDALONENARROWWEEKDAYS: const ['н', 'п', 'в', 'с', 'ч', 'п', 'с'],
           SHORTQUARTERS: const ['1. трим.', '2. трим.', '3. трим.', '4. трим.'],
-          QUARTERS: const [
-            '1. тримесечие',
-            '2. тримесечие',
-            '3. тримесечие',
-            '4. тримесечие'
-          ],
+          QUARTERS: const ['1. тримесечие', '2. тримесечие', '3. тримесечие', '4. тримесечие'],
           AMPMS: const ['пр.об.', 'сл.об.'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM y \'г\'.',
-            'd MMMM y \'г\'.',
-            'd.MM.y \'г\'.',
-            'd.MM.yy \'г\'.'
-          ],
-          TIMEFORMATS: const [
-            'H:mm:ss \'ч\'. zzzz',
-            'H:mm:ss \'ч\'. z',
-            'H:mm:ss \'ч\'.',
-            'H:mm \'ч\'.'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM y \'г\'.', 'd MMMM y \'г\'.', 'd.MM.y \'г\'.', 'd.MM.yy \'г\'.'],
+          TIMEFORMATS: const ['H:mm:ss \'ч\'. zzzz', 'H:mm:ss \'ч\'. z', 'H:mm:ss \'ч\'.', 'H:mm \'ч\'.'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 3),
@@ -1553,34 +771,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "bm",
           ERAS: const ['J.-C. ɲɛ', 'ni J.-C.'],
           ERANAMES: const ['jezu krisiti ɲɛ', 'jezu krisiti minkɛ'],
-          NARROWMONTHS: const [
-            'Z',
-            'F',
-            'M',
-            'A',
-            'M',
-            'Z',
-            'Z',
-            'U',
-            'S',
-            'Ɔ',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'Z',
-            'F',
-            'M',
-            'A',
-            'M',
-            'Z',
-            'Z',
-            'U',
-            'S',
-            'Ɔ',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['Z', 'F', 'M', 'A', 'M', 'Z', 'Z', 'U', 'S', 'Ɔ', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['Z', 'F', 'M', 'A', 'M', 'Z', 'Z', 'U', 'S', 'Ɔ', 'N', 'D'],
           MONTHS: const [
             'zanwuye',
             'feburuye',
@@ -1609,20 +801,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nowanburu',
             'desanburu'
           ],
-          SHORTMONTHS: const [
-            'zan',
-            'feb',
-            'mar',
-            'awi',
-            'mɛ',
-            'zuw',
-            'zul',
-            'uti',
-            'sɛt',
-            'ɔku',
-            'now',
-            'des'
-          ],
+          SHORTMONTHS: const ['zan', 'feb', 'mar', 'awi', 'mɛ', 'zuw', 'zul', 'uti', 'sɛt', 'ɔku', 'now', 'des'],
           STANDALONESHORTMONTHS: const [
             'zan',
             'feb',
@@ -1637,59 +816,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'now',
             'des'
           ],
-          WEEKDAYS: const [
-            'kari',
-            'ntɛnɛ',
-            'tarata',
-            'araba',
-            'alamisa',
-            'juma',
-            'sibiri'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'kari',
-            'ntɛnɛ',
-            'tarata',
-            'araba',
-            'alamisa',
-            'juma',
-            'sibiri'
-          ],
-          SHORTWEEKDAYS: const [
-            'kar',
-            'ntɛ',
-            'tar',
-            'ara',
-            'ala',
-            'jum',
-            'sib'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'kar',
-            'ntɛ',
-            'tar',
-            'ara',
-            'ala',
-            'jum',
-            'sib'
-          ],
+          WEEKDAYS: const ['kari', 'ntɛnɛ', 'tarata', 'araba', 'alamisa', 'juma', 'sibiri'],
+          STANDALONEWEEKDAYS: const ['kari', 'ntɛnɛ', 'tarata', 'araba', 'alamisa', 'juma', 'sibiri'],
+          SHORTWEEKDAYS: const ['kar', 'ntɛ', 'tar', 'ara', 'ala', 'jum', 'sib'],
+          STANDALONESHORTWEEKDAYS: const ['kar', 'ntɛ', 'tar', 'ara', 'ala', 'jum', 'sib'],
           NARROWWEEKDAYS: const ['K', 'N', 'T', 'A', 'A', 'J', 'S'],
           STANDALONENARROWWEEKDAYS: const ['K', 'N', 'T', 'A', 'A', 'J', 'S'],
           SHORTQUARTERS: const ['KS1', 'KS2', 'KS3', 'KS4'],
-          QUARTERS: const [
-            'kalo saba fɔlɔ',
-            'kalo saba filanan',
-            'kalo saba sabanan',
-            'kalo saba naaninan'
-          ],
+          QUARTERS: const ['kalo saba fɔlɔ', 'kalo saba filanan', 'kalo saba sabanan', 'kalo saba naaninan'],
           AMPMS: const ['AM', 'PM'],
           DATEFORMATS: const ['EEEE d MMMM y', 'd MMMM y', 'd MMM, y', 'd/M/y'],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -1700,34 +837,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           ZERODIGIT: '\u09E6',
           ERAS: const ['খ্রিস্টপূর্ব', 'খৃষ্টাব্দ'],
           ERANAMES: const ['খ্রিস্টপূর্ব', 'খ্রীষ্টাব্দ'],
-          NARROWMONTHS: const [
-            'জা',
-            'ফে',
-            'মা',
-            'এ',
-            'মে',
-            'জুন',
-            'জু',
-            'আ',
-            'সে',
-            'অ',
-            'ন',
-            'ডি'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'জা',
-            'ফে',
-            'মা',
-            'এ',
-            'মে',
-            'জুন',
-            'জু',
-            'আ',
-            'সে',
-            'অ',
-            'ন',
-            'ডি'
-          ],
+          NARROWMONTHS: const ['জা', 'ফে', 'মা', 'এ', 'মে', 'জুন', 'জু', 'আ', 'সে', 'অ', 'ন', 'ডি'],
+          STANDALONENARROWMONTHS: const ['জা', 'ফে', 'মা', 'এ', 'মে', 'জুন', 'জু', 'আ', 'সে', 'অ', 'ন', 'ডি'],
           MONTHS: const [
             'জানুয়ারী',
             'ফেব্রুয়ারী',
@@ -1756,20 +867,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'নভেম্বর',
             'ডিসেম্বর'
           ],
-          SHORTMONTHS: const [
-            'জানু',
-            'ফেব',
-            'মার্চ',
-            'এপ্রি',
-            'মে',
-            'জুন',
-            'জুল',
-            'আগ',
-            'সেপ',
-            'অক্টো',
-            'নভে',
-            'ডিসে'
-          ],
+          SHORTMONTHS: const ['জানু', 'ফেব', 'মার্চ', 'এপ্রি', 'মে', 'জুন', 'জুল', 'আগ', 'সেপ', 'অক্টো', 'নভে', 'ডিসে'],
           STANDALONESHORTMONTHS: const [
             'জানু',
             'ফেব',
@@ -1784,77 +882,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'নভেম্বর',
             'ডিসেম্বর'
           ],
-          WEEKDAYS: const [
-            'রবিবার',
-            'সোমবার',
-            'মঙ্গলবার',
-            'বুধবার',
-            'বৃহস্পতিবার',
-            'শুক্রবার',
-            'শনিবার'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'রবিবার',
-            'সোমবার',
-            'মঙ্গলবার',
-            'বুধবার',
-            'বৃহস্পতিবার',
-            'শুক্রবার',
-            'শনিবার'
-          ],
-          SHORTWEEKDAYS: const [
-            'রবি',
-            'সোম',
-            'মঙ্গল',
-            'বুধ',
-            'বৃহস্পতি',
-            'শুক্র',
-            'শনি'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'রবি',
-            'সোম',
-            'মঙ্গল',
-            'বুধ',
-            'বৃহস্পতি',
-            'শুক্র',
-            'শনি'
-          ],
+          WEEKDAYS: const ['রবিবার', 'সোমবার', 'মঙ্গলবার', 'বুধবার', 'বৃহস্পতিবার', 'শুক্রবার', 'শনিবার'],
+          STANDALONEWEEKDAYS: const ['রবিবার', 'সোমবার', 'মঙ্গলবার', 'বুধবার', 'বৃহস্পতিবার', 'শুক্রবার', 'শনিবার'],
+          SHORTWEEKDAYS: const ['রবি', 'সোম', 'মঙ্গল', 'বুধ', 'বৃহস্পতি', 'শুক্র', 'শনি'],
+          STANDALONESHORTWEEKDAYS: const ['রবি', 'সোম', 'মঙ্গল', 'বুধ', 'বৃহস্পতি', 'শুক্র', 'শনি'],
           NARROWWEEKDAYS: const ['র', 'সো', 'ম', 'বু', 'বৃ', 'শু', 'শ'],
-          STANDALONENARROWWEEKDAYS: const [
-            'র',
-            'সো',
-            'ম',
-            'বু',
-            'বৃ',
-            'শু',
-            'শ'
-          ],
-          SHORTQUARTERS: const [
-            'ত্রৈমাসিক',
-            'দ্বিতীয় ত্রৈমাসিক',
-            'তৃতীয় ত্রৈমাসিক',
-            'চতুর্থ ত্রৈমাসিক'
-          ],
-          QUARTERS: const [
-            'ত্রৈমাসিক',
-            'দ্বিতীয় ত্রৈমাসিক',
-            'তৃতীয় ত্রৈমাসিক',
-            'চতুর্থ ত্রৈমাসিক'
-          ],
+          STANDALONENARROWWEEKDAYS: const ['র', 'সো', 'ম', 'বু', 'বৃ', 'শু', 'শ'],
+          SHORTQUARTERS: const ['ত্রৈমাসিক', 'দ্বিতীয় ত্রৈমাসিক', 'তৃতীয় ত্রৈমাসিক', 'চতুর্থ ত্রৈমাসিক'],
+          QUARTERS: const ['ত্রৈমাসিক', 'দ্বিতীয় ত্রৈমাসিক', 'তৃতীয় ত্রৈমাসিক', 'চতুর্থ ত্রৈমাসিক'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM, y',
-            'd MMMM, y',
-            'd MMM, y',
-            'd/M/yy'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM, y', 'd MMMM, y', 'd MMM, y', 'd/M/yy'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
@@ -1864,34 +902,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "br",
           ERAS: const ['a-raok J.K.', 'goude J.K.'],
           ERANAMES: const ['a-raok Jezuz-Krist', 'goude Jezuz-Krist'],
-          NARROWMONTHS: const [
-            '01',
-            '02',
-            '03',
-            '04',
-            '05',
-            '06',
-            '07',
-            '08',
-            '09',
-            '10',
-            '11',
-            '12'
-          ],
-          STANDALONENARROWMONTHS: const [
-            '01',
-            '02',
-            '03',
-            '04',
-            '05',
-            '06',
-            '07',
-            '08',
-            '09',
-            '10',
-            '11',
-            '12'
-          ],
+          NARROWMONTHS: const ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
+          STANDALONENARROWMONTHS: const ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
           MONTHS: const [
             'Genver',
             'Cʼhwevrer',
@@ -1948,83 +960,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Du',
             'Kzu.'
           ],
-          WEEKDAYS: const [
-            'Sul',
-            'Lun',
-            'Meurzh',
-            'Mercʼher',
-            'Yaou',
-            'Gwener',
-            'Sadorn'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Sul',
-            'Lun',
-            'Meurzh',
-            'Mercʼher',
-            'Yaou',
-            'Gwener',
-            'Sadorn'
-          ],
-          SHORTWEEKDAYS: const [
-            'Sul',
-            'Lun',
-            'Meu.',
-            'Mer.',
-            'Yaou',
-            'Gwe.',
-            'Sad.'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Sul',
-            'Lun',
-            'Meu.',
-            'Mer.',
-            'Yaou',
-            'Gwe.',
-            'Sad.'
-          ],
+          WEEKDAYS: const ['Sul', 'Lun', 'Meurzh', 'Mercʼher', 'Yaou', 'Gwener', 'Sadorn'],
+          STANDALONEWEEKDAYS: const ['Sul', 'Lun', 'Meurzh', 'Mercʼher', 'Yaou', 'Gwener', 'Sadorn'],
+          SHORTWEEKDAYS: const ['Sul', 'Lun', 'Meu.', 'Mer.', 'Yaou', 'Gwe.', 'Sad.'],
+          STANDALONESHORTWEEKDAYS: const ['Sul', 'Lun', 'Meu.', 'Mer.', 'Yaou', 'Gwe.', 'Sad.'],
           NARROWWEEKDAYS: const ['Su', 'L', 'Mz', 'Mc', 'Y', 'G', 'Sa'],
-          STANDALONENARROWWEEKDAYS: const [
-            'Su',
-            'L',
-            'Mz',
-            'Mc',
-            'Y',
-            'G',
-            'Sa'
-          ],
-          SHORTQUARTERS: const [
-            '1añ trim.',
-            '2l trim.',
-            '3e trim.',
-            '4e trim.'
-          ],
-          QUARTERS: const [
-            '1añ trimiziad',
-            '2l trimiziad',
-            '3e trimiziad',
-            '4e trimiziad'
-          ],
+          STANDALONENARROWWEEKDAYS: const ['Su', 'L', 'Mz', 'Mc', 'Y', 'G', 'Sa'],
+          SHORTQUARTERS: const ['1añ trim.', '2l trim.', '3e trim.', '4e trim.'],
+          QUARTERS: const ['1añ trimiziad', '2l trimiziad', '3e trimiziad', '4e trimiziad'],
           AMPMS: const ['A.M.', 'G.M.'],
-          DATEFORMATS: const [
-            'EEEE d MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'dd/MM/y'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1} {0}'
-          ],
+          DATEFORMATS: const ['EEEE d MMMM y', 'd MMMM y', 'd MMM y', 'dd/MM/y'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 6),
@@ -2033,34 +980,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "bs",
           ERAS: const ['p. n. e.', 'n. e.'],
           ERANAMES: const ['prije nove ere', 'nove ere'],
-          NARROWMONTHS: const [
-            'j',
-            'f',
-            'm',
-            'a',
-            'm',
-            'j',
-            'j',
-            'a',
-            's',
-            'o',
-            'n',
-            'd'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'j',
-            'f',
-            'm',
-            'a',
-            'm',
-            'j',
-            'j',
-            'a',
-            's',
-            'o',
-            'n',
-            'd'
-          ],
+          NARROWMONTHS: const ['j', 'f', 'm', 'a', 'm', 'j', 'j', 'a', 's', 'o', 'n', 'd'],
+          STANDALONENARROWMONTHS: const ['j', 'f', 'm', 'a', 'm', 'j', 'j', 'a', 's', 'o', 'n', 'd'],
           MONTHS: const [
             'januar',
             'februar',
@@ -2089,20 +1010,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'novembar',
             'decembar'
           ],
-          SHORTMONTHS: const [
-            'jan',
-            'feb',
-            'mar',
-            'apr',
-            'maj',
-            'jun',
-            'jul',
-            'aug',
-            'sep',
-            'okt',
-            'nov',
-            'dec'
-          ],
+          SHORTMONTHS: const ['jan', 'feb', 'mar', 'apr', 'maj', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'],
           STANDALONESHORTMONTHS: const [
             'jan',
             'feb',
@@ -2117,64 +1025,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nov',
             'dec'
           ],
-          WEEKDAYS: const [
-            'nedjelja',
-            'ponedjeljak',
-            'utorak',
-            'srijeda',
-            'četvrtak',
-            'petak',
-            'subota'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'nedjelja',
-            'ponedjeljak',
-            'utorak',
-            'srijeda',
-            'četvrtak',
-            'petak',
-            'subota'
-          ],
-          SHORTWEEKDAYS: const [
-            'ned',
-            'pon',
-            'uto',
-            'sri',
-            'čet',
-            'pet',
-            'sub'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'ned',
-            'pon',
-            'uto',
-            'sri',
-            'čet',
-            'pet',
-            'sub'
-          ],
+          WEEKDAYS: const ['nedjelja', 'ponedjeljak', 'utorak', 'srijeda', 'četvrtak', 'petak', 'subota'],
+          STANDALONEWEEKDAYS: const ['nedjelja', 'ponedjeljak', 'utorak', 'srijeda', 'četvrtak', 'petak', 'subota'],
+          SHORTWEEKDAYS: const ['ned', 'pon', 'uto', 'sri', 'čet', 'pet', 'sub'],
+          STANDALONESHORTWEEKDAYS: const ['ned', 'pon', 'uto', 'sri', 'čet', 'pet', 'sub'],
           NARROWWEEKDAYS: const ['N', 'P', 'U', 'S', 'Č', 'P', 'S'],
           STANDALONENARROWWEEKDAYS: const ['n', 'p', 'u', 's', 'č', 'p', 's'],
           SHORTQUARTERS: const ['KV1', 'KV2', 'KV3', 'KV4'],
-          QUARTERS: const [
-            'Prvi kvartal',
-            'Drugi kvartal',
-            'Treći kvartal',
-            'Četvrti kvartal'
-          ],
+          QUARTERS: const ['Prvi kvartal', 'Drugi kvartal', 'Treći kvartal', 'Četvrti kvartal'],
           AMPMS: const ['prijepodne', 'popodne'],
-          DATEFORMATS: const [
-            'EEEE, d. MMMM y.',
-            'd. MMMM y.',
-            'd. MMM y.',
-            'd. M. y.'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['EEEE, d. MMMM y.', 'd. MMMM y.', 'd. MMM y.', 'd. M. y.'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -2184,34 +1045,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "ca",
           ERAS: const ['aC', 'dC'],
           ERANAMES: const ['abans de Crist', 'després de Crist'],
-          NARROWMONTHS: const [
-            'GN',
-            'FB',
-            'MÇ',
-            'AB',
-            'MG',
-            'JN',
-            'JL',
-            'AG',
-            'ST',
-            'OC',
-            'NV',
-            'DS'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'GN',
-            'FB',
-            'MÇ',
-            'AB',
-            'MG',
-            'JN',
-            'JL',
-            'AG',
-            'ST',
-            'OC',
-            'NV',
-            'DS'
-          ],
+          NARROWMONTHS: const ['GN', 'FB', 'MÇ', 'AB', 'MG', 'JN', 'JL', 'AG', 'ST', 'OC', 'NV', 'DS'],
+          STANDALONENARROWMONTHS: const ['GN', 'FB', 'MÇ', 'AB', 'MG', 'JN', 'JL', 'AG', 'ST', 'OC', 'NV', 'DS'],
           MONTHS: const [
             'de gener',
             'de febrer',
@@ -2268,73 +1103,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nov.',
             'des.'
           ],
-          WEEKDAYS: const [
-            'diumenge',
-            'dilluns',
-            'dimarts',
-            'dimecres',
-            'dijous',
-            'divendres',
-            'dissabte'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'diumenge',
-            'dilluns',
-            'dimarts',
-            'dimecres',
-            'dijous',
-            'divendres',
-            'dissabte'
-          ],
-          SHORTWEEKDAYS: const [
-            'dg.',
-            'dl.',
-            'dt.',
-            'dc.',
-            'dj.',
-            'dv.',
-            'ds.'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'dg.',
-            'dl.',
-            'dt.',
-            'dc.',
-            'dj.',
-            'dv.',
-            'ds.'
-          ],
+          WEEKDAYS: const ['diumenge', 'dilluns', 'dimarts', 'dimecres', 'dijous', 'divendres', 'dissabte'],
+          STANDALONEWEEKDAYS: const ['diumenge', 'dilluns', 'dimarts', 'dimecres', 'dijous', 'divendres', 'dissabte'],
+          SHORTWEEKDAYS: const ['dg.', 'dl.', 'dt.', 'dc.', 'dj.', 'dv.', 'ds.'],
+          STANDALONESHORTWEEKDAYS: const ['dg.', 'dl.', 'dt.', 'dc.', 'dj.', 'dv.', 'ds.'],
           NARROWWEEKDAYS: const ['dg', 'dl', 'dt', 'dc', 'dj', 'dv', 'ds'],
-          STANDALONENARROWWEEKDAYS: const [
-            'dg',
-            'dl',
-            'dt',
-            'dc',
-            'dj',
-            'dv',
-            'ds'
-          ],
+          STANDALONENARROWWEEKDAYS: const ['dg', 'dl', 'dt', 'dc', 'dj', 'dv', 'ds'],
           SHORTQUARTERS: const ['1T', '2T', '3T', '4T'],
-          QUARTERS: const [
-            '1r trimestre',
-            '2n trimestre',
-            '3r trimestre',
-            '4t trimestre'
-          ],
+          QUARTERS: const ['1r trimestre', '2n trimestre', '3r trimestre', '4t trimestre'],
           AMPMS: const ['a. m.', 'p. m.'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM \'de\' y',
-            'd MMMM \'de\' y',
-            'd MMM y',
-            'd/M/yy'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM \'de\' y', 'd MMMM \'de\' y', 'd MMM y', 'd/M/yy'],
           TIMEFORMATS: const ['H:mm:ss (zzzz)', 'H:mm:ss z', 'H:mm:ss', 'H:mm'],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1} {0}'
-          ],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 3),
@@ -2343,48 +1123,9 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "chr",
           ERAS: const ['BC', 'AD'],
           ERANAMES: const ['ᏧᏓᎷᎸ ᎤᎷᎯᏍᏗ ᎦᎶᏁᏛ', 'ᎠᏃ ᏙᎻᏂ'],
-          NARROWMONTHS: const [
-            'Ꭴ',
-            'Ꭷ',
-            'Ꭰ',
-            'Ꭷ',
-            'Ꭰ',
-            'Ꮥ',
-            'Ꭻ',
-            'Ꭶ',
-            'Ꮪ',
-            'Ꮪ',
-            'Ꮕ',
-            'Ꭵ'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'Ꭴ',
-            'Ꭷ',
-            'Ꭰ',
-            'Ꭷ',
-            'Ꭰ',
-            'Ꮥ',
-            'Ꭻ',
-            'Ꭶ',
-            'Ꮪ',
-            'Ꮪ',
-            'Ꮕ',
-            'Ꭵ'
-          ],
-          MONTHS: const [
-            'ᎤᏃᎸᏔᏅ',
-            'ᎧᎦᎵ',
-            'ᎠᏅᏱ',
-            'ᎧᏬᏂ',
-            'ᎠᏂᏍᎬᏘ',
-            'ᏕᎭᎷᏱ',
-            'ᎫᏰᏉᏂ',
-            'ᎦᎶᏂ',
-            'ᏚᎵᏍᏗ',
-            'ᏚᏂᏅᏗ',
-            'ᏅᏓᏕᏆ',
-            'ᎥᏍᎩᏱ'
-          ],
+          NARROWMONTHS: const ['Ꭴ', 'Ꭷ', 'Ꭰ', 'Ꭷ', 'Ꭰ', 'Ꮥ', 'Ꭻ', 'Ꭶ', 'Ꮪ', 'Ꮪ', 'Ꮕ', 'Ꭵ'],
+          STANDALONENARROWMONTHS: const ['Ꭴ', 'Ꭷ', 'Ꭰ', 'Ꭷ', 'Ꭰ', 'Ꮥ', 'Ꭻ', 'Ꭶ', 'Ꮪ', 'Ꮪ', 'Ꮕ', 'Ꭵ'],
+          MONTHS: const ['ᎤᏃᎸᏔᏅ', 'ᎧᎦᎵ', 'ᎠᏅᏱ', 'ᎧᏬᏂ', 'ᎠᏂᏍᎬᏘ', 'ᏕᎭᎷᏱ', 'ᎫᏰᏉᏂ', 'ᎦᎶᏂ', 'ᏚᎵᏍᏗ', 'ᏚᏂᏅᏗ', 'ᏅᏓᏕᏆ', 'ᎥᏍᎩᏱ'],
           STANDALONEMONTHS: const [
             'ᎤᏃᎸᏔᏅ',
             'ᎧᎦᎵ',
@@ -2399,93 +1140,20 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'ᏅᏓᏕᏆ',
             'ᎥᏍᎩᏱ'
           ],
-          SHORTMONTHS: const [
-            'ᎤᏃ',
-            'ᎧᎦ',
-            'ᎠᏅ',
-            'ᎧᏬ',
-            'ᎠᏂ',
-            'ᏕᎭ',
-            'ᎫᏰ',
-            'ᎦᎶ',
-            'ᏚᎵ',
-            'ᏚᏂ',
-            'ᏅᏓ',
-            'ᎥᏍ'
-          ],
-          STANDALONESHORTMONTHS: const [
-            'ᎤᏃ',
-            'ᎧᎦ',
-            'ᎠᏅ',
-            'ᎧᏬ',
-            'ᎠᏂ',
-            'ᏕᎭ',
-            'ᎫᏰ',
-            'ᎦᎶ',
-            'ᏚᎵ',
-            'ᏚᏂ',
-            'ᏅᏓ',
-            'ᎥᏍ'
-          ],
-          WEEKDAYS: const [
-            'ᎤᎾᏙᏓᏆᏍᎬ',
-            'ᎤᎾᏙᏓᏉᏅᎯ',
-            'ᏔᎵᏁᎢᎦ',
-            'ᏦᎢᏁᎢᎦ',
-            'ᏅᎩᏁᎢᎦ',
-            'ᏧᎾᎩᎶᏍᏗ',
-            'ᎤᎾᏙᏓᏈᏕᎾ'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'ᎤᎾᏙᏓᏆᏍᎬ',
-            'ᎤᎾᏙᏓᏉᏅᎯ',
-            'ᏔᎵᏁᎢᎦ',
-            'ᏦᎢᏁᎢᎦ',
-            'ᏅᎩᏁᎢᎦ',
-            'ᏧᎾᎩᎶᏍᏗ',
-            'ᎤᎾᏙᏓᏈᏕᎾ'
-          ],
-          SHORTWEEKDAYS: const [
-            'ᏆᏍᎬ',
-            'ᏉᏅᎯ',
-            'ᏔᎵᏁ',
-            'ᏦᎢᏁ',
-            'ᏅᎩᏁ',
-            'ᏧᎾᎩ',
-            'ᏈᏕᎾ'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'ᏆᏍᎬ',
-            'ᏉᏅᎯ',
-            'ᏔᎵᏁ',
-            'ᏦᎢᏁ',
-            'ᏅᎩᏁ',
-            'ᏧᎾᎩ',
-            'ᏈᏕᎾ'
-          ],
+          SHORTMONTHS: const ['ᎤᏃ', 'ᎧᎦ', 'ᎠᏅ', 'ᎧᏬ', 'ᎠᏂ', 'ᏕᎭ', 'ᎫᏰ', 'ᎦᎶ', 'ᏚᎵ', 'ᏚᏂ', 'ᏅᏓ', 'ᎥᏍ'],
+          STANDALONESHORTMONTHS: const ['ᎤᏃ', 'ᎧᎦ', 'ᎠᏅ', 'ᎧᏬ', 'ᎠᏂ', 'ᏕᎭ', 'ᎫᏰ', 'ᎦᎶ', 'ᏚᎵ', 'ᏚᏂ', 'ᏅᏓ', 'ᎥᏍ'],
+          WEEKDAYS: const ['ᎤᎾᏙᏓᏆᏍᎬ', 'ᎤᎾᏙᏓᏉᏅᎯ', 'ᏔᎵᏁᎢᎦ', 'ᏦᎢᏁᎢᎦ', 'ᏅᎩᏁᎢᎦ', 'ᏧᎾᎩᎶᏍᏗ', 'ᎤᎾᏙᏓᏈᏕᎾ'],
+          STANDALONEWEEKDAYS: const ['ᎤᎾᏙᏓᏆᏍᎬ', 'ᎤᎾᏙᏓᏉᏅᎯ', 'ᏔᎵᏁᎢᎦ', 'ᏦᎢᏁᎢᎦ', 'ᏅᎩᏁᎢᎦ', 'ᏧᎾᎩᎶᏍᏗ', 'ᎤᎾᏙᏓᏈᏕᎾ'],
+          SHORTWEEKDAYS: const ['ᏆᏍᎬ', 'ᏉᏅᎯ', 'ᏔᎵᏁ', 'ᏦᎢᏁ', 'ᏅᎩᏁ', 'ᏧᎾᎩ', 'ᏈᏕᎾ'],
+          STANDALONESHORTWEEKDAYS: const ['ᏆᏍᎬ', 'ᏉᏅᎯ', 'ᏔᎵᏁ', 'ᏦᎢᏁ', 'ᏅᎩᏁ', 'ᏧᎾᎩ', 'ᏈᏕᎾ'],
           NARROWWEEKDAYS: const ['Ꮖ', 'Ꮙ', 'Ꮤ', 'Ꮶ', 'Ꮕ', 'Ꮷ', 'Ꭴ'],
           STANDALONENARROWWEEKDAYS: const ['Ꮖ', 'Ꮙ', 'Ꮤ', 'Ꮶ', 'Ꮕ', 'Ꮷ', 'Ꭴ'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
           QUARTERS: const ['1st ᎩᏄᏙᏗ', '2nd ᎩᏄᏙᏗ', '3rd ᎩᏄᏙᏗ', '4th ᎩᏄᏙᏗ'],
           AMPMS: const ['ᏌᎾᎴ', 'ᏒᎯᏱᎢᏗᏢ'],
-          DATEFORMATS: const [
-            'EEEE, MMMM d, y',
-            'MMMM d, y',
-            'MMM d, y',
-            'M/d/yy'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, MMMM d, y', 'MMMM d, y', 'MMM d, y', 'M/d/yy'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 6),
@@ -2494,34 +1162,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "cs",
           ERAS: const ['př. n. l.', 'n. l.'],
           ERANAMES: const ['před naším letopočtem', 'našeho letopočtu'],
-          NARROWMONTHS: const [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5',
-            '6',
-            '7',
-            '8',
-            '9',
-            '10',
-            '11',
-            '12'
-          ],
-          STANDALONENARROWMONTHS: const [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5',
-            '6',
-            '7',
-            '8',
-            '9',
-            '10',
-            '11',
-            '12'
-          ],
+          NARROWMONTHS: const ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+          STANDALONENARROWMONTHS: const ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
           MONTHS: const [
             'ledna',
             'února',
@@ -2550,20 +1192,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'listopad',
             'prosinec'
           ],
-          SHORTMONTHS: const [
-            'led',
-            'úno',
-            'bře',
-            'dub',
-            'kvě',
-            'čvn',
-            'čvc',
-            'srp',
-            'zář',
-            'říj',
-            'lis',
-            'pro'
-          ],
+          SHORTMONTHS: const ['led', 'úno', 'bře', 'dub', 'kvě', 'čvn', 'čvc', 'srp', 'zář', 'říj', 'lis', 'pro'],
           STANDALONESHORTMONTHS: const [
             'led',
             'úno',
@@ -2578,50 +1207,16 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'lis',
             'pro'
           ],
-          WEEKDAYS: const [
-            'neděle',
-            'pondělí',
-            'úterý',
-            'středa',
-            'čtvrtek',
-            'pátek',
-            'sobota'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'neděle',
-            'pondělí',
-            'úterý',
-            'středa',
-            'čtvrtek',
-            'pátek',
-            'sobota'
-          ],
+          WEEKDAYS: const ['neděle', 'pondělí', 'úterý', 'středa', 'čtvrtek', 'pátek', 'sobota'],
+          STANDALONEWEEKDAYS: const ['neděle', 'pondělí', 'úterý', 'středa', 'čtvrtek', 'pátek', 'sobota'],
           SHORTWEEKDAYS: const ['ne', 'po', 'út', 'st', 'čt', 'pá', 'so'],
-          STANDALONESHORTWEEKDAYS: const [
-            'ne',
-            'po',
-            'út',
-            'st',
-            'čt',
-            'pá',
-            'so'
-          ],
+          STANDALONESHORTWEEKDAYS: const ['ne', 'po', 'út', 'st', 'čt', 'pá', 'so'],
           NARROWWEEKDAYS: const ['N', 'P', 'Ú', 'S', 'Č', 'P', 'S'],
           STANDALONENARROWWEEKDAYS: const ['N', 'P', 'Ú', 'S', 'Č', 'P', 'S'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
-          QUARTERS: const [
-            '1. čtvrtletí',
-            '2. čtvrtletí',
-            '3. čtvrtletí',
-            '4. čtvrtletí'
-          ],
+          QUARTERS: const ['1. čtvrtletí', '2. čtvrtletí', '3. čtvrtletí', '4. čtvrtletí'],
           AMPMS: const ['dop.', 'odp.'],
-          DATEFORMATS: const [
-            'EEEE d. MMMM y',
-            'd. MMMM y',
-            'd. M. y',
-            'dd.MM.yy'
-          ],
+          DATEFORMATS: const ['EEEE d. MMMM y', 'd. MMMM y', 'd. M. y', 'dd.MM.yy'],
           TIMEFORMATS: const ['H:mm:ss, zzzz', 'H:mm:ss z', 'H:mm:ss', 'H:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
@@ -2632,34 +1227,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "cy",
           ERAS: const ['CC', 'OC'],
           ERANAMES: const ['Cyn Crist', 'Oed Crist'],
-          NARROWMONTHS: const [
-            'I',
-            'Ch',
-            'M',
-            'E',
-            'M',
-            'M',
-            'G',
-            'A',
-            'M',
-            'H',
-            'T',
-            'Rh'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'I',
-            'Ch',
-            'M',
-            'E',
-            'M',
-            'M',
-            'G',
-            'A',
-            'M',
-            'H',
-            'T',
-            'Rh'
-          ],
+          NARROWMONTHS: const ['I', 'Ch', 'M', 'E', 'M', 'M', 'G', 'A', 'M', 'H', 'T', 'Rh'],
+          STANDALONENARROWMONTHS: const ['I', 'Ch', 'M', 'E', 'M', 'M', 'G', 'A', 'M', 'H', 'T', 'Rh'],
           MONTHS: const [
             'Ionawr',
             'Chwefror',
@@ -2734,46 +1303,15 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Dydd Gwener',
             'Dydd Sadwrn'
           ],
-          SHORTWEEKDAYS: const [
-            'Sul',
-            'Llun',
-            'Maw',
-            'Mer',
-            'Iau',
-            'Gwen',
-            'Sad'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Sul',
-            'Llun',
-            'Maw',
-            'Mer',
-            'Iau',
-            'Gwe',
-            'Sad'
-          ],
+          SHORTWEEKDAYS: const ['Sul', 'Llun', 'Maw', 'Mer', 'Iau', 'Gwen', 'Sad'],
+          STANDALONESHORTWEEKDAYS: const ['Sul', 'Llun', 'Maw', 'Mer', 'Iau', 'Gwe', 'Sad'],
           NARROWWEEKDAYS: const ['S', 'Ll', 'M', 'M', 'I', 'G', 'S'],
           STANDALONENARROWWEEKDAYS: const ['S', 'Ll', 'M', 'M', 'I', 'G', 'S'],
           SHORTQUARTERS: const ['Ch1', 'Ch2', 'Ch3', 'Ch4'],
-          QUARTERS: const [
-            'chwarter 1af',
-            '2il chwarter',
-            '3ydd chwarter',
-            '4ydd chwarter'
-          ],
+          QUARTERS: const ['chwarter 1af', '2il chwarter', '3ydd chwarter', '4ydd chwarter'],
           AMPMS: const ['yb', 'yh'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'dd/MM/yy'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM y', 'd MMMM y', 'd MMM y', 'dd/MM/yy'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -2783,34 +1321,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "da",
           ERAS: const ['f.Kr.', 'e.Kr.'],
           ERANAMES: const ['før Kristus', 'efter Kristus'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'januar',
             'februar',
@@ -2867,64 +1379,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nov.',
             'dec.'
           ],
-          WEEKDAYS: const [
-            'søndag',
-            'mandag',
-            'tirsdag',
-            'onsdag',
-            'torsdag',
-            'fredag',
-            'lørdag'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'søndag',
-            'mandag',
-            'tirsdag',
-            'onsdag',
-            'torsdag',
-            'fredag',
-            'lørdag'
-          ],
-          SHORTWEEKDAYS: const [
-            'søn.',
-            'man.',
-            'tirs.',
-            'ons.',
-            'tors.',
-            'fre.',
-            'lør.'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'søn.',
-            'man.',
-            'tirs.',
-            'ons.',
-            'tors.',
-            'fre.',
-            'lør.'
-          ],
+          WEEKDAYS: const ['søndag', 'mandag', 'tirsdag', 'onsdag', 'torsdag', 'fredag', 'lørdag'],
+          STANDALONEWEEKDAYS: const ['søndag', 'mandag', 'tirsdag', 'onsdag', 'torsdag', 'fredag', 'lørdag'],
+          SHORTWEEKDAYS: const ['søn.', 'man.', 'tirs.', 'ons.', 'tors.', 'fre.', 'lør.'],
+          STANDALONESHORTWEEKDAYS: const ['søn.', 'man.', 'tirs.', 'ons.', 'tors.', 'fre.', 'lør.'],
           NARROWWEEKDAYS: const ['S', 'M', 'T', 'O', 'T', 'F', 'L'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'T', 'O', 'T', 'F', 'L'],
           SHORTQUARTERS: const ['1. kvt.', '2. kvt.', '3. kvt.', '4. kvt.'],
-          QUARTERS: const [
-            '1. kvartal',
-            '2. kvartal',
-            '3. kvartal',
-            '4. kvartal'
-          ],
+          QUARTERS: const ['1. kvartal', '2. kvartal', '3. kvartal', '4. kvartal'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE \'den\' d. MMMM y',
-            'd. MMMM y',
-            'd. MMM y',
-            'dd.MM.y'
-          ],
-          TIMEFORMATS: const [
-            'HH.mm.ss zzzz',
-            'HH.mm.ss z',
-            'HH.mm.ss',
-            'HH.mm'
-          ],
+          DATEFORMATS: const ['EEEE \'den\' d. MMMM y', 'd. MMMM y', 'd. MMM y', 'dd.MM.y'],
+          TIMEFORMATS: const ['HH.mm.ss zzzz', 'HH.mm.ss z', 'HH.mm.ss', 'HH.mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -2934,34 +1399,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "de",
           ERAS: const ['v. Chr.', 'n. Chr.'],
           ERANAMES: const ['v. Chr.', 'n. Chr.'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'Januar',
             'Februar',
@@ -3018,70 +1457,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nov',
             'Dez'
           ],
-          WEEKDAYS: const [
-            'Sonntag',
-            'Montag',
-            'Dienstag',
-            'Mittwoch',
-            'Donnerstag',
-            'Freitag',
-            'Samstag'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Sonntag',
-            'Montag',
-            'Dienstag',
-            'Mittwoch',
-            'Donnerstag',
-            'Freitag',
-            'Samstag'
-          ],
-          SHORTWEEKDAYS: const [
-            'So.',
-            'Mo.',
-            'Di.',
-            'Mi.',
-            'Do.',
-            'Fr.',
-            'Sa.'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'So',
-            'Mo',
-            'Di',
-            'Mi',
-            'Do',
-            'Fr',
-            'Sa'
-          ],
+          WEEKDAYS: const ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'],
+          STANDALONEWEEKDAYS: const ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'],
+          SHORTWEEKDAYS: const ['So.', 'Mo.', 'Di.', 'Mi.', 'Do.', 'Fr.', 'Sa.'],
+          STANDALONESHORTWEEKDAYS: const ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'],
           NARROWWEEKDAYS: const ['S', 'M', 'D', 'M', 'D', 'F', 'S'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'D', 'M', 'D', 'F', 'S'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
-          QUARTERS: const [
-            '1. Quartal',
-            '2. Quartal',
-            '3. Quartal',
-            '4. Quartal'
-          ],
+          QUARTERS: const ['1. Quartal', '2. Quartal', '3. Quartal', '4. Quartal'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, d. MMMM y',
-            'd. MMMM y',
-            'dd.MM.y',
-            'dd.MM.yy'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, d. MMMM y', 'd. MMMM y', 'dd.MM.y', 'dd.MM.yy'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 3),
@@ -3090,34 +1477,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "de_AT",
           ERAS: const ['v. Chr.', 'n. Chr.'],
           ERANAMES: const ['v. Chr.', 'n. Chr.'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'Jänner',
             'Februar',
@@ -3174,70 +1535,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nov',
             'Dez'
           ],
-          WEEKDAYS: const [
-            'Sonntag',
-            'Montag',
-            'Dienstag',
-            'Mittwoch',
-            'Donnerstag',
-            'Freitag',
-            'Samstag'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Sonntag',
-            'Montag',
-            'Dienstag',
-            'Mittwoch',
-            'Donnerstag',
-            'Freitag',
-            'Samstag'
-          ],
-          SHORTWEEKDAYS: const [
-            'So.',
-            'Mo.',
-            'Di.',
-            'Mi.',
-            'Do.',
-            'Fr.',
-            'Sa.'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'So',
-            'Mo',
-            'Di',
-            'Mi',
-            'Do',
-            'Fr',
-            'Sa'
-          ],
+          WEEKDAYS: const ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'],
+          STANDALONEWEEKDAYS: const ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'],
+          SHORTWEEKDAYS: const ['So.', 'Mo.', 'Di.', 'Mi.', 'Do.', 'Fr.', 'Sa.'],
+          STANDALONESHORTWEEKDAYS: const ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'],
           NARROWWEEKDAYS: const ['S', 'M', 'D', 'M', 'D', 'F', 'S'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'D', 'M', 'D', 'F', 'S'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
-          QUARTERS: const [
-            '1. Quartal',
-            '2. Quartal',
-            '3. Quartal',
-            '4. Quartal'
-          ],
+          QUARTERS: const ['1. Quartal', '2. Quartal', '3. Quartal', '4. Quartal'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, d. MMMM y',
-            'd. MMMM y',
-            'dd.MM.y',
-            'dd.MM.yy'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, d. MMMM y', 'd. MMMM y', 'dd.MM.y', 'dd.MM.yy'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 3),
@@ -3247,34 +1556,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "de_CH",
           ERAS: const ['v. Chr.', 'n. Chr.'],
           ERANAMES: const ['v. Chr.', 'n. Chr.'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'Januar',
             'Februar',
@@ -3331,70 +1614,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nov',
             'Dez'
           ],
-          WEEKDAYS: const [
-            'Sonntag',
-            'Montag',
-            'Dienstag',
-            'Mittwoch',
-            'Donnerstag',
-            'Freitag',
-            'Samstag'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Sonntag',
-            'Montag',
-            'Dienstag',
-            'Mittwoch',
-            'Donnerstag',
-            'Freitag',
-            'Samstag'
-          ],
-          SHORTWEEKDAYS: const [
-            'So.',
-            'Mo.',
-            'Di.',
-            'Mi.',
-            'Do.',
-            'Fr.',
-            'Sa.'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'So',
-            'Mo',
-            'Di',
-            'Mi',
-            'Do',
-            'Fr',
-            'Sa'
-          ],
+          WEEKDAYS: const ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'],
+          STANDALONEWEEKDAYS: const ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'],
+          SHORTWEEKDAYS: const ['So.', 'Mo.', 'Di.', 'Mi.', 'Do.', 'Fr.', 'Sa.'],
+          STANDALONESHORTWEEKDAYS: const ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'],
           NARROWWEEKDAYS: const ['S', 'M', 'D', 'M', 'D', 'F', 'S'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'D', 'M', 'D', 'F', 'S'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
-          QUARTERS: const [
-            '1. Quartal',
-            '2. Quartal',
-            '3. Quartal',
-            '4. Quartal'
-          ],
+          QUARTERS: const ['1. Quartal', '2. Quartal', '3. Quartal', '4. Quartal'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, d. MMMM y',
-            'd. MMMM y',
-            'dd.MM.y',
-            'dd.MM.yy'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, d. MMMM y', 'd. MMMM y', 'dd.MM.y', 'dd.MM.yy'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 3),
@@ -3403,34 +1634,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "el",
           ERAS: const ['π.Χ.', 'μ.Χ.'],
           ERANAMES: const ['προ Χριστού', 'μετά Χριστόν'],
-          NARROWMONTHS: const [
-            'Ι',
-            'Φ',
-            'Μ',
-            'Α',
-            'Μ',
-            'Ι',
-            'Ι',
-            'Α',
-            'Σ',
-            'Ο',
-            'Ν',
-            'Δ'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'Ι',
-            'Φ',
-            'Μ',
-            'Α',
-            'Μ',
-            'Ι',
-            'Ι',
-            'Α',
-            'Σ',
-            'Ο',
-            'Ν',
-            'Δ'
-          ],
+          NARROWMONTHS: const ['Ι', 'Φ', 'Μ', 'Α', 'Μ', 'Ι', 'Ι', 'Α', 'Σ', 'Ο', 'Ν', 'Δ'],
+          STANDALONENARROWMONTHS: const ['Ι', 'Φ', 'Μ', 'Α', 'Μ', 'Ι', 'Ι', 'Α', 'Σ', 'Ο', 'Ν', 'Δ'],
           MONTHS: const [
             'Ιανουαρίου',
             'Φεβρουαρίου',
@@ -3459,20 +1664,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Νοέμβριος',
             'Δεκέμβριος'
           ],
-          SHORTMONTHS: const [
-            'Ιαν',
-            'Φεβ',
-            'Μαρ',
-            'Απρ',
-            'Μαΐ',
-            'Ιουν',
-            'Ιουλ',
-            'Αυγ',
-            'Σεπ',
-            'Οκτ',
-            'Νοε',
-            'Δεκ'
-          ],
+          SHORTMONTHS: const ['Ιαν', 'Φεβ', 'Μαρ', 'Απρ', 'Μαΐ', 'Ιουν', 'Ιουλ', 'Αυγ', 'Σεπ', 'Οκτ', 'Νοε', 'Δεκ'],
           STANDALONESHORTMONTHS: const [
             'Ιαν',
             'Φεβ',
@@ -3487,65 +1679,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Νοέ',
             'Δεκ'
           ],
-          WEEKDAYS: const [
-            'Κυριακή',
-            'Δευτέρα',
-            'Τρίτη',
-            'Τετάρτη',
-            'Πέμπτη',
-            'Παρασκευή',
-            'Σάββατο'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Κυριακή',
-            'Δευτέρα',
-            'Τρίτη',
-            'Τετάρτη',
-            'Πέμπτη',
-            'Παρασκευή',
-            'Σάββατο'
-          ],
-          SHORTWEEKDAYS: const [
-            'Κυρ',
-            'Δευ',
-            'Τρί',
-            'Τετ',
-            'Πέμ',
-            'Παρ',
-            'Σάβ'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Κυρ',
-            'Δευ',
-            'Τρί',
-            'Τετ',
-            'Πέμ',
-            'Παρ',
-            'Σάβ'
-          ],
+          WEEKDAYS: const ['Κυριακή', 'Δευτέρα', 'Τρίτη', 'Τετάρτη', 'Πέμπτη', 'Παρασκευή', 'Σάββατο'],
+          STANDALONEWEEKDAYS: const ['Κυριακή', 'Δευτέρα', 'Τρίτη', 'Τετάρτη', 'Πέμπτη', 'Παρασκευή', 'Σάββατο'],
+          SHORTWEEKDAYS: const ['Κυρ', 'Δευ', 'Τρί', 'Τετ', 'Πέμ', 'Παρ', 'Σάβ'],
+          STANDALONESHORTWEEKDAYS: const ['Κυρ', 'Δευ', 'Τρί', 'Τετ', 'Πέμ', 'Παρ', 'Σάβ'],
           NARROWWEEKDAYS: const ['Κ', 'Δ', 'Τ', 'Τ', 'Π', 'Π', 'Σ'],
           STANDALONENARROWWEEKDAYS: const ['Κ', 'Δ', 'Τ', 'Τ', 'Π', 'Π', 'Σ'],
           SHORTQUARTERS: const ['Τ1', 'Τ2', 'Τ3', 'Τ4'],
-          QUARTERS: const [
-            '1ο τρίμηνο',
-            '2ο τρίμηνο',
-            '3ο τρίμηνο',
-            '4ο τρίμηνο'
-          ],
+          QUARTERS: const ['1ο τρίμηνο', '2ο τρίμηνο', '3ο τρίμηνο', '4ο τρίμηνο'],
           AMPMS: const ['π.μ.', 'μ.μ.'],
           DATEFORMATS: const ['EEEE d MMMM y', 'd MMMM y', 'd MMM y', 'd/M/yy'],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
-          DATETIMEFORMATS: const [
-            '{1} - {0}',
-            '{1} - {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
+          DATETIMEFORMATS: const ['{1} - {0}', '{1} - {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 3),
@@ -3554,34 +1699,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "en",
           ERAS: const ['BC', 'AD'],
           ERANAMES: const ['Before Christ', 'Anno Domini'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'January',
             'February',
@@ -3610,20 +1729,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'November',
             'December'
           ],
-          SHORTMONTHS: const [
-            'Jan',
-            'Feb',
-            'Mar',
-            'Apr',
-            'May',
-            'Jun',
-            'Jul',
-            'Aug',
-            'Sep',
-            'Oct',
-            'Nov',
-            'Dec'
-          ],
+          SHORTMONTHS: const ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
           STANDALONESHORTMONTHS: const [
             'Jan',
             'Feb',
@@ -3638,70 +1744,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nov',
             'Dec'
           ],
-          WEEKDAYS: const [
-            'Sunday',
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Sunday',
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday'
-          ],
-          SHORTWEEKDAYS: const [
-            'Sun',
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Sun',
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat'
-          ],
+          WEEKDAYS: const ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          STANDALONEWEEKDAYS: const ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          SHORTWEEKDAYS: const ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+          STANDALONESHORTWEEKDAYS: const ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
           NARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
-          QUARTERS: const [
-            '1st quarter',
-            '2nd quarter',
-            '3rd quarter',
-            '4th quarter'
-          ],
+          QUARTERS: const ['1st quarter', '2nd quarter', '3rd quarter', '4th quarter'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, MMMM d, y',
-            'MMMM d, y',
-            'MMM d, y',
-            'M/d/yy'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, MMMM d, y', 'MMMM d, y', 'MMM d, y', 'M/d/yy'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 5),
@@ -3709,199 +1763,87 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
       "en_AU": new DateSymbols(
           NAME: "en_AU",
           ERAS: const ['BC', 'AD'],
-          ERANAMES: const ['Before Christ', 'Anno Domini'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          ERANAMES: const ['قبل الميلاد', 'ميلادي'],
+          NARROWMONTHS: const ['ي', 'ف', 'م', 'أ', 'و', 'ن', 'ل', 'غ', 'س', 'ك', 'ب', 'د'],
+          STANDALONENARROWMONTHS: const ['ي', 'ف', 'م', 'أ', 'و', 'ن', 'ل', 'غ', 'س', 'ك', 'ب', 'د'],
           MONTHS: const [
-            'January',
-            'February',
-            'March',
-            'April',
-            'May',
-            'June',
-            'July',
-            'August',
-            'September',
-            'October',
-            'November',
-            'December'
+            'يناير',
+            'فبراير',
+            'مارس',
+            'أبريل',
+            'مايو',
+            'يونيو',
+            'يوليو',
+            'أغسطس',
+            'سبتمبر',
+            'أكتوبر',
+            'نوفمبر',
+            'ديسمبر'
           ],
           STANDALONEMONTHS: const [
-            'January',
-            'February',
-            'March',
-            'April',
-            'May',
-            'June',
-            'July',
-            'August',
-            'September',
-            'October',
-            'November',
-            'December'
+            'يناير',
+            'فبراير',
+            'مارس',
+            'أبريل',
+            'مايو',
+            'يونيو',
+            'يوليو',
+            'أغسطس',
+            'سبتمبر',
+            'أكتوبر',
+            'نوفمبر',
+            'ديسمبر'
           ],
           SHORTMONTHS: const [
-            'Jan',
-            'Feb',
-            'Mar',
-            'Apr',
-            'May',
-            'June',
-            'July',
-            'Aug',
-            'Sept',
-            'Oct',
-            'Nov',
-            'Dec'
+            'يناير',
+            'فبراير',
+            'مارس',
+            'أبريل',
+            'مايو',
+            'يونيو',
+            'يوليو',
+            'أغسطس',
+            'سبتمبر',
+            'أكتوبر',
+            'نوفمبر',
+            'ديسمبر'
           ],
           STANDALONESHORTMONTHS: const [
-            'Jan',
-            'Feb',
-            'Mar',
-            'Apr',
-            'May',
-            'Jun',
-            'Jul',
-            'Aug',
-            'Sept',
-            'Oct',
-            'Nov',
-            'Dec'
+            'يناير',
+            'فبراير',
+            'مارس',
+            'أبريل',
+            'مايو',
+            'يونيو',
+            'يوليو',
+            'أغسطس',
+            'سبتمبر',
+            'أكتوبر',
+            'نوفمبر',
+            'ديسمبر'
           ],
-          WEEKDAYS: const [
-            'Sunday',
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Sunday',
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday'
-          ],
-          SHORTWEEKDAYS: const [
-            'Sun',
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Sun',
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat'
-          ],
-          NARROWWEEKDAYS: const ['Su.', 'M.', 'Tu.', 'W.', 'Th.', 'F.', 'Sa.'],
-          STANDALONENARROWWEEKDAYS: const [
-            'Su.',
-            'M.',
-            'Tu.',
-            'W.',
-            'Th.',
-            'F.',
-            'Sa.'
-          ],
-          SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
-          QUARTERS: const [
-            '1st quarter',
-            '2nd quarter',
-            '3rd quarter',
-            '4th quarter'
-          ],
-          AMPMS: const ['am', 'pm'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'd/M/yy'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
-          FIRSTDAYOFWEEK: 0,
-          WEEKENDRANGE: const [5, 6],
-          FIRSTWEEKCUTOFFDAY: 6),
+          WEEKDAYS: const ['الأحد', 'الاثنين', 'الثلاثاء', 'الأربعاء', 'الخميس', 'الجمعة', 'السبت'],
+          STANDALONEWEEKDAYS: const ['الأحد', 'الاثنين', 'الثلاثاء', 'الأربعاء', 'الخميس', 'الجمعة', 'السبت'],
+          SHORTWEEKDAYS: const ['الأحد', 'الاثنين', 'الثلاثاء', 'الأربعاء', 'الخميس', 'الجمعة', 'السبت'],
+          STANDALONESHORTWEEKDAYS: const ['الأحد', 'الاثنين', 'الثلاثاء', 'الأربعاء', 'الخميس', 'الجمعة', 'السبت'],
+          NARROWWEEKDAYS: const ['ح', 'ن', 'ث', 'ر', 'خ', 'ج', 'س'],
+          STANDALONENARROWWEEKDAYS: const ['ح', 'ن', 'ث', 'ر', 'خ', 'ج', 'س'],
+          SHORTQUARTERS: const ['الربع الأول', 'الربع الثاني', 'الربع الثالث', 'الربع الرابع'],
+          QUARTERS: const ['الربع الأول', 'الربع الثاني', 'الربع الثالث', 'الربع الرابع'],
+          AMPMS: const ['ص', 'م'],
+          DATEFORMATS: const ['EEEE، d MMMM y', 'd MMMM y', 'dd‏/MM‏/y', 'd‏/M‏/y'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
+          DATETIMEFORMATS: const ['{1}، {0}', '{1}، {0}', '{1}، {0}', '{1}، {0}'],
+          FIRSTDAYOFWEEK: 5,
+          WEEKENDRANGE: const [4, 5],
+          FIRSTWEEKCUTOFFDAY: 4),
       // Date/time formatting symbols for locale en_CA.
       "en_CA": new DateSymbols(
           NAME: "en_CA",
           ERAS: const ['BC', 'AD'],
           ERANAMES: const ['before Christ', 'Anno Domini'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'January',
             'February',
@@ -3930,20 +1872,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'November',
             'December'
           ],
-          SHORTMONTHS: const [
-            'Jan',
-            'Feb',
-            'Mar',
-            'Apr',
-            'May',
-            'Jun',
-            'Jul',
-            'Aug',
-            'Sep',
-            'Oct',
-            'Nov',
-            'Dec'
-          ],
+          SHORTMONTHS: const ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
           STANDALONESHORTMONTHS: const [
             'Jan',
             'Feb',
@@ -3958,70 +1887,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nov',
             'Dec'
           ],
-          WEEKDAYS: const [
-            'Sunday',
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Sunday',
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday'
-          ],
-          SHORTWEEKDAYS: const [
-            'Sun',
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Sun',
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat'
-          ],
+          WEEKDAYS: const ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          STANDALONEWEEKDAYS: const ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          SHORTWEEKDAYS: const ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+          STANDALONESHORTWEEKDAYS: const ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
           NARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
-          QUARTERS: const [
-            '1st quarter',
-            '2nd quarter',
-            '3rd quarter',
-            '4th quarter'
-          ],
+          QUARTERS: const ['1st quarter', '2nd quarter', '3rd quarter', '4th quarter'],
           AMPMS: const ['a.m.', 'p.m.'],
-          DATEFORMATS: const [
-            'EEEE, MMMM d, y',
-            'MMMM d, y',
-            'MMM d, y',
-            'y-MM-dd'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, MMMM d, y', 'MMMM d, y', 'MMM d, y', 'y-MM-dd'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 5),
@@ -4030,34 +1907,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "en_GB",
           ERAS: const ['BC', 'AD'],
           ERANAMES: const ['Before Christ', 'Anno Domini'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'January',
             'February',
@@ -4086,20 +1937,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'November',
             'December'
           ],
-          SHORTMONTHS: const [
-            'Jan',
-            'Feb',
-            'Mar',
-            'Apr',
-            'May',
-            'Jun',
-            'Jul',
-            'Aug',
-            'Sept',
-            'Oct',
-            'Nov',
-            'Dec'
-          ],
+          SHORTMONTHS: const ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'],
           STANDALONESHORTMONTHS: const [
             'Jan',
             'Feb',
@@ -4114,70 +1952,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nov',
             'Dec'
           ],
-          WEEKDAYS: const [
-            'Sunday',
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Sunday',
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday'
-          ],
-          SHORTWEEKDAYS: const [
-            'Sun',
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Sun',
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat'
-          ],
+          WEEKDAYS: const ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          STANDALONEWEEKDAYS: const ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          SHORTWEEKDAYS: const ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+          STANDALONESHORTWEEKDAYS: const ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
           NARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
-          QUARTERS: const [
-            '1st quarter',
-            '2nd quarter',
-            '3rd quarter',
-            '4th quarter'
-          ],
+          QUARTERS: const ['1st quarter', '2nd quarter', '3rd quarter', '4th quarter'],
           AMPMS: const ['am', 'pm'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'dd/MM/y'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM y', 'd MMMM y', 'd MMM y', 'dd/MM/y'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 3),
@@ -4186,34 +1972,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "en_IE",
           ERAS: const ['BC', 'AD'],
           ERANAMES: const ['Before Christ', 'Anno Domini'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'January',
             'February',
@@ -4242,20 +2002,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'November',
             'December'
           ],
-          SHORTMONTHS: const [
-            'Jan',
-            'Feb',
-            'Mar',
-            'Apr',
-            'May',
-            'Jun',
-            'Jul',
-            'Aug',
-            'Sept',
-            'Oct',
-            'Nov',
-            'Dec'
-          ],
+          SHORTMONTHS: const ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'],
           STANDALONESHORTMONTHS: const [
             'Jan',
             'Feb',
@@ -4270,70 +2017,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nov',
             'Dec'
           ],
-          WEEKDAYS: const [
-            'Sunday',
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Sunday',
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday'
-          ],
-          SHORTWEEKDAYS: const [
-            'Sun',
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Sun',
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat'
-          ],
+          WEEKDAYS: const ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          STANDALONEWEEKDAYS: const ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          SHORTWEEKDAYS: const ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+          STANDALONESHORTWEEKDAYS: const ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
           NARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
-          QUARTERS: const [
-            '1st quarter',
-            '2nd quarter',
-            '3rd quarter',
-            '4th quarter'
-          ],
+          QUARTERS: const ['1st quarter', '2nd quarter', '3rd quarter', '4th quarter'],
           AMPMS: const ['a.m.', 'p.m.'],
-          DATEFORMATS: const [
-            'EEEE d MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'dd/MM/y'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE d MMMM y', 'd MMMM y', 'd MMM y', 'dd/MM/y'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 3),
@@ -4342,34 +2037,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "en_IN",
           ERAS: const ['BC', 'AD'],
           ERANAMES: const ['Before Christ', 'Anno Domini'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'January',
             'February',
@@ -4398,20 +2067,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'November',
             'December'
           ],
-          SHORTMONTHS: const [
-            'Jan',
-            'Feb',
-            'Mar',
-            'Apr',
-            'May',
-            'Jun',
-            'Jul',
-            'Aug',
-            'Sept',
-            'Oct',
-            'Nov',
-            'Dec'
-          ],
+          SHORTMONTHS: const ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'],
           STANDALONESHORTMONTHS: const [
             'Jan',
             'Feb',
@@ -4426,70 +2082,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nov',
             'Dec'
           ],
-          WEEKDAYS: const [
-            'Sunday',
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Sunday',
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday'
-          ],
-          SHORTWEEKDAYS: const [
-            'Sun',
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Sun',
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat'
-          ],
+          WEEKDAYS: const ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          STANDALONEWEEKDAYS: const ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          SHORTWEEKDAYS: const ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+          STANDALONESHORTWEEKDAYS: const ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
           NARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
-          QUARTERS: const [
-            '1st quarter',
-            '2nd quarter',
-            '3rd quarter',
-            '4th quarter'
-          ],
+          QUARTERS: const ['1st quarter', '2nd quarter', '3rd quarter', '4th quarter'],
           AMPMS: const ['am', 'pm'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM, y',
-            'd MMMM y',
-            'dd-MMM-y',
-            'dd/MM/yy'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM, y', 'd MMMM y', 'dd-MMM-y', 'dd/MM/yy'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [6, 6],
           FIRSTWEEKCUTOFFDAY: 5),
@@ -4498,34 +2102,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "en_MY",
           ERAS: const ['BC', 'AD'],
           ERANAMES: const ['Before Christ', 'Anno Domini'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'January',
             'February',
@@ -4554,20 +2132,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'November',
             'December'
           ],
-          SHORTMONTHS: const [
-            'Jan',
-            'Feb',
-            'Mar',
-            'Apr',
-            'May',
-            'Jun',
-            'Jul',
-            'Aug',
-            'Sept',
-            'Oct',
-            'Nov',
-            'Dec'
-          ],
+          SHORTMONTHS: const ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'],
           STANDALONESHORTMONTHS: const [
             'Jan',
             'Feb',
@@ -4582,70 +2147,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nov',
             'Dec'
           ],
-          WEEKDAYS: const [
-            'Sunday',
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Sunday',
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday'
-          ],
-          SHORTWEEKDAYS: const [
-            'Sun',
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Sun',
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat'
-          ],
+          WEEKDAYS: const ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          STANDALONEWEEKDAYS: const ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          SHORTWEEKDAYS: const ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+          STANDALONESHORTWEEKDAYS: const ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
           NARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
-          QUARTERS: const [
-            '1st quarter',
-            '2nd quarter',
-            '3rd quarter',
-            '4th quarter'
-          ],
+          QUARTERS: const ['1st quarter', '2nd quarter', '3rd quarter', '4th quarter'],
           AMPMS: const ['am', 'pm'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'dd/MM/y'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM y', 'd MMMM y', 'd MMM y', 'dd/MM/y'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 6),
@@ -4654,34 +2167,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "en_NZ",
           ERAS: const ['BC', 'AD'],
           ERANAMES: const ['Before Christ', 'Anno Domini'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'January',
             'February',
@@ -4710,20 +2197,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'November',
             'December'
           ],
-          SHORTMONTHS: const [
-            'Jan',
-            'Feb',
-            'Mar',
-            'Apr',
-            'May',
-            'Jun',
-            'Jul',
-            'Aug',
-            'Sept',
-            'Oct',
-            'Nov',
-            'Dec'
-          ],
+          SHORTMONTHS: const ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'],
           STANDALONESHORTMONTHS: const [
             'Jan',
             'Feb',
@@ -4738,70 +2212,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nov',
             'Dec'
           ],
-          WEEKDAYS: const [
-            'Sunday',
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Sunday',
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday'
-          ],
-          SHORTWEEKDAYS: const [
-            'Sun',
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Sun',
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat'
-          ],
+          WEEKDAYS: const ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          STANDALONEWEEKDAYS: const ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          SHORTWEEKDAYS: const ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+          STANDALONESHORTWEEKDAYS: const ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
           NARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
-          QUARTERS: const [
-            '1st quarter',
-            '2nd quarter',
-            '3rd quarter',
-            '4th quarter'
-          ],
+          QUARTERS: const ['1st quarter', '2nd quarter', '3rd quarter', '4th quarter'],
           AMPMS: const ['am', 'pm'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM y',
-            'd MMMM y',
-            'd/MM/y',
-            'd/MM/yy'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM y', 'd MMMM y', 'd/MM/y', 'd/MM/yy'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 6),
@@ -4810,34 +2232,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "en_SG",
           ERAS: const ['BC', 'AD'],
           ERANAMES: const ['Before Christ', 'Anno Domini'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'January',
             'February',
@@ -4866,20 +2262,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'November',
             'December'
           ],
-          SHORTMONTHS: const [
-            'Jan',
-            'Feb',
-            'Mar',
-            'Apr',
-            'May',
-            'Jun',
-            'Jul',
-            'Aug',
-            'Sept',
-            'Oct',
-            'Nov',
-            'Dec'
-          ],
+          SHORTMONTHS: const ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'],
           STANDALONESHORTMONTHS: const [
             'Jan',
             'Feb',
@@ -4894,70 +2277,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nov',
             'Dec'
           ],
-          WEEKDAYS: const [
-            'Sunday',
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Sunday',
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday'
-          ],
-          SHORTWEEKDAYS: const [
-            'Sun',
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Sun',
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat'
-          ],
+          WEEKDAYS: const ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          STANDALONEWEEKDAYS: const ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          SHORTWEEKDAYS: const ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+          STANDALONESHORTWEEKDAYS: const ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
           NARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
-          QUARTERS: const [
-            '1st quarter',
-            '2nd quarter',
-            '3rd quarter',
-            '4th quarter'
-          ],
+          QUARTERS: const ['1st quarter', '2nd quarter', '3rd quarter', '4th quarter'],
           AMPMS: const ['am', 'pm'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'd/M/yy'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM y', 'd MMMM y', 'd MMM y', 'd/M/yy'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 5),
@@ -4967,34 +2298,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "en_US",
           ERAS: const ['BC', 'AD'],
           ERANAMES: const ['Before Christ', 'Anno Domini'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'January',
             'February',
@@ -5023,20 +2328,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'November',
             'December'
           ],
-          SHORTMONTHS: const [
-            'Jan',
-            'Feb',
-            'Mar',
-            'Apr',
-            'May',
-            'Jun',
-            'Jul',
-            'Aug',
-            'Sep',
-            'Oct',
-            'Nov',
-            'Dec'
-          ],
+          SHORTMONTHS: const ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
           STANDALONESHORTMONTHS: const [
             'Jan',
             'Feb',
@@ -5051,70 +2343,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nov',
             'Dec'
           ],
-          WEEKDAYS: const [
-            'Sunday',
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Sunday',
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday'
-          ],
-          SHORTWEEKDAYS: const [
-            'Sun',
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Sun',
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat'
-          ],
+          WEEKDAYS: const ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          STANDALONEWEEKDAYS: const ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          SHORTWEEKDAYS: const ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+          STANDALONESHORTWEEKDAYS: const ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
           NARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
-          QUARTERS: const [
-            '1st quarter',
-            '2nd quarter',
-            '3rd quarter',
-            '4th quarter'
-          ],
+          QUARTERS: const ['1st quarter', '2nd quarter', '3rd quarter', '4th quarter'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, MMMM d, y',
-            'MMMM d, y',
-            'MMM d, y',
-            'M/d/yy'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, MMMM d, y', 'MMMM d, y', 'MMM d, y', 'M/d/yy'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 5),
@@ -5123,34 +2363,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "en_ZA",
           ERAS: const ['BC', 'AD'],
           ERANAMES: const ['Before Christ', 'Anno Domini'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'January',
             'February',
@@ -5179,20 +2393,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'November',
             'December'
           ],
-          SHORTMONTHS: const [
-            'Jan',
-            'Feb',
-            'Mar',
-            'Apr',
-            'May',
-            'Jun',
-            'Jul',
-            'Aug',
-            'Sept',
-            'Oct',
-            'Nov',
-            'Dec'
-          ],
+          SHORTMONTHS: const ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'],
           STANDALONESHORTMONTHS: const [
             'Jan',
             'Feb',
@@ -5207,70 +2408,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nov',
             'Dec'
           ],
-          WEEKDAYS: const [
-            'Sunday',
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Sunday',
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday'
-          ],
-          SHORTWEEKDAYS: const [
-            'Sun',
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Sun',
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat'
-          ],
+          WEEKDAYS: const ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          STANDALONEWEEKDAYS: const ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          SHORTWEEKDAYS: const ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+          STANDALONESHORTWEEKDAYS: const ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
           NARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
-          QUARTERS: const [
-            '1st quarter',
-            '2nd quarter',
-            '3rd quarter',
-            '4th quarter'
-          ],
+          QUARTERS: const ['1st quarter', '2nd quarter', '3rd quarter', '4th quarter'],
           AMPMS: const ['am', 'pm'],
-          DATEFORMATS: const [
-            'EEEE, dd MMMM y',
-            'dd MMMM y',
-            'dd MMM y',
-            'y/MM/dd'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, dd MMMM y', 'dd MMMM y', 'dd MMM y', 'y/MM/dd'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 5),
@@ -5279,34 +2428,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "es",
           ERAS: const ['a. C.', 'd. C.'],
           ERANAMES: const ['antes de Cristo', 'después de Cristo'],
-          NARROWMONTHS: const [
-            'E',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'E',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['E', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['E', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'enero',
             'febrero',
@@ -5335,20 +2458,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'noviembre',
             'diciembre'
           ],
-          SHORTMONTHS: const [
-            'ene',
-            'feb',
-            'mar',
-            'abr',
-            'may',
-            'jun',
-            'jul',
-            'ago',
-            'sept',
-            'oct',
-            'nov',
-            'dic'
-          ],
+          SHORTMONTHS: const ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sept', 'oct', 'nov', 'dic'],
           STANDALONESHORTMONTHS: const [
             'ene',
             'feb',
@@ -5363,65 +2473,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nov',
             'dic'
           ],
-          WEEKDAYS: const [
-            'domingo',
-            'lunes',
-            'martes',
-            'miércoles',
-            'jueves',
-            'viernes',
-            'sábado'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'domingo',
-            'lunes',
-            'martes',
-            'miércoles',
-            'jueves',
-            'viernes',
-            'sábado'
-          ],
-          SHORTWEEKDAYS: const [
-            'dom',
-            'lun',
-            'mar',
-            'mié',
-            'jue',
-            'vie',
-            'sáb'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'dom',
-            'lun',
-            'mar',
-            'mié',
-            'jue',
-            'vie',
-            'sáb'
-          ],
+          WEEKDAYS: const ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'],
+          STANDALONEWEEKDAYS: const ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'],
+          SHORTWEEKDAYS: const ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
+          STANDALONESHORTWEEKDAYS: const ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
           NARROWWEEKDAYS: const ['D', 'L', 'M', 'X', 'J', 'V', 'S'],
           STANDALONENARROWWEEKDAYS: const ['D', 'L', 'M', 'X', 'J', 'V', 'S'],
           SHORTQUARTERS: const ['T1', 'T2', 'T3', 'T4'],
-          QUARTERS: const [
-            '1.er trimestre',
-            '2.º trimestre',
-            '3.er trimestre',
-            '4.º trimestre'
-          ],
+          QUARTERS: const ['1.er trimestre', '2.º trimestre', '3.er trimestre', '4.º trimestre'],
           AMPMS: const ['a. m.', 'p. m.'],
-          DATEFORMATS: const [
-            'EEEE, d \'de\' MMMM \'de\' y',
-            'd \'de\' MMMM \'de\' y',
-            'd MMM y',
-            'd/M/yy'
-          ],
+          DATEFORMATS: const ['EEEE, d \'de\' MMMM \'de\' y', 'd \'de\' MMMM \'de\' y', 'd MMM y', 'd/M/yy'],
           TIMEFORMATS: const ['H:mm:ss (zzzz)', 'H:mm:ss z', 'H:mm:ss', 'H:mm'],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 3),
@@ -5430,34 +2493,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "es_419",
           ERAS: const ['a.C.', 'd.C.'],
           ERANAMES: const ['antes de Cristo', 'después de Cristo'],
-          NARROWMONTHS: const [
-            'E',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'E',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['E', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['E', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'enero',
             'febrero',
@@ -5486,20 +2523,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'noviembre',
             'diciembre'
           ],
-          SHORTMONTHS: const [
-            'ene',
-            'feb',
-            'mar',
-            'abr',
-            'may',
-            'jun',
-            'jul',
-            'ago',
-            'sept',
-            'oct',
-            'nov',
-            'dic'
-          ],
+          SHORTMONTHS: const ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sept', 'oct', 'nov', 'dic'],
           STANDALONESHORTMONTHS: const [
             'ene',
             'feb',
@@ -5514,70 +2538,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nov',
             'dic'
           ],
-          WEEKDAYS: const [
-            'domingo',
-            'lunes',
-            'martes',
-            'miércoles',
-            'jueves',
-            'viernes',
-            'sábado'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'domingo',
-            'lunes',
-            'martes',
-            'miércoles',
-            'jueves',
-            'viernes',
-            'sábado'
-          ],
-          SHORTWEEKDAYS: const [
-            'dom',
-            'lun',
-            'mar',
-            'mié',
-            'jue',
-            'vie',
-            'sáb'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'dom',
-            'lun',
-            'mar',
-            'mié',
-            'jue',
-            'vie',
-            'sáb'
-          ],
+          WEEKDAYS: const ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'],
+          STANDALONEWEEKDAYS: const ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'],
+          SHORTWEEKDAYS: const ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
+          STANDALONESHORTWEEKDAYS: const ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
           NARROWWEEKDAYS: const ['D', 'L', 'M', 'M', 'J', 'V', 'S'],
           STANDALONENARROWWEEKDAYS: const ['D', 'L', 'M', 'M', 'J', 'V', 'S'],
           SHORTQUARTERS: const ['T1', 'T2', 'T3', 'T4'],
-          QUARTERS: const [
-            '1.º trimestre',
-            '2.º trimestre',
-            '3.º trimestre',
-            '4.º trimestre'
-          ],
+          QUARTERS: const ['1.º trimestre', '2.º trimestre', '3.º trimestre', '4.º trimestre'],
           AMPMS: const ['a. m.', 'p. m.'],
-          DATEFORMATS: const [
-            'EEEE, d \'de\' MMMM \'de\' y',
-            'd \'de\' MMMM \'de\' y',
-            'd MMM y',
-            'd/M/yy'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1} {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, d \'de\' MMMM \'de\' y', 'd \'de\' MMMM \'de\' y', 'd MMM y', 'd/M/yy'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1} {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 3),
@@ -5587,34 +2559,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "es_ES",
           ERAS: const ['a. C.', 'd. C.'],
           ERANAMES: const ['antes de Cristo', 'después de Cristo'],
-          NARROWMONTHS: const [
-            'E',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'E',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['E', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['E', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'enero',
             'febrero',
@@ -5643,20 +2589,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'noviembre',
             'diciembre'
           ],
-          SHORTMONTHS: const [
-            'ene',
-            'feb',
-            'mar',
-            'abr',
-            'may',
-            'jun',
-            'jul',
-            'ago',
-            'sept',
-            'oct',
-            'nov',
-            'dic'
-          ],
+          SHORTMONTHS: const ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sept', 'oct', 'nov', 'dic'],
           STANDALONESHORTMONTHS: const [
             'ene',
             'feb',
@@ -5671,65 +2604,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nov',
             'dic'
           ],
-          WEEKDAYS: const [
-            'domingo',
-            'lunes',
-            'martes',
-            'miércoles',
-            'jueves',
-            'viernes',
-            'sábado'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'domingo',
-            'lunes',
-            'martes',
-            'miércoles',
-            'jueves',
-            'viernes',
-            'sábado'
-          ],
-          SHORTWEEKDAYS: const [
-            'dom',
-            'lun',
-            'mar',
-            'mié',
-            'jue',
-            'vie',
-            'sáb'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'dom',
-            'lun',
-            'mar',
-            'mié',
-            'jue',
-            'vie',
-            'sáb'
-          ],
+          WEEKDAYS: const ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'],
+          STANDALONEWEEKDAYS: const ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'],
+          SHORTWEEKDAYS: const ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
+          STANDALONESHORTWEEKDAYS: const ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
           NARROWWEEKDAYS: const ['D', 'L', 'M', 'X', 'J', 'V', 'S'],
           STANDALONENARROWWEEKDAYS: const ['D', 'L', 'M', 'X', 'J', 'V', 'S'],
           SHORTQUARTERS: const ['T1', 'T2', 'T3', 'T4'],
-          QUARTERS: const [
-            '1.er trimestre',
-            '2.º trimestre',
-            '3.er trimestre',
-            '4.º trimestre'
-          ],
+          QUARTERS: const ['1.er trimestre', '2.º trimestre', '3.er trimestre', '4.º trimestre'],
           AMPMS: const ['a. m.', 'p. m.'],
-          DATEFORMATS: const [
-            'EEEE, d \'de\' MMMM \'de\' y',
-            'd \'de\' MMMM \'de\' y',
-            'd MMM y',
-            'd/M/yy'
-          ],
+          DATEFORMATS: const ['EEEE, d \'de\' MMMM \'de\' y', 'd \'de\' MMMM \'de\' y', 'd MMM y', 'd/M/yy'],
           TIMEFORMATS: const ['H:mm:ss (zzzz)', 'H:mm:ss z', 'H:mm:ss', 'H:mm'],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 3),
@@ -5738,34 +2624,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "es_MX",
           ERAS: const ['a.C.', 'd.C.'],
           ERANAMES: const ['antes de Cristo', 'después de Cristo'],
-          NARROWMONTHS: const [
-            'E',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'E',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['E', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['E', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'enero',
             'febrero',
@@ -5794,20 +2654,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'noviembre',
             'diciembre'
           ],
-          SHORTMONTHS: const [
-            'ene',
-            'feb',
-            'mar',
-            'abr',
-            'may',
-            'jun',
-            'jul',
-            'ago',
-            'sept',
-            'oct',
-            'nov',
-            'dic'
-          ],
+          SHORTMONTHS: const ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sept', 'oct', 'nov', 'dic'],
           STANDALONESHORTMONTHS: const [
             'ene',
             'feb',
@@ -5822,70 +2669,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nov',
             'dic'
           ],
-          WEEKDAYS: const [
-            'domingo',
-            'lunes',
-            'martes',
-            'miércoles',
-            'jueves',
-            'viernes',
-            'sábado'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'domingo',
-            'lunes',
-            'martes',
-            'miércoles',
-            'jueves',
-            'viernes',
-            'sábado'
-          ],
-          SHORTWEEKDAYS: const [
-            'dom',
-            'lun',
-            'mar',
-            'mié',
-            'jue',
-            'vie',
-            'sáb'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'dom',
-            'lun',
-            'mar',
-            'mié',
-            'jue',
-            'vie',
-            'sáb'
-          ],
+          WEEKDAYS: const ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'],
+          STANDALONEWEEKDAYS: const ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'],
+          SHORTWEEKDAYS: const ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
+          STANDALONESHORTWEEKDAYS: const ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
           NARROWWEEKDAYS: const ['D', 'L', 'M', 'M', 'J', 'V', 'S'],
           STANDALONENARROWWEEKDAYS: const ['D', 'L', 'M', 'M', 'J', 'V', 'S'],
           SHORTQUARTERS: const ['T1', 'T2', 'T3', 'T4'],
-          QUARTERS: const [
-            '1.er trimestre',
-            '2.º trimestre',
-            '3.er trimestre',
-            '4.º trimestre'
-          ],
+          QUARTERS: const ['1.er trimestre', '2.º trimestre', '3.er trimestre', '4.º trimestre'],
           AMPMS: const ['a. m.', 'p. m.'],
-          DATEFORMATS: const [
-            'EEEE, d \'de\' MMMM \'de\' y',
-            'd \'de\' MMMM \'de\' y',
-            'd MMM y',
-            'dd/MM/yy'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1} {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, d \'de\' MMMM \'de\' y', 'd \'de\' MMMM \'de\' y', 'd MMM y', 'dd/MM/yy'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1} {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 5),
@@ -5894,34 +2689,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "es_US",
           ERAS: const ['a.C.', 'd.C.'],
           ERANAMES: const ['antes de Cristo', 'después de Cristo'],
-          NARROWMONTHS: const [
-            'E',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'E',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['E', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['E', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'enero',
             'febrero',
@@ -5950,20 +2719,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'noviembre',
             'diciembre'
           ],
-          SHORTMONTHS: const [
-            'ene',
-            'feb',
-            'mar',
-            'abr',
-            'may',
-            'jun',
-            'jul',
-            'ago',
-            'sept',
-            'oct',
-            'nov',
-            'dic'
-          ],
+          SHORTMONTHS: const ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sept', 'oct', 'nov', 'dic'],
           STANDALONESHORTMONTHS: const [
             'ene',
             'feb',
@@ -5978,70 +2734,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nov',
             'dic'
           ],
-          WEEKDAYS: const [
-            'domingo',
-            'lunes',
-            'martes',
-            'miércoles',
-            'jueves',
-            'viernes',
-            'sábado'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'domingo',
-            'lunes',
-            'martes',
-            'miércoles',
-            'jueves',
-            'viernes',
-            'sábado'
-          ],
-          SHORTWEEKDAYS: const [
-            'dom',
-            'lun',
-            'mar',
-            'mié',
-            'jue',
-            'vie',
-            'sáb'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'dom',
-            'lun',
-            'mar',
-            'mié',
-            'jue',
-            'vie',
-            'sáb'
-          ],
+          WEEKDAYS: const ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'],
+          STANDALONEWEEKDAYS: const ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'],
+          SHORTWEEKDAYS: const ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
+          STANDALONESHORTWEEKDAYS: const ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'],
           NARROWWEEKDAYS: const ['D', 'L', 'M', 'M', 'J', 'V', 'S'],
           STANDALONENARROWWEEKDAYS: const ['D', 'L', 'M', 'M', 'J', 'V', 'S'],
           SHORTQUARTERS: const ['T1', 'T2', 'T3', 'T4'],
-          QUARTERS: const [
-            '1er trimestre',
-            '2.º trimestre',
-            '3.º trimestre',
-            '4.º trimestre'
-          ],
+          QUARTERS: const ['1er trimestre', '2.º trimestre', '3.º trimestre', '4.º trimestre'],
           AMPMS: const ['a. m.', 'p. m.'],
-          DATEFORMATS: const [
-            'EEEE, d \'de\' MMMM \'de\' y',
-            'd \'de\' MMMM \'de\' y',
-            'd MMM y',
-            'd/M/y'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, d \'de\' MMMM \'de\' y', 'd \'de\' MMMM \'de\' y', 'd MMM y', 'd/M/y'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 5),
@@ -6050,34 +2754,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "et",
           ERAS: const ['eKr', 'pKr'],
           ERANAMES: const ['enne Kristust', 'pärast Kristust'],
-          NARROWMONTHS: const [
-            'J',
-            'V',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'V',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'V', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'V', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'jaanuar',
             'veebruar',
@@ -6134,15 +2812,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nov',
             'dets'
           ],
-          WEEKDAYS: const [
-            'pühapäev',
-            'esmaspäev',
-            'teisipäev',
-            'kolmapäev',
-            'neljapäev',
-            'reede',
-            'laupäev'
-          ],
+          WEEKDAYS: const ['pühapäev', 'esmaspäev', 'teisipäev', 'kolmapäev', 'neljapäev', 'reede', 'laupäev'],
           STANDALONEWEEKDAYS: const [
             'pühapäev',
             'esmaspäev',
@@ -6157,25 +2827,10 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NARROWWEEKDAYS: const ['P', 'E', 'T', 'K', 'N', 'R', 'L'],
           STANDALONENARROWWEEKDAYS: const ['P', 'E', 'T', 'K', 'N', 'R', 'L'],
           SHORTQUARTERS: const ['K1', 'K2', 'K3', 'K4'],
-          QUARTERS: const [
-            '1. kvartal',
-            '2. kvartal',
-            '3. kvartal',
-            '4. kvartal'
-          ],
+          QUARTERS: const ['1. kvartal', '2. kvartal', '3. kvartal', '4. kvartal'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, d. MMMM y',
-            'd. MMMM y',
-            'd. MMM y',
-            'dd.MM.yy'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['EEEE, d. MMMM y', 'd. MMMM y', 'd. MMM y', 'dd.MM.yy'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -6185,34 +2840,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "eu",
           ERAS: const ['K.a.', 'K.o.'],
           ERANAMES: const ['K.a.', 'Kristo ondoren'],
-          NARROWMONTHS: const [
-            'U',
-            'O',
-            'M',
-            'A',
-            'M',
-            'E',
-            'U',
-            'A',
-            'I',
-            'U',
-            'A',
-            'A'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'U',
-            'O',
-            'M',
-            'A',
-            'M',
-            'E',
-            'U',
-            'A',
-            'I',
-            'U',
-            'A',
-            'A'
-          ],
+          NARROWMONTHS: const ['U', 'O', 'M', 'A', 'M', 'E', 'U', 'A', 'I', 'U', 'A', 'A'],
+          STANDALONENARROWMONTHS: const ['U', 'O', 'M', 'A', 'M', 'E', 'U', 'A', 'I', 'U', 'A', 'A'],
           MONTHS: const [
             'urtarrila',
             'otsaila',
@@ -6269,15 +2898,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'aza.',
             'abe.'
           ],
-          WEEKDAYS: const [
-            'igandea',
-            'astelehena',
-            'asteartea',
-            'asteazkena',
-            'osteguna',
-            'ostirala',
-            'larunbata'
-          ],
+          WEEKDAYS: const ['igandea', 'astelehena', 'asteartea', 'asteazkena', 'osteguna', 'ostirala', 'larunbata'],
           STANDALONEWEEKDAYS: const [
             'igandea',
             'astelehena',
@@ -6287,33 +2908,12 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'ostirala',
             'larunbata'
           ],
-          SHORTWEEKDAYS: const [
-            'ig.',
-            'al.',
-            'ar.',
-            'az.',
-            'og.',
-            'or.',
-            'lr.'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'ig.',
-            'al.',
-            'ar.',
-            'az.',
-            'og.',
-            'or.',
-            'lr.'
-          ],
+          SHORTWEEKDAYS: const ['ig.', 'al.', 'ar.', 'az.', 'og.', 'or.', 'lr.'],
+          STANDALONESHORTWEEKDAYS: const ['ig.', 'al.', 'ar.', 'az.', 'og.', 'or.', 'lr.'],
           NARROWWEEKDAYS: const ['I', 'A', 'A', 'A', 'O', 'O', 'L'],
           STANDALONENARROWWEEKDAYS: const ['I', 'A', 'A', 'A', 'O', 'O', 'L'],
           SHORTQUARTERS: const ['1Hh', '2Hh', '3Hh', '4Hh'],
-          QUARTERS: const [
-            '1. hiruhilekoa',
-            '2. hiruhilekoa',
-            '3. hiruhilekoa',
-            '4. hiruhilekoa'
-          ],
+          QUARTERS: const ['1. hiruhilekoa', '2. hiruhilekoa', '3. hiruhilekoa', '4. hiruhilekoa'],
           AMPMS: const ['AM', 'PM'],
           DATEFORMATS: const [
             'y(\'e\')\'ko\' MMMM\'ren\' d(\'a\'), EEEE',
@@ -6321,12 +2921,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'y(\'e\')\'ko\' MMM d(\'a\')',
             'yy/M/d'
           ],
-          TIMEFORMATS: const [
-            'HH:mm:ss (zzzz)',
-            'HH:mm:ss (z)',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          TIMEFORMATS: const ['HH:mm:ss (zzzz)', 'HH:mm:ss (z)', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -6337,34 +2932,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           ZERODIGIT: '\u06F0',
           ERAS: const ['ق.م.', 'م.'],
           ERANAMES: const ['قبل از میلاد', 'میلادی'],
-          NARROWMONTHS: const [
-            'ژ',
-            'ف',
-            'م',
-            'آ',
-            'م',
-            'ژ',
-            'ژ',
-            'ا',
-            'س',
-            'ا',
-            'ن',
-            'د'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'ژ',
-            'ف',
-            'م',
-            'آ',
-            'م',
-            'ژ',
-            'ژ',
-            'ا',
-            'س',
-            'ا',
-            'ن',
-            'د'
-          ],
+          NARROWMONTHS: const ['ژ', 'ف', 'م', 'آ', 'م', 'ژ', 'ژ', 'ا', 'س', 'ا', 'ن', 'د'],
+          STANDALONENARROWMONTHS: const ['ژ', 'ف', 'م', 'آ', 'م', 'ژ', 'ژ', 'ا', 'س', 'ا', 'ن', 'د'],
           MONTHS: const [
             'ژانویهٔ',
             'فوریهٔ',
@@ -6421,65 +2990,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'نوامبر',
             'دسامبر'
           ],
-          WEEKDAYS: const [
-            'یکشنبه',
-            'دوشنبه',
-            'سه‌شنبه',
-            'چهارشنبه',
-            'پنجشنبه',
-            'جمعه',
-            'شنبه'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'یکشنبه',
-            'دوشنبه',
-            'سه‌شنبه',
-            'چهارشنبه',
-            'پنجشنبه',
-            'جمعه',
-            'شنبه'
-          ],
-          SHORTWEEKDAYS: const [
-            'یکشنبه',
-            'دوشنبه',
-            'سه‌شنبه',
-            'چهارشنبه',
-            'پنجشنبه',
-            'جمعه',
-            'شنبه'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'یکشنبه',
-            'دوشنبه',
-            'سه‌شنبه',
-            'چهارشنبه',
-            'پنجشنبه',
-            'جمعه',
-            'شنبه'
-          ],
+          WEEKDAYS: const ['یکشنبه', 'دوشنبه', 'سه‌شنبه', 'چهارشنبه', 'پنجشنبه', 'جمعه', 'شنبه'],
+          STANDALONEWEEKDAYS: const ['یکشنبه', 'دوشنبه', 'سه‌شنبه', 'چهارشنبه', 'پنجشنبه', 'جمعه', 'شنبه'],
+          SHORTWEEKDAYS: const ['یکشنبه', 'دوشنبه', 'سه‌شنبه', 'چهارشنبه', 'پنجشنبه', 'جمعه', 'شنبه'],
+          STANDALONESHORTWEEKDAYS: const ['یکشنبه', 'دوشنبه', 'سه‌شنبه', 'چهارشنبه', 'پنجشنبه', 'جمعه', 'شنبه'],
           NARROWWEEKDAYS: const ['ی', 'د', 'س', 'چ', 'پ', 'ج', 'ش'],
           STANDALONENARROWWEEKDAYS: const ['ی', 'د', 'س', 'چ', 'پ', 'ج', 'ش'],
           SHORTQUARTERS: const ['س‌م۱', 'س‌م۲', 'س‌م۳', 'س‌م۴'],
-          QUARTERS: const [
-            'سه‌ماههٔ اول',
-            'سه‌ماههٔ دوم',
-            'سه‌ماههٔ سوم',
-            'سه‌ماههٔ چهارم'
-          ],
+          QUARTERS: const ['سه‌ماههٔ اول', 'سه‌ماههٔ دوم', 'سه‌ماههٔ سوم', 'سه‌ماههٔ چهارم'],
           AMPMS: const ['قبل‌ازظهر', 'بعدازظهر'],
           DATEFORMATS: const ['EEEE d MMMM y', 'd MMMM y', 'd MMM y', 'y/M/d'],
-          TIMEFORMATS: const [
-            'H:mm:ss (zzzz)',
-            'H:mm:ss (z)',
-            'H:mm:ss',
-            'H:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}، ساعت {0}',
-            '{1}، ساعت {0}',
-            '{1}،‏ {0}',
-            '{1}،‏ {0}'
-          ],
+          TIMEFORMATS: const ['H:mm:ss (zzzz)', 'H:mm:ss (z)', 'H:mm:ss', 'H:mm'],
+          DATETIMEFORMATS: const ['{1}، ساعت {0}', '{1}، ساعت {0}', '{1}،‏ {0}', '{1}،‏ {0}'],
           FIRSTDAYOFWEEK: 5,
           WEEKENDRANGE: const [4, 4],
           FIRSTWEEKCUTOFFDAY: 4),
@@ -6487,38 +3009,9 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
       "fi": new DateSymbols(
           NAME: "fi",
           ERAS: const ['eKr.', 'jKr.'],
-          ERANAMES: const [
-            'ennen Kristuksen syntymää',
-            'jälkeen Kristuksen syntymän'
-          ],
-          NARROWMONTHS: const [
-            'T',
-            'H',
-            'M',
-            'H',
-            'T',
-            'K',
-            'H',
-            'E',
-            'S',
-            'L',
-            'M',
-            'J'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'T',
-            'H',
-            'M',
-            'H',
-            'T',
-            'K',
-            'H',
-            'E',
-            'S',
-            'L',
-            'M',
-            'J'
-          ],
+          ERANAMES: const ['ennen Kristuksen syntymää', 'jälkeen Kristuksen syntymän'],
+          NARROWMONTHS: const ['T', 'H', 'M', 'H', 'T', 'K', 'H', 'E', 'S', 'L', 'M', 'J'],
+          STANDALONENARROWMONTHS: const ['T', 'H', 'M', 'H', 'T', 'K', 'H', 'E', 'S', 'L', 'M', 'J'],
           MONTHS: const [
             'tammikuuta',
             'helmikuuta',
@@ -6594,24 +3087,11 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'lauantai'
           ],
           SHORTWEEKDAYS: const ['su', 'ma', 'ti', 'ke', 'to', 'pe', 'la'],
-          STANDALONESHORTWEEKDAYS: const [
-            'su',
-            'ma',
-            'ti',
-            'ke',
-            'to',
-            'pe',
-            'la'
-          ],
+          STANDALONESHORTWEEKDAYS: const ['su', 'ma', 'ti', 'ke', 'to', 'pe', 'la'],
           NARROWWEEKDAYS: const ['S', 'M', 'T', 'K', 'T', 'P', 'L'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'T', 'K', 'T', 'P', 'L'],
           SHORTQUARTERS: const ['1. nelj.', '2. nelj.', '3. nelj.', '4. nelj.'],
-          QUARTERS: const [
-            '1. neljännes',
-            '2. neljännes',
-            '3. neljännes',
-            '4. neljännes'
-          ],
+          QUARTERS: const ['1. neljännes', '2. neljännes', '3. neljännes', '4. neljännes'],
           AMPMS: const ['ap.', 'ip.'],
           DATEFORMATS: const ['cccc d. MMMM y', 'd. MMMM y', 'd.M.y', 'd.M.y'],
           TIMEFORMATS: const ['H.mm.ss zzzz', 'H.mm.ss z', 'H.mm.ss', 'H.mm'],
@@ -6624,34 +3104,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "fil",
           ERAS: const ['BC', 'AD'],
           ERANAMES: const ['Before Christ', 'Anno Domini'],
-          NARROWMONTHS: const [
-            'Ene',
-            'Peb',
-            'Mar',
-            'Abr',
-            'May',
-            'Hun',
-            'Hul',
-            'Ago',
-            'Set',
-            'Okt',
-            'Nob',
-            'Dis'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'E',
-            'P',
-            'M',
-            'A',
-            'M',
-            'Hun',
-            'Hul',
-            'Ago',
-            'Set',
-            'Okt',
-            'Nob',
-            'Dis'
-          ],
+          NARROWMONTHS: const ['Ene', 'Peb', 'Mar', 'Abr', 'May', 'Hun', 'Hul', 'Ago', 'Set', 'Okt', 'Nob', 'Dis'],
+          STANDALONENARROWMONTHS: const ['E', 'P', 'M', 'A', 'M', 'Hun', 'Hul', 'Ago', 'Set', 'Okt', 'Nob', 'Dis'],
           MONTHS: const [
             'Enero',
             'Pebrero',
@@ -6680,20 +3134,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nobyembre',
             'Disyembre'
           ],
-          SHORTMONTHS: const [
-            'Ene',
-            'Peb',
-            'Mar',
-            'Abr',
-            'May',
-            'Hun',
-            'Hul',
-            'Ago',
-            'Set',
-            'Okt',
-            'Nob',
-            'Dis'
-          ],
+          SHORTMONTHS: const ['Ene', 'Peb', 'Mar', 'Abr', 'May', 'Hun', 'Hul', 'Ago', 'Set', 'Okt', 'Nob', 'Dis'],
           STANDALONESHORTMONTHS: const [
             'Ene',
             'Peb',
@@ -6708,86 +3149,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nob',
             'Dis'
           ],
-          WEEKDAYS: const [
-            'Linggo',
-            'Lunes',
-            'Martes',
-            'Miyerkules',
-            'Huwebes',
-            'Biyernes',
-            'Sabado'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Linggo',
-            'Lunes',
-            'Martes',
-            'Miyerkules',
-            'Huwebes',
-            'Biyernes',
-            'Sabado'
-          ],
-          SHORTWEEKDAYS: const [
-            'Lin',
-            'Lun',
-            'Mar',
-            'Miy',
-            'Huw',
-            'Biy',
-            'Sab'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Lin',
-            'Lun',
-            'Mar',
-            'Miy',
-            'Huw',
-            'Biy',
-            'Sab'
-          ],
-          NARROWWEEKDAYS: const [
-            'Lin',
-            'Lun',
-            'Mar',
-            'Miy',
-            'Huw',
-            'Biy',
-            'Sab'
-          ],
-          STANDALONENARROWWEEKDAYS: const [
-            'Lin',
-            'Lun',
-            'Mar',
-            'Miy',
-            'Huw',
-            'Biy',
-            'Sab'
-          ],
+          WEEKDAYS: const ['Linggo', 'Lunes', 'Martes', 'Miyerkules', 'Huwebes', 'Biyernes', 'Sabado'],
+          STANDALONEWEEKDAYS: const ['Linggo', 'Lunes', 'Martes', 'Miyerkules', 'Huwebes', 'Biyernes', 'Sabado'],
+          SHORTWEEKDAYS: const ['Lin', 'Lun', 'Mar', 'Miy', 'Huw', 'Biy', 'Sab'],
+          STANDALONESHORTWEEKDAYS: const ['Lin', 'Lun', 'Mar', 'Miy', 'Huw', 'Biy', 'Sab'],
+          NARROWWEEKDAYS: const ['Lin', 'Lun', 'Mar', 'Miy', 'Huw', 'Biy', 'Sab'],
+          STANDALONENARROWWEEKDAYS: const ['Lin', 'Lun', 'Mar', 'Miy', 'Huw', 'Biy', 'Sab'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
-          QUARTERS: const [
-            'ika-1 quarter',
-            'ika-2 quarter',
-            'ika-3 quarter',
-            'ika-4 na quarter'
-          ],
+          QUARTERS: const ['ika-1 quarter', 'ika-2 quarter', 'ika-3 quarter', 'ika-4 na quarter'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, MMMM d, y',
-            'MMMM d, y',
-            'MMM d, y',
-            'M/d/yy'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, MMMM d, y', 'MMMM d, y', 'MMM d, y', 'M/d/yy'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 5),
@@ -6796,34 +3169,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "fr",
           ERAS: const ['av. J.-C.', 'ap. J.-C.'],
           ERANAMES: const ['avant Jésus-Christ', 'après Jésus-Christ'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'janvier',
             'février',
@@ -6880,70 +3227,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nov.',
             'déc.'
           ],
-          WEEKDAYS: const [
-            'dimanche',
-            'lundi',
-            'mardi',
-            'mercredi',
-            'jeudi',
-            'vendredi',
-            'samedi'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'dimanche',
-            'lundi',
-            'mardi',
-            'mercredi',
-            'jeudi',
-            'vendredi',
-            'samedi'
-          ],
-          SHORTWEEKDAYS: const [
-            'dim.',
-            'lun.',
-            'mar.',
-            'mer.',
-            'jeu.',
-            'ven.',
-            'sam.'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'dim.',
-            'lun.',
-            'mar.',
-            'mer.',
-            'jeu.',
-            'ven.',
-            'sam.'
-          ],
+          WEEKDAYS: const ['dimanche', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi'],
+          STANDALONEWEEKDAYS: const ['dimanche', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi'],
+          SHORTWEEKDAYS: const ['dim.', 'lun.', 'mar.', 'mer.', 'jeu.', 'ven.', 'sam.'],
+          STANDALONESHORTWEEKDAYS: const ['dim.', 'lun.', 'mar.', 'mer.', 'jeu.', 'ven.', 'sam.'],
           NARROWWEEKDAYS: const ['D', 'L', 'M', 'M', 'J', 'V', 'S'],
           STANDALONENARROWWEEKDAYS: const ['D', 'L', 'M', 'M', 'J', 'V', 'S'],
           SHORTQUARTERS: const ['T1', 'T2', 'T3', 'T4'],
-          QUARTERS: const [
-            '1er trimestre',
-            '2e trimestre',
-            '3e trimestre',
-            '4e trimestre'
-          ],
+          QUARTERS: const ['1er trimestre', '2e trimestre', '3e trimestre', '4e trimestre'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE d MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'dd/MM/y'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1} {0}'
-          ],
+          DATEFORMATS: const ['EEEE d MMMM y', 'd MMMM y', 'd MMM y', 'dd/MM/y'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 3),
@@ -6952,34 +3247,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "fr_CA",
           ERAS: const ['av. J.-C.', 'ap. J.-C.'],
           ERANAMES: const ['avant Jésus-Christ', 'après Jésus-Christ'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'janvier',
             'février',
@@ -7036,70 +3305,23 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nov.',
             'déc.'
           ],
-          WEEKDAYS: const [
-            'dimanche',
-            'lundi',
-            'mardi',
-            'mercredi',
-            'jeudi',
-            'vendredi',
-            'samedi'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'dimanche',
-            'lundi',
-            'mardi',
-            'mercredi',
-            'jeudi',
-            'vendredi',
-            'samedi'
-          ],
-          SHORTWEEKDAYS: const [
-            'dim.',
-            'lun.',
-            'mar.',
-            'mer.',
-            'jeu.',
-            'ven.',
-            'sam.'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'dim.',
-            'lun.',
-            'mar.',
-            'mer.',
-            'jeu.',
-            'ven.',
-            'sam.'
-          ],
+          WEEKDAYS: const ['dimanche', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi'],
+          STANDALONEWEEKDAYS: const ['dimanche', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi'],
+          SHORTWEEKDAYS: const ['dim.', 'lun.', 'mar.', 'mer.', 'jeu.', 'ven.', 'sam.'],
+          STANDALONESHORTWEEKDAYS: const ['dim.', 'lun.', 'mar.', 'mer.', 'jeu.', 'ven.', 'sam.'],
           NARROWWEEKDAYS: const ['D', 'L', 'M', 'M', 'J', 'V', 'S'],
           STANDALONENARROWWEEKDAYS: const ['D', 'L', 'M', 'M', 'J', 'V', 'S'],
           SHORTQUARTERS: const ['T1', 'T2', 'T3', 'T4'],
-          QUARTERS: const [
-            '1er trimestre',
-            '2e trimestre',
-            '3e trimestre',
-            '4e trimestre'
-          ],
+          QUARTERS: const ['1er trimestre', '2e trimestre', '3e trimestre', '4e trimestre'],
           AMPMS: const ['a.m.', 'p.m.'],
-          DATEFORMATS: const [
-            'EEEE d MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'y-MM-dd'
-          ],
+          DATEFORMATS: const ['EEEE d MMMM y', 'd MMMM y', 'd MMM y', 'y-MM-dd'],
           TIMEFORMATS: const [
             'HH \'h\' mm \'min\' ss \'s\' zzzz',
             'HH \'h\' mm \'min\' ss \'s\' z',
             'HH \'h\' mm \'min\' ss \'s\'',
             'HH \'h\' mm'
           ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1} {0}'
-          ],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 5),
@@ -7108,34 +3330,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "fr_CH",
           ERAS: const ['av. J.-C.', 'ap. J.-C.'],
           ERANAMES: const ['avant Jésus-Christ', 'après Jésus-Christ'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'janvier',
             'février',
@@ -7192,70 +3388,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nov.',
             'déc.'
           ],
-          WEEKDAYS: const [
-            'dimanche',
-            'lundi',
-            'mardi',
-            'mercredi',
-            'jeudi',
-            'vendredi',
-            'samedi'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'dimanche',
-            'lundi',
-            'mardi',
-            'mercredi',
-            'jeudi',
-            'vendredi',
-            'samedi'
-          ],
-          SHORTWEEKDAYS: const [
-            'dim.',
-            'lun.',
-            'mar.',
-            'mer.',
-            'jeu.',
-            'ven.',
-            'sam.'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'dim.',
-            'lun.',
-            'mar.',
-            'mer.',
-            'jeu.',
-            'ven.',
-            'sam.'
-          ],
+          WEEKDAYS: const ['dimanche', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi'],
+          STANDALONEWEEKDAYS: const ['dimanche', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi'],
+          SHORTWEEKDAYS: const ['dim.', 'lun.', 'mar.', 'mer.', 'jeu.', 'ven.', 'sam.'],
+          STANDALONESHORTWEEKDAYS: const ['dim.', 'lun.', 'mar.', 'mer.', 'jeu.', 'ven.', 'sam.'],
           NARROWWEEKDAYS: const ['D', 'L', 'M', 'M', 'J', 'V', 'S'],
           STANDALONENARROWWEEKDAYS: const ['D', 'L', 'M', 'M', 'J', 'V', 'S'],
           SHORTQUARTERS: const ['T1', 'T2', 'T3', 'T4'],
-          QUARTERS: const [
-            '1er trimestre',
-            '2e trimestre',
-            '3e trimestre',
-            '4e trimestre'
-          ],
+          QUARTERS: const ['1er trimestre', '2e trimestre', '3e trimestre', '4e trimestre'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'dd.MM.yy'
-          ],
-          TIMEFORMATS: const [
-            'HH.mm:ss \'h\' zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1} {0}'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM y', 'd MMMM y', 'd MMM y', 'dd.MM.yy'],
+          TIMEFORMATS: const ['HH.mm:ss \'h\' zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 3),
@@ -7264,34 +3408,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "fur",
           ERAS: const ['pdC', 'ddC'],
           ERANAMES: const ['pdC', 'ddC'],
-          NARROWMONTHS: const [
-            'Z',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'L',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'Z',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'L',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['Z', 'F', 'M', 'A', 'M', 'J', 'L', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['Z', 'F', 'M', 'A', 'M', 'J', 'L', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'Zenâr',
             'Fevrâr',
@@ -7320,20 +3438,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Novembar',
             'Dicembar'
           ],
-          SHORTMONTHS: const [
-            'Zen',
-            'Fev',
-            'Mar',
-            'Avr',
-            'Mai',
-            'Jug',
-            'Lui',
-            'Avo',
-            'Set',
-            'Otu',
-            'Nov',
-            'Dic'
-          ],
+          SHORTMONTHS: const ['Zen', 'Fev', 'Mar', 'Avr', 'Mai', 'Jug', 'Lui', 'Avo', 'Set', 'Otu', 'Nov', 'Dic'],
           STANDALONESHORTMONTHS: const [
             'Zen',
             'Fev',
@@ -7348,64 +3453,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nov',
             'Dic'
           ],
-          WEEKDAYS: const [
-            'domenie',
-            'lunis',
-            'martars',
-            'miercus',
-            'joibe',
-            'vinars',
-            'sabide'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'domenie',
-            'lunis',
-            'martars',
-            'miercus',
-            'joibe',
-            'vinars',
-            'sabide'
-          ],
-          SHORTWEEKDAYS: const [
-            'dom',
-            'lun',
-            'mar',
-            'mie',
-            'joi',
-            'vin',
-            'sab'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'dom',
-            'lun',
-            'mar',
-            'mie',
-            'joi',
-            'vin',
-            'sab'
-          ],
+          WEEKDAYS: const ['domenie', 'lunis', 'martars', 'miercus', 'joibe', 'vinars', 'sabide'],
+          STANDALONEWEEKDAYS: const ['domenie', 'lunis', 'martars', 'miercus', 'joibe', 'vinars', 'sabide'],
+          SHORTWEEKDAYS: const ['dom', 'lun', 'mar', 'mie', 'joi', 'vin', 'sab'],
+          STANDALONESHORTWEEKDAYS: const ['dom', 'lun', 'mar', 'mie', 'joi', 'vin', 'sab'],
           NARROWWEEKDAYS: const ['D', 'L', 'M', 'M', 'J', 'V', 'S'],
           STANDALONENARROWWEEKDAYS: const ['D', 'L', 'M', 'M', 'J', 'V', 'S'],
           SHORTQUARTERS: const ['T1', 'T2', 'T3', 'T4'],
-          QUARTERS: const [
-            'Prin trimestri',
-            'Secont trimestri',
-            'Tierç trimestri',
-            'Cuart trimestri'
-          ],
+          QUARTERS: const ['Prin trimestri', 'Secont trimestri', 'Tierç trimestri', 'Cuart trimestri'],
           AMPMS: const ['a.', 'p.'],
-          DATEFORMATS: const [
-            'EEEE d \'di\' MMMM \'dal\' y',
-            'd \'di\' MMMM \'dal\' y',
-            'dd/MM/y',
-            'dd/MM/yy'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['EEEE d \'di\' MMMM \'dal\' y', 'd \'di\' MMMM \'dal\' y', 'dd/MM/y', 'dd/MM/yy'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -7415,34 +3473,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "ga",
           ERAS: const ['RC', 'AD'],
           ERANAMES: const ['Roimh Chríost', 'Anno Domini'],
-          NARROWMONTHS: const [
-            'E',
-            'F',
-            'M',
-            'A',
-            'B',
-            'M',
-            'I',
-            'L',
-            'M',
-            'D',
-            'S',
-            'N'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'E',
-            'F',
-            'M',
-            'A',
-            'B',
-            'M',
-            'I',
-            'L',
-            'M',
-            'D',
-            'S',
-            'N'
-          ],
+          NARROWMONTHS: const ['E', 'F', 'M', 'A', 'B', 'M', 'I', 'L', 'M', 'D', 'S', 'N'],
+          STANDALONENARROWMONTHS: const ['E', 'F', 'M', 'A', 'B', 'M', 'I', 'L', 'M', 'D', 'S', 'N'],
           MONTHS: const [
             'Eanáir',
             'Feabhra',
@@ -7517,41 +3549,15 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Dé hAoine',
             'Dé Sathairn'
           ],
-          SHORTWEEKDAYS: const [
-            'Domh',
-            'Luan',
-            'Máirt',
-            'Céad',
-            'Déar',
-            'Aoine',
-            'Sath'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Domh',
-            'Luan',
-            'Máirt',
-            'Céad',
-            'Déar',
-            'Aoine',
-            'Sath'
-          ],
+          SHORTWEEKDAYS: const ['Domh', 'Luan', 'Máirt', 'Céad', 'Déar', 'Aoine', 'Sath'],
+          STANDALONESHORTWEEKDAYS: const ['Domh', 'Luan', 'Máirt', 'Céad', 'Déar', 'Aoine', 'Sath'],
           NARROWWEEKDAYS: const ['D', 'L', 'M', 'C', 'D', 'A', 'S'],
           STANDALONENARROWWEEKDAYS: const ['D', 'L', 'M', 'C', 'D', 'A', 'S'],
           SHORTQUARTERS: const ['R1', 'R2', 'R3', 'R4'],
           QUARTERS: const ['1ú ráithe', '2ú ráithe', '3ú ráithe', '4ú ráithe'],
           AMPMS: const ['r.n.', 'i.n.'],
-          DATEFORMATS: const [
-            'EEEE d MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'dd/MM/y'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['EEEE d MMMM y', 'd MMMM y', 'd MMM y', 'dd/MM/y'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -7561,34 +3567,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "gl",
           ERAS: const ['a.C.', 'd.C.'],
           ERANAMES: const ['antes de Cristo', 'despois de Cristo'],
-          NARROWMONTHS: const [
-            'x.',
-            'f.',
-            'm.',
-            'a.',
-            'm.',
-            'x.',
-            'x.',
-            'a.',
-            's.',
-            'o.',
-            'n.',
-            'd.'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'X',
-            'F',
-            'M',
-            'A',
-            'M',
-            'X',
-            'X',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['x.', 'f.', 'm.', 'a.', 'm.', 'x.', 'x.', 'a.', 's.', 'o.', 'n.', 'd.'],
+          STANDALONENARROWMONTHS: const ['X', 'F', 'M', 'A', 'M', 'X', 'X', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'xaneiro',
             'febreiro',
@@ -7645,51 +3625,14 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nov.',
             'Dec.'
           ],
-          WEEKDAYS: const [
-            'domingo',
-            'luns',
-            'martes',
-            'mércores',
-            'xoves',
-            'venres',
-            'sábado'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Domingo',
-            'Luns',
-            'Martes',
-            'Mércores',
-            'Xoves',
-            'Venres',
-            'Sábado'
-          ],
-          SHORTWEEKDAYS: const [
-            'dom.',
-            'luns',
-            'mar.',
-            'mér.',
-            'xov.',
-            'ven.',
-            'sáb.'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Dom.',
-            'Luns',
-            'Mar.',
-            'Mér.',
-            'Xov.',
-            'Ven.',
-            'Sáb.'
-          ],
+          WEEKDAYS: const ['domingo', 'luns', 'martes', 'mércores', 'xoves', 'venres', 'sábado'],
+          STANDALONEWEEKDAYS: const ['Domingo', 'Luns', 'Martes', 'Mércores', 'Xoves', 'Venres', 'Sábado'],
+          SHORTWEEKDAYS: const ['dom.', 'luns', 'mar.', 'mér.', 'xov.', 'ven.', 'sáb.'],
+          STANDALONESHORTWEEKDAYS: const ['Dom.', 'Luns', 'Mar.', 'Mér.', 'Xov.', 'Ven.', 'Sáb.'],
           NARROWWEEKDAYS: const ['d.', 'l.', 'm.', 'm.', 'x.', 'v.', 's.'],
           STANDALONENARROWWEEKDAYS: const ['D', 'L', 'M', 'M', 'X', 'V', 'S'],
           SHORTQUARTERS: const ['T1', 'T2', 'T3', 'T4'],
-          QUARTERS: const [
-            '1.º trimestre',
-            '2.º trimestre',
-            '3.º trimestre',
-            '4.º trimestre'
-          ],
+          QUARTERS: const ['1.º trimestre', '2.º trimestre', '3.º trimestre', '4.º trimestre'],
           AMPMS: const ['a.m.', 'p.m.'],
           DATEFORMATS: const [
             'EEEE, d \'de\' MMMM \'de\' y',
@@ -7697,18 +3640,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'd \'de\' MMM \'de\' y',
             'dd/MM/yy'
           ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 3),
@@ -7717,34 +3650,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "gsw",
           ERAS: const ['v. Chr.', 'n. Chr.'],
           ERANAMES: const ['v. Chr.', 'n. Chr.'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'Januar',
             'Februar',
@@ -7773,20 +3680,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Novämber',
             'Dezämber'
           ],
-          SHORTMONTHS: const [
-            'Jan',
-            'Feb',
-            'Mär',
-            'Apr',
-            'Mai',
-            'Jun',
-            'Jul',
-            'Aug',
-            'Sep',
-            'Okt',
-            'Nov',
-            'Dez'
-          ],
+          SHORTMONTHS: const ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'],
           STANDALONESHORTMONTHS: const [
             'Jan',
             'Feb',
@@ -7801,15 +3695,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nov',
             'Dez'
           ],
-          WEEKDAYS: const [
-            'Sunntig',
-            'Määntig',
-            'Ziischtig',
-            'Mittwuch',
-            'Dunschtig',
-            'Friitig',
-            'Samschtig'
-          ],
+          WEEKDAYS: const ['Sunntig', 'Määntig', 'Ziischtig', 'Mittwuch', 'Dunschtig', 'Friitig', 'Samschtig'],
           STANDALONEWEEKDAYS: const [
             'Sunntig',
             'Määntig',
@@ -7819,46 +3705,15 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Friitig',
             'Samschtig'
           ],
-          SHORTWEEKDAYS: const [
-            'Su.',
-            'Mä.',
-            'Zi.',
-            'Mi.',
-            'Du.',
-            'Fr.',
-            'Sa.'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Su.',
-            'Mä.',
-            'Zi.',
-            'Mi.',
-            'Du.',
-            'Fr.',
-            'Sa.'
-          ],
+          SHORTWEEKDAYS: const ['Su.', 'Mä.', 'Zi.', 'Mi.', 'Du.', 'Fr.', 'Sa.'],
+          STANDALONESHORTWEEKDAYS: const ['Su.', 'Mä.', 'Zi.', 'Mi.', 'Du.', 'Fr.', 'Sa.'],
           NARROWWEEKDAYS: const ['S', 'M', 'D', 'M', 'D', 'F', 'S'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'D', 'M', 'D', 'F', 'S'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
-          QUARTERS: const [
-            '1. Quartal',
-            '2. Quartal',
-            '3. Quartal',
-            '4. Quartal'
-          ],
+          QUARTERS: const ['1. Quartal', '2. Quartal', '3. Quartal', '4. Quartal'],
           AMPMS: const ['am Vormittag', 'am Namittag'],
-          DATEFORMATS: const [
-            'EEEE, d. MMMM y',
-            'd. MMMM y',
-            'dd.MM.y',
-            'dd.MM.yy'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['EEEE, d. MMMM y', 'd. MMMM y', 'dd.MM.y', 'dd.MM.yy'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -7868,34 +3723,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "gu",
           ERAS: const ['ઈ.સ.પૂર્વે', 'ઈ.સ.'],
           ERANAMES: const ['ઈસવીસન પૂર્વે', 'ઇસવીસન'],
-          NARROWMONTHS: const [
-            'જા',
-            'ફે',
-            'મા',
-            'એ',
-            'મે',
-            'જૂ',
-            'જુ',
-            'ઑ',
-            'સ',
-            'ઑ',
-            'ન',
-            'ડિ'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'જા',
-            'ફે',
-            'મા',
-            'એ',
-            'મે',
-            'જૂ',
-            'જુ',
-            'ઑ',
-            'સ',
-            'ઑ',
-            'ન',
-            'ડિ'
-          ],
+          NARROWMONTHS: const ['જા', 'ફે', 'મા', 'એ', 'મે', 'જૂ', 'જુ', 'ઑ', 'સ', 'ઑ', 'ન', 'ડિ'],
+          STANDALONENARROWMONTHS: const ['જા', 'ફે', 'મા', 'એ', 'મે', 'જૂ', 'જુ', 'ઑ', 'સ', 'ઑ', 'ન', 'ડિ'],
           MONTHS: const [
             'જાન્યુઆરી',
             'ફેબ્રુઆરી',
@@ -7952,72 +3781,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'નવે',
             'ડિસે'
           ],
-          WEEKDAYS: const [
-            'રવિવાર',
-            'સોમવાર',
-            'મંગળવાર',
-            'બુધવાર',
-            'ગુરુવાર',
-            'શુક્રવાર',
-            'શનિવાર'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'રવિવાર',
-            'સોમવાર',
-            'મંગળવાર',
-            'બુધવાર',
-            'ગુરુવાર',
-            'શુક્રવાર',
-            'શનિવાર'
-          ],
-          SHORTWEEKDAYS: const [
-            'રવિ',
-            'સોમ',
-            'મંગળ',
-            'બુધ',
-            'ગુરુ',
-            'શુક્ર',
-            'શનિ'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'રવિ',
-            'સોમ',
-            'મંગળ',
-            'બુધ',
-            'ગુરુ',
-            'શુક્ર',
-            'શનિ'
-          ],
+          WEEKDAYS: const ['રવિવાર', 'સોમવાર', 'મંગળવાર', 'બુધવાર', 'ગુરુવાર', 'શુક્રવાર', 'શનિવાર'],
+          STANDALONEWEEKDAYS: const ['રવિવાર', 'સોમવાર', 'મંગળવાર', 'બુધવાર', 'ગુરુવાર', 'શુક્રવાર', 'શનિવાર'],
+          SHORTWEEKDAYS: const ['રવિ', 'સોમ', 'મંગળ', 'બુધ', 'ગુરુ', 'શુક્ર', 'શનિ'],
+          STANDALONESHORTWEEKDAYS: const ['રવિ', 'સોમ', 'મંગળ', 'બુધ', 'ગુરુ', 'શુક્ર', 'શનિ'],
           NARROWWEEKDAYS: const ['ર', 'સો', 'મં', 'બુ', 'ગુ', 'શુ', 'શ'],
-          STANDALONENARROWWEEKDAYS: const [
-            'ર',
-            'સો',
-            'મં',
-            'બુ',
-            'ગુ',
-            'શુ',
-            'શ'
-          ],
+          STANDALONENARROWWEEKDAYS: const ['ર', 'સો', 'મં', 'બુ', 'ગુ', 'શુ', 'શ'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
-          QUARTERS: const [
-            '1લો ત્રિમાસ',
-            '2જો ત્રિમાસ',
-            '3જો ત્રિમાસ',
-            '4થો ત્રિમાસ'
-          ],
+          QUARTERS: const ['1લો ત્રિમાસ', '2જો ત્રિમાસ', '3જો ત્રિમાસ', '4થો ત્રિમાસ'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM, y',
-            'd MMMM, y',
-            'd MMM, y',
-            'd/M/yy'
-          ],
-          TIMEFORMATS: const [
-            'hh:mm:ss a zzzz',
-            'hh:mm:ss a z',
-            'hh:mm:ss a',
-            'hh:mm a'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM, y', 'd MMMM, y', 'd MMM, y', 'd/M/yy'],
+          TIMEFORMATS: const ['hh:mm:ss a zzzz', 'hh:mm:ss a z', 'hh:mm:ss a', 'hh:mm a'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [6, 6],
@@ -8027,34 +3801,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "haw",
           ERAS: const ['BCE', 'CE'],
           ERANAMES: const ['BCE', 'CE'],
-          NARROWMONTHS: const [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5',
-            '6',
-            '7',
-            '8',
-            '9',
-            '10',
-            '11',
-            '12'
-          ],
-          STANDALONENARROWMONTHS: const [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5',
-            '6',
-            '7',
-            '8',
-            '9',
-            '10',
-            '11',
-            '12'
-          ],
+          NARROWMONTHS: const ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+          STANDALONENARROWMONTHS: const ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
           MONTHS: const [
             'Ianuali',
             'Pepeluali',
@@ -8111,51 +3859,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Now.',
             'Kek.'
           ],
-          WEEKDAYS: const [
-            'Lāpule',
-            'Poʻakahi',
-            'Poʻalua',
-            'Poʻakolu',
-            'Poʻahā',
-            'Poʻalima',
-            'Poʻaono'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Lāpule',
-            'Poʻakahi',
-            'Poʻalua',
-            'Poʻakolu',
-            'Poʻahā',
-            'Poʻalima',
-            'Poʻaono'
-          ],
+          WEEKDAYS: const ['Lāpule', 'Poʻakahi', 'Poʻalua', 'Poʻakolu', 'Poʻahā', 'Poʻalima', 'Poʻaono'],
+          STANDALONEWEEKDAYS: const ['Lāpule', 'Poʻakahi', 'Poʻalua', 'Poʻakolu', 'Poʻahā', 'Poʻalima', 'Poʻaono'],
           SHORTWEEKDAYS: const ['LP', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6'],
-          STANDALONESHORTWEEKDAYS: const [
-            'LP',
-            'P1',
-            'P2',
-            'P3',
-            'P4',
-            'P5',
-            'P6'
-          ],
+          STANDALONESHORTWEEKDAYS: const ['LP', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6'],
           NARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
           QUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'd/M/yy'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM y', 'd MMMM y', 'd MMM y', 'd/M/yy'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
@@ -8165,34 +3879,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "he",
           ERAS: const ['לפנה״ס', 'לספירה'],
           ERANAMES: const ['לפני הספירה', 'לספירה'],
-          NARROWMONTHS: const [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5',
-            '6',
-            '7',
-            '8',
-            '9',
-            '10',
-            '11',
-            '12'
-          ],
-          STANDALONENARROWMONTHS: const [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5',
-            '6',
-            '7',
-            '8',
-            '9',
-            '10',
-            '11',
-            '12'
-          ],
+          NARROWMONTHS: const ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+          STANDALONENARROWMONTHS: const ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
           MONTHS: const [
             'ינואר',
             'פברואר',
@@ -8249,15 +3937,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'נוב׳',
             'דצמ׳'
           ],
-          WEEKDAYS: const [
-            'יום ראשון',
-            'יום שני',
-            'יום שלישי',
-            'יום רביעי',
-            'יום חמישי',
-            'יום שישי',
-            'יום שבת'
-          ],
+          WEEKDAYS: const ['יום ראשון', 'יום שני', 'יום שלישי', 'יום רביעי', 'יום חמישי', 'יום שישי', 'יום שבת'],
           STANDALONEWEEKDAYS: const [
             'יום ראשון',
             'יום שני',
@@ -8267,50 +3947,16 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'יום שישי',
             'יום שבת'
           ],
-          SHORTWEEKDAYS: const [
-            'יום א׳',
-            'יום ב׳',
-            'יום ג׳',
-            'יום ד׳',
-            'יום ה׳',
-            'יום ו׳',
-            'שבת'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'יום א׳',
-            'יום ב׳',
-            'יום ג׳',
-            'יום ד׳',
-            'יום ה׳',
-            'יום ו׳',
-            'שבת'
-          ],
+          SHORTWEEKDAYS: const ['יום א׳', 'יום ב׳', 'יום ג׳', 'יום ד׳', 'יום ה׳', 'יום ו׳', 'שבת'],
+          STANDALONESHORTWEEKDAYS: const ['יום א׳', 'יום ב׳', 'יום ג׳', 'יום ד׳', 'יום ה׳', 'יום ו׳', 'שבת'],
           NARROWWEEKDAYS: const ['א׳', 'ב׳', 'ג׳', 'ד׳', 'ה׳', 'ו׳', 'ש׳'],
-          STANDALONENARROWWEEKDAYS: const [
-            'א׳',
-            'ב׳',
-            'ג׳',
-            'ד׳',
-            'ה׳',
-            'ו׳',
-            'ש׳'
-          ],
+          STANDALONENARROWWEEKDAYS: const ['א׳', 'ב׳', 'ג׳', 'ד׳', 'ה׳', 'ו׳', 'ש׳'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
           QUARTERS: const ['רבעון 1', 'רבעון 2', 'רבעון 3', 'רבעון 4'],
           AMPMS: const ['לפנה״צ', 'אחה״צ'],
-          DATEFORMATS: const [
-            'EEEE, d בMMMM y',
-            'd בMMMM y',
-            'd בMMM y',
-            'd.M.y'
-          ],
+          DATEFORMATS: const ['EEEE, d בMMMM y', 'd בMMMM y', 'd בMMM y', 'd.M.y'],
           TIMEFORMATS: const ['H:mm:ss zzzz', 'H:mm:ss z', 'H:mm:ss', 'H:mm'],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [4, 5],
           FIRSTWEEKCUTOFFDAY: 5),
@@ -8319,34 +3965,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "hi",
           ERAS: const ['ईसा-पूर्व', 'ईस्वी'],
           ERANAMES: const ['ईसा-पूर्व', 'ईसवी सन'],
-          NARROWMONTHS: const [
-            'ज',
-            'फ़',
-            'मा',
-            'अ',
-            'म',
-            'जू',
-            'जु',
-            'अ',
-            'सि',
-            'अ',
-            'न',
-            'दि'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'ज',
-            'फ़',
-            'मा',
-            'अ',
-            'म',
-            'जू',
-            'जु',
-            'अ',
-            'सि',
-            'अ',
-            'न',
-            'दि'
-          ],
+          NARROWMONTHS: const ['ज', 'फ़', 'मा', 'अ', 'म', 'जू', 'जु', 'अ', 'सि', 'अ', 'न', 'दि'],
+          STANDALONENARROWMONTHS: const ['ज', 'फ़', 'मा', 'अ', 'म', 'जू', 'जु', 'अ', 'सि', 'अ', 'न', 'दि'],
           MONTHS: const [
             'जनवरी',
             'फ़रवरी',
@@ -8403,78 +4023,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'नव॰',
             'दिस॰'
           ],
-          WEEKDAYS: const [
-            'रविवार',
-            'सोमवार',
-            'मंगलवार',
-            'बुधवार',
-            'गुरुवार',
-            'शुक्रवार',
-            'शनिवार'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'रविवार',
-            'सोमवार',
-            'मंगलवार',
-            'बुधवार',
-            'गुरुवार',
-            'शुक्रवार',
-            'शनिवार'
-          ],
-          SHORTWEEKDAYS: const [
-            'रवि',
-            'सोम',
-            'मंगल',
-            'बुध',
-            'गुरु',
-            'शुक्र',
-            'शनि'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'रवि',
-            'सोम',
-            'मंगल',
-            'बुध',
-            'गुरु',
-            'शुक्र',
-            'शनि'
-          ],
+          WEEKDAYS: const ['रविवार', 'सोमवार', 'मंगलवार', 'बुधवार', 'गुरुवार', 'शुक्रवार', 'शनिवार'],
+          STANDALONEWEEKDAYS: const ['रविवार', 'सोमवार', 'मंगलवार', 'बुधवार', 'गुरुवार', 'शुक्रवार', 'शनिवार'],
+          SHORTWEEKDAYS: const ['रवि', 'सोम', 'मंगल', 'बुध', 'गुरु', 'शुक्र', 'शनि'],
+          STANDALONESHORTWEEKDAYS: const ['रवि', 'सोम', 'मंगल', 'बुध', 'गुरु', 'शुक्र', 'शनि'],
           NARROWWEEKDAYS: const ['र', 'सो', 'मं', 'बु', 'गु', 'शु', 'श'],
-          STANDALONENARROWWEEKDAYS: const [
-            'र',
-            'सो',
-            'मं',
-            'बु',
-            'गु',
-            'शु',
-            'श'
-          ],
+          STANDALONENARROWWEEKDAYS: const ['र', 'सो', 'मं', 'बु', 'गु', 'शु', 'श'],
           SHORTQUARTERS: const ['ति1', 'ति2', 'ति3', 'ति4'],
-          QUARTERS: const [
-            'पहली तिमाही',
-            'दूसरी तिमाही',
-            'तीसरी तिमाही',
-            'चौथी तिमाही'
-          ],
+          QUARTERS: const ['पहली तिमाही', 'दूसरी तिमाही', 'तीसरी तिमाही', 'चौथी तिमाही'],
           AMPMS: const ['am', 'pm'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'd/M/yy'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM y', 'd MMMM y', 'd MMM y', 'd/M/yy'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [6, 6],
           FIRSTWEEKCUTOFFDAY: 5),
@@ -8483,34 +4043,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "hr",
           ERAS: const ['pr. Kr.', 'po. Kr.'],
           ERANAMES: const ['prije Krista', 'poslije Krista'],
-          NARROWMONTHS: const [
-            '1.',
-            '2.',
-            '3.',
-            '4.',
-            '5.',
-            '6.',
-            '7.',
-            '8.',
-            '9.',
-            '10.',
-            '11.',
-            '12.'
-          ],
-          STANDALONENARROWMONTHS: const [
-            '1.',
-            '2.',
-            '3.',
-            '4.',
-            '5.',
-            '6.',
-            '7.',
-            '8.',
-            '9.',
-            '10.',
-            '11.',
-            '12.'
-          ],
+          NARROWMONTHS: const ['1.', '2.', '3.', '4.', '5.', '6.', '7.', '8.', '9.', '10.', '11.', '12.'],
+          STANDALONENARROWMONTHS: const ['1.', '2.', '3.', '4.', '5.', '6.', '7.', '8.', '9.', '10.', '11.', '12.'],
           MONTHS: const [
             'siječnja',
             'veljače',
@@ -8539,20 +4073,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'studeni',
             'prosinac'
           ],
-          SHORTMONTHS: const [
-            'sij',
-            'velj',
-            'ožu',
-            'tra',
-            'svi',
-            'lip',
-            'srp',
-            'kol',
-            'ruj',
-            'lis',
-            'stu',
-            'pro'
-          ],
+          SHORTMONTHS: const ['sij', 'velj', 'ožu', 'tra', 'svi', 'lip', 'srp', 'kol', 'ruj', 'lis', 'stu', 'pro'],
           STANDALONESHORTMONTHS: const [
             'sij',
             'velj',
@@ -8567,64 +4088,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'stu',
             'pro'
           ],
-          WEEKDAYS: const [
-            'nedjelja',
-            'ponedjeljak',
-            'utorak',
-            'srijeda',
-            'četvrtak',
-            'petak',
-            'subota'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'nedjelja',
-            'ponedjeljak',
-            'utorak',
-            'srijeda',
-            'četvrtak',
-            'petak',
-            'subota'
-          ],
-          SHORTWEEKDAYS: const [
-            'ned',
-            'pon',
-            'uto',
-            'sri',
-            'čet',
-            'pet',
-            'sub'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'ned',
-            'pon',
-            'uto',
-            'sri',
-            'čet',
-            'pet',
-            'sub'
-          ],
+          WEEKDAYS: const ['nedjelja', 'ponedjeljak', 'utorak', 'srijeda', 'četvrtak', 'petak', 'subota'],
+          STANDALONEWEEKDAYS: const ['nedjelja', 'ponedjeljak', 'utorak', 'srijeda', 'četvrtak', 'petak', 'subota'],
+          SHORTWEEKDAYS: const ['ned', 'pon', 'uto', 'sri', 'čet', 'pet', 'sub'],
+          STANDALONESHORTWEEKDAYS: const ['ned', 'pon', 'uto', 'sri', 'čet', 'pet', 'sub'],
           NARROWWEEKDAYS: const ['N', 'P', 'U', 'S', 'Č', 'P', 'S'],
           STANDALONENARROWWEEKDAYS: const ['n', 'p', 'u', 's', 'č', 'p', 's'],
           SHORTQUARTERS: const ['1kv', '2kv', '3kv', '4kv'],
-          QUARTERS: const [
-            '1. kvartal',
-            '2. kvartal',
-            '3. kvartal',
-            '4. kvartal'
-          ],
+          QUARTERS: const ['1. kvartal', '2. kvartal', '3. kvartal', '4. kvartal'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, d. MMMM y.',
-            'd. MMMM y.',
-            'd. MMM y.',
-            'dd. MM. y.'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss (zzzz)',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['EEEE, d. MMMM y.', 'd. MMMM y.', 'd. MMM y.', 'dd. MM. y.'],
+          TIMEFORMATS: const ['HH:mm:ss (zzzz)', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -8634,34 +4108,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "hu",
           ERAS: const ['i. e.', 'i. sz.'],
           ERANAMES: const ['Krisztus előtt', 'időszámításunk szerint'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'Á',
-            'M',
-            'J',
-            'J',
-            'A',
-            'Sz',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'Á',
-            'M',
-            'J',
-            'J',
-            'A',
-            'Sz',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'Á', 'M', 'J', 'J', 'A', 'Sz', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'Á', 'M', 'J', 'J', 'A', 'Sz', 'O', 'N', 'D'],
           MONTHS: const [
             'január',
             'február',
@@ -8718,58 +4166,16 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nov.',
             'dec.'
           ],
-          WEEKDAYS: const [
-            'vasárnap',
-            'hétfő',
-            'kedd',
-            'szerda',
-            'csütörtök',
-            'péntek',
-            'szombat'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'vasárnap',
-            'hétfő',
-            'kedd',
-            'szerda',
-            'csütörtök',
-            'péntek',
-            'szombat'
-          ],
+          WEEKDAYS: const ['vasárnap', 'hétfő', 'kedd', 'szerda', 'csütörtök', 'péntek', 'szombat'],
+          STANDALONEWEEKDAYS: const ['vasárnap', 'hétfő', 'kedd', 'szerda', 'csütörtök', 'péntek', 'szombat'],
           SHORTWEEKDAYS: const ['V', 'H', 'K', 'Sze', 'Cs', 'P', 'Szo'],
-          STANDALONESHORTWEEKDAYS: const [
-            'V',
-            'H',
-            'K',
-            'Sze',
-            'Cs',
-            'P',
-            'Szo'
-          ],
+          STANDALONESHORTWEEKDAYS: const ['V', 'H', 'K', 'Sze', 'Cs', 'P', 'Szo'],
           NARROWWEEKDAYS: const ['V', 'H', 'K', 'Sz', 'Cs', 'P', 'Sz'],
-          STANDALONENARROWWEEKDAYS: const [
-            'V',
-            'H',
-            'K',
-            'Sz',
-            'Cs',
-            'P',
-            'Sz'
-          ],
+          STANDALONENARROWWEEKDAYS: const ['V', 'H', 'K', 'Sz', 'Cs', 'P', 'Sz'],
           SHORTQUARTERS: const ['I. n.év', 'II. n.év', 'III. n.év', 'IV. n.év'],
-          QUARTERS: const [
-            'I. negyedév',
-            'II. negyedév',
-            'III. negyedév',
-            'IV. negyedév'
-          ],
+          QUARTERS: const ['I. negyedév', 'II. negyedév', 'III. negyedév', 'IV. negyedév'],
           AMPMS: const ['de.', 'du.'],
-          DATEFORMATS: const [
-            'y. MMMM d., EEEE',
-            'y. MMMM d.',
-            'y. MMM d.',
-            'y. MM. dd.'
-          ],
+          DATEFORMATS: const ['y. MMMM d., EEEE', 'y. MMMM d.', 'y. MMM d.', 'y. MM. dd.'],
           TIMEFORMATS: const ['H:mm:ss zzzz', 'H:mm:ss z', 'H:mm:ss', 'H:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
@@ -8780,34 +4186,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "hy",
           ERAS: const ['մ.թ.ա.', 'մ.թ.'],
           ERANAMES: const ['Քրիստոսից առաջ', 'Քրիստոսից հետո'],
-          NARROWMONTHS: const [
-            'Հ',
-            'Փ',
-            'Մ',
-            'Ա',
-            'Մ',
-            'Հ',
-            'Հ',
-            'Օ',
-            'Ս',
-            'Հ',
-            'Ն',
-            'Դ'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'Հ',
-            'Փ',
-            'Մ',
-            'Ա',
-            'Մ',
-            'Հ',
-            'Հ',
-            'Օ',
-            'Ս',
-            'Հ',
-            'Ն',
-            'Դ'
-          ],
+          NARROWMONTHS: const ['Հ', 'Փ', 'Մ', 'Ա', 'Մ', 'Հ', 'Հ', 'Օ', 'Ս', 'Հ', 'Ն', 'Դ'],
+          STANDALONENARROWMONTHS: const ['Հ', 'Փ', 'Մ', 'Ա', 'Մ', 'Հ', 'Հ', 'Օ', 'Ս', 'Հ', 'Ն', 'Դ'],
           MONTHS: const [
             'հունվարի',
             'փետրվարի',
@@ -8836,20 +4216,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'նոյեմբեր',
             'դեկտեմբեր'
           ],
-          SHORTMONTHS: const [
-            'հնվ',
-            'փտվ',
-            'մրտ',
-            'ապր',
-            'մյս',
-            'հնս',
-            'հլս',
-            'օգս',
-            'սեպ',
-            'հոկ',
-            'նոյ',
-            'դեկ'
-          ],
+          SHORTMONTHS: const ['հնվ', 'փտվ', 'մրտ', 'ապր', 'մյս', 'հնս', 'հլս', 'օգս', 'սեպ', 'հոկ', 'նոյ', 'դեկ'],
           STANDALONESHORTMONTHS: const [
             'հնվ',
             'փտվ',
@@ -8864,75 +4231,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'նոյ',
             'դեկ'
           ],
-          WEEKDAYS: const [
-            'կիրակի',
-            'երկուշաբթի',
-            'երեքշաբթի',
-            'չորեքշաբթի',
-            'հինգշաբթի',
-            'ուրբաթ',
-            'շաբաթ'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'կիրակի',
-            'երկուշաբթի',
-            'երեքշաբթի',
-            'չորեքշաբթի',
-            'հինգշաբթի',
-            'ուրբաթ',
-            'շաբաթ'
-          ],
-          SHORTWEEKDAYS: const [
-            'կիր',
-            'երկ',
-            'երք',
-            'չրք',
-            'հնգ',
-            'ուր',
-            'շբթ'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'կիր',
-            'երկ',
-            'երք',
-            'չրք',
-            'հնգ',
-            'ուր',
-            'շբթ'
-          ],
+          WEEKDAYS: const ['կիրակի', 'երկուշաբթի', 'երեքշաբթի', 'չորեքշաբթի', 'հինգշաբթի', 'ուրբաթ', 'շաբաթ'],
+          STANDALONEWEEKDAYS: const ['կիրակի', 'երկուշաբթի', 'երեքշաբթի', 'չորեքշաբթի', 'հինգշաբթի', 'ուրբաթ', 'շաբաթ'],
+          SHORTWEEKDAYS: const ['կիր', 'երկ', 'երք', 'չրք', 'հնգ', 'ուր', 'շբթ'],
+          STANDALONESHORTWEEKDAYS: const ['կիր', 'երկ', 'երք', 'չրք', 'հնգ', 'ուր', 'շբթ'],
           NARROWWEEKDAYS: const ['Կ', 'Ե', 'Ե', 'Չ', 'Հ', 'Ո', 'Շ'],
           STANDALONENARROWWEEKDAYS: const ['Կ', 'Ե', 'Ե', 'Չ', 'Հ', 'Ո', 'Շ'],
-          SHORTQUARTERS: const [
-            '1-ին եռմս.',
-            '2-րդ եռմս.',
-            '3-րդ եռմս.',
-            '4-րդ եռմս.'
-          ],
-          QUARTERS: const [
-            '1-ին եռամսյակ',
-            '2-րդ եռամսյակ',
-            '3-րդ եռամսյակ',
-            '4-րդ եռամսյակ'
-          ],
+          SHORTQUARTERS: const ['1-ին եռմս.', '2-րդ եռմս.', '3-րդ եռմս.', '4-րդ եռմս.'],
+          QUARTERS: const ['1-ին եռամսյակ', '2-րդ եռամսյակ', '3-րդ եռամսյակ', '4-րդ եռամսյակ'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'y թ. MMMM d, EEEE',
-            'dd MMMM, y թ.',
-            'dd MMM, y թ.',
-            'dd.MM.yy'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['y թ. MMMM d, EEEE', 'dd MMMM, y թ.', 'dd MMM, y թ.', 'dd.MM.yy'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 6),
@@ -8941,34 +4251,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "id",
           ERAS: const ['SM', 'M'],
           ERANAMES: const ['Sebelum Masehi', 'Masehi'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'Januari',
             'Februari',
@@ -8997,20 +4281,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'November',
             'Desember'
           ],
-          SHORTMONTHS: const [
-            'Jan',
-            'Feb',
-            'Mar',
-            'Apr',
-            'Mei',
-            'Jun',
-            'Jul',
-            'Agu',
-            'Sep',
-            'Okt',
-            'Nov',
-            'Des'
-          ],
+          SHORTMONTHS: const ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Agu', 'Sep', 'Okt', 'Nov', 'Des'],
           STANDALONESHORTMONTHS: const [
             'Jan',
             'Feb',
@@ -9025,64 +4296,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nov',
             'Des'
           ],
-          WEEKDAYS: const [
-            'Minggu',
-            'Senin',
-            'Selasa',
-            'Rabu',
-            'Kamis',
-            'Jumat',
-            'Sabtu'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Minggu',
-            'Senin',
-            'Selasa',
-            'Rabu',
-            'Kamis',
-            'Jumat',
-            'Sabtu'
-          ],
-          SHORTWEEKDAYS: const [
-            'Min',
-            'Sen',
-            'Sel',
-            'Rab',
-            'Kam',
-            'Jum',
-            'Sab'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Min',
-            'Sen',
-            'Sel',
-            'Rab',
-            'Kam',
-            'Jum',
-            'Sab'
-          ],
+          WEEKDAYS: const ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'],
+          STANDALONEWEEKDAYS: const ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'],
+          SHORTWEEKDAYS: const ['Min', 'Sen', 'Sel', 'Rab', 'Kam', 'Jum', 'Sab'],
+          STANDALONESHORTWEEKDAYS: const ['Min', 'Sen', 'Sel', 'Rab', 'Kam', 'Jum', 'Sab'],
           NARROWWEEKDAYS: const ['M', 'S', 'S', 'R', 'K', 'J', 'S'],
           STANDALONENARROWWEEKDAYS: const ['M', 'S', 'S', 'R', 'K', 'J', 'S'],
           SHORTQUARTERS: const ['K1', 'K2', 'K3', 'K4'],
-          QUARTERS: const [
-            'Kuartal ke-1',
-            'Kuartal ke-2',
-            'Kuartal ke-3',
-            'Kuartal ke-4'
-          ],
+          QUARTERS: const ['Kuartal ke-1', 'Kuartal ke-2', 'Kuartal ke-3', 'Kuartal ke-4'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, dd MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'dd/MM/yy'
-          ],
-          TIMEFORMATS: const [
-            'HH.mm.ss zzzz',
-            'HH.mm.ss z',
-            'HH.mm.ss',
-            'HH.mm'
-          ],
+          DATEFORMATS: const ['EEEE, dd MMMM y', 'd MMMM y', 'd MMM y', 'dd/MM/yy'],
+          TIMEFORMATS: const ['HH.mm.ss zzzz', 'HH.mm.ss z', 'HH.mm.ss', 'HH.mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
@@ -9092,34 +4316,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "in",
           ERAS: const ['SM', 'M'],
           ERANAMES: const ['Sebelum Masehi', 'Masehi'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'Januari',
             'Februari',
@@ -9148,20 +4346,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'November',
             'Desember'
           ],
-          SHORTMONTHS: const [
-            'Jan',
-            'Feb',
-            'Mar',
-            'Apr',
-            'Mei',
-            'Jun',
-            'Jul',
-            'Agu',
-            'Sep',
-            'Okt',
-            'Nov',
-            'Des'
-          ],
+          SHORTMONTHS: const ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Agu', 'Sep', 'Okt', 'Nov', 'Des'],
           STANDALONESHORTMONTHS: const [
             'Jan',
             'Feb',
@@ -9176,64 +4361,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nov',
             'Des'
           ],
-          WEEKDAYS: const [
-            'Minggu',
-            'Senin',
-            'Selasa',
-            'Rabu',
-            'Kamis',
-            'Jumat',
-            'Sabtu'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Minggu',
-            'Senin',
-            'Selasa',
-            'Rabu',
-            'Kamis',
-            'Jumat',
-            'Sabtu'
-          ],
-          SHORTWEEKDAYS: const [
-            'Min',
-            'Sen',
-            'Sel',
-            'Rab',
-            'Kam',
-            'Jum',
-            'Sab'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Min',
-            'Sen',
-            'Sel',
-            'Rab',
-            'Kam',
-            'Jum',
-            'Sab'
-          ],
+          WEEKDAYS: const ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'],
+          STANDALONEWEEKDAYS: const ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'],
+          SHORTWEEKDAYS: const ['Min', 'Sen', 'Sel', 'Rab', 'Kam', 'Jum', 'Sab'],
+          STANDALONESHORTWEEKDAYS: const ['Min', 'Sen', 'Sel', 'Rab', 'Kam', 'Jum', 'Sab'],
           NARROWWEEKDAYS: const ['M', 'S', 'S', 'R', 'K', 'J', 'S'],
           STANDALONENARROWWEEKDAYS: const ['M', 'S', 'S', 'R', 'K', 'J', 'S'],
           SHORTQUARTERS: const ['K1', 'K2', 'K3', 'K4'],
-          QUARTERS: const [
-            'Kuartal ke-1',
-            'Kuartal ke-2',
-            'Kuartal ke-3',
-            'Kuartal ke-4'
-          ],
+          QUARTERS: const ['Kuartal ke-1', 'Kuartal ke-2', 'Kuartal ke-3', 'Kuartal ke-4'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, dd MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'dd/MM/yy'
-          ],
-          TIMEFORMATS: const [
-            'HH.mm.ss zzzz',
-            'HH.mm.ss z',
-            'HH.mm.ss',
-            'HH.mm'
-          ],
+          DATEFORMATS: const ['EEEE, dd MMMM y', 'd MMMM y', 'd MMM y', 'dd/MM/yy'],
+          TIMEFORMATS: const ['HH.mm.ss zzzz', 'HH.mm.ss z', 'HH.mm.ss', 'HH.mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
@@ -9243,34 +4381,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "is",
           ERAS: const ['f.Kr.', 'e.Kr.'],
           ERANAMES: const ['fyrir Krist', 'eftir Krist'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'Á',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'Á',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'Á', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'Á', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'janúar',
             'febrúar',
@@ -9345,52 +4457,16 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'föstudagur',
             'laugardagur'
           ],
-          SHORTWEEKDAYS: const [
-            'sun.',
-            'mán.',
-            'þri.',
-            'mið.',
-            'fim.',
-            'fös.',
-            'lau.'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'sun.',
-            'mán.',
-            'þri.',
-            'mið.',
-            'fim.',
-            'fös.',
-            'lau.'
-          ],
+          SHORTWEEKDAYS: const ['sun.', 'mán.', 'þri.', 'mið.', 'fim.', 'fös.', 'lau.'],
+          STANDALONESHORTWEEKDAYS: const ['sun.', 'mán.', 'þri.', 'mið.', 'fim.', 'fös.', 'lau.'],
           NARROWWEEKDAYS: const ['S', 'M', 'Þ', 'M', 'F', 'F', 'L'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'Þ', 'M', 'F', 'F', 'L'],
           SHORTQUARTERS: const ['F1', 'F2', 'F3', 'F4'],
-          QUARTERS: const [
-            '1. fjórðungur',
-            '2. fjórðungur',
-            '3. fjórðungur',
-            '4. fjórðungur'
-          ],
+          QUARTERS: const ['1. fjórðungur', '2. fjórðungur', '3. fjórðungur', '4. fjórðungur'],
           AMPMS: const ['f.h.', 'e.h.'],
-          DATEFORMATS: const [
-            'EEEE, d. MMMM y',
-            'd. MMMM y',
-            'd. MMM y',
-            'd.M.y'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, d. MMMM y', 'd. MMMM y', 'd. MMM y', 'd.M.y'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 3),
@@ -9399,34 +4475,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "it",
           ERAS: const ['a.C.', 'd.C.'],
           ERANAMES: const ['avanti Cristo', 'dopo Cristo'],
-          NARROWMONTHS: const [
-            'G',
-            'F',
-            'M',
-            'A',
-            'M',
-            'G',
-            'L',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'G',
-            'F',
-            'M',
-            'A',
-            'M',
-            'G',
-            'L',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['G', 'F', 'M', 'A', 'M', 'G', 'L', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['G', 'F', 'M', 'A', 'M', 'G', 'L', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'gennaio',
             'febbraio',
@@ -9455,20 +4505,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'novembre',
             'dicembre'
           ],
-          SHORTMONTHS: const [
-            'gen',
-            'feb',
-            'mar',
-            'apr',
-            'mag',
-            'giu',
-            'lug',
-            'ago',
-            'set',
-            'ott',
-            'nov',
-            'dic'
-          ],
+          SHORTMONTHS: const ['gen', 'feb', 'mar', 'apr', 'mag', 'giu', 'lug', 'ago', 'set', 'ott', 'nov', 'dic'],
           STANDALONESHORTMONTHS: const [
             'gen',
             'feb',
@@ -9483,64 +4520,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nov',
             'dic'
           ],
-          WEEKDAYS: const [
-            'domenica',
-            'lunedì',
-            'martedì',
-            'mercoledì',
-            'giovedì',
-            'venerdì',
-            'sabato'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'domenica',
-            'lunedì',
-            'martedì',
-            'mercoledì',
-            'giovedì',
-            'venerdì',
-            'sabato'
-          ],
-          SHORTWEEKDAYS: const [
-            'dom',
-            'lun',
-            'mar',
-            'mer',
-            'gio',
-            'ven',
-            'sab'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'dom',
-            'lun',
-            'mar',
-            'mer',
-            'gio',
-            'ven',
-            'sab'
-          ],
+          WEEKDAYS: const ['domenica', 'lunedì', 'martedì', 'mercoledì', 'giovedì', 'venerdì', 'sabato'],
+          STANDALONEWEEKDAYS: const ['domenica', 'lunedì', 'martedì', 'mercoledì', 'giovedì', 'venerdì', 'sabato'],
+          SHORTWEEKDAYS: const ['dom', 'lun', 'mar', 'mer', 'gio', 'ven', 'sab'],
+          STANDALONESHORTWEEKDAYS: const ['dom', 'lun', 'mar', 'mer', 'gio', 'ven', 'sab'],
           NARROWWEEKDAYS: const ['D', 'L', 'M', 'M', 'G', 'V', 'S'],
           STANDALONENARROWWEEKDAYS: const ['D', 'L', 'M', 'M', 'G', 'V', 'S'],
           SHORTQUARTERS: const ['T1', 'T2', 'T3', 'T4'],
-          QUARTERS: const [
-            '1º trimestre',
-            '2º trimestre',
-            '3º trimestre',
-            '4º trimestre'
-          ],
+          QUARTERS: const ['1º trimestre', '2º trimestre', '3º trimestre', '4º trimestre'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE d MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'dd/MM/yy'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['EEEE d MMMM y', 'd MMMM y', 'd MMM y', 'dd/MM/yy'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -9550,34 +4540,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "it_CH",
           ERAS: const ['a.C.', 'd.C.'],
           ERANAMES: const ['avanti Cristo', 'dopo Cristo'],
-          NARROWMONTHS: const [
-            'G',
-            'F',
-            'M',
-            'A',
-            'M',
-            'G',
-            'L',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'G',
-            'F',
-            'M',
-            'A',
-            'M',
-            'G',
-            'L',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['G', 'F', 'M', 'A', 'M', 'G', 'L', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['G', 'F', 'M', 'A', 'M', 'G', 'L', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'gennaio',
             'febbraio',
@@ -9606,20 +4570,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'novembre',
             'dicembre'
           ],
-          SHORTMONTHS: const [
-            'gen',
-            'feb',
-            'mar',
-            'apr',
-            'mag',
-            'giu',
-            'lug',
-            'ago',
-            'set',
-            'ott',
-            'nov',
-            'dic'
-          ],
+          SHORTMONTHS: const ['gen', 'feb', 'mar', 'apr', 'mag', 'giu', 'lug', 'ago', 'set', 'ott', 'nov', 'dic'],
           STANDALONESHORTMONTHS: const [
             'gen',
             'feb',
@@ -9634,64 +4585,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nov',
             'dic'
           ],
-          WEEKDAYS: const [
-            'domenica',
-            'lunedì',
-            'martedì',
-            'mercoledì',
-            'giovedì',
-            'venerdì',
-            'sabato'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'domenica',
-            'lunedì',
-            'martedì',
-            'mercoledì',
-            'giovedì',
-            'venerdì',
-            'sabato'
-          ],
-          SHORTWEEKDAYS: const [
-            'dom',
-            'lun',
-            'mar',
-            'mer',
-            'gio',
-            'ven',
-            'sab'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'dom',
-            'lun',
-            'mar',
-            'mer',
-            'gio',
-            'ven',
-            'sab'
-          ],
+          WEEKDAYS: const ['domenica', 'lunedì', 'martedì', 'mercoledì', 'giovedì', 'venerdì', 'sabato'],
+          STANDALONEWEEKDAYS: const ['domenica', 'lunedì', 'martedì', 'mercoledì', 'giovedì', 'venerdì', 'sabato'],
+          SHORTWEEKDAYS: const ['dom', 'lun', 'mar', 'mer', 'gio', 'ven', 'sab'],
+          STANDALONESHORTWEEKDAYS: const ['dom', 'lun', 'mar', 'mer', 'gio', 'ven', 'sab'],
           NARROWWEEKDAYS: const ['D', 'L', 'M', 'M', 'G', 'V', 'S'],
           STANDALONENARROWWEEKDAYS: const ['D', 'L', 'M', 'M', 'G', 'V', 'S'],
           SHORTQUARTERS: const ['T1', 'T2', 'T3', 'T4'],
-          QUARTERS: const [
-            '1º trimestre',
-            '2º trimestre',
-            '3º trimestre',
-            '4º trimestre'
-          ],
+          QUARTERS: const ['1º trimestre', '2º trimestre', '3º trimestre', '4º trimestre'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'dd.MM.yy'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM y', 'd MMMM y', 'd MMM y', 'dd.MM.yy'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -9701,34 +4605,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "iw",
           ERAS: const ['לפנה״ס', 'לספירה'],
           ERANAMES: const ['לפני הספירה', 'לספירה'],
-          NARROWMONTHS: const [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5',
-            '6',
-            '7',
-            '8',
-            '9',
-            '10',
-            '11',
-            '12'
-          ],
-          STANDALONENARROWMONTHS: const [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5',
-            '6',
-            '7',
-            '8',
-            '9',
-            '10',
-            '11',
-            '12'
-          ],
+          NARROWMONTHS: const ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+          STANDALONENARROWMONTHS: const ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
           MONTHS: const [
             'ינואר',
             'פברואר',
@@ -9785,15 +4663,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'נוב׳',
             'דצמ׳'
           ],
-          WEEKDAYS: const [
-            'יום ראשון',
-            'יום שני',
-            'יום שלישי',
-            'יום רביעי',
-            'יום חמישי',
-            'יום שישי',
-            'יום שבת'
-          ],
+          WEEKDAYS: const ['יום ראשון', 'יום שני', 'יום שלישי', 'יום רביעי', 'יום חמישי', 'יום שישי', 'יום שבת'],
           STANDALONEWEEKDAYS: const [
             'יום ראשון',
             'יום שני',
@@ -9803,50 +4673,16 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'יום שישי',
             'יום שבת'
           ],
-          SHORTWEEKDAYS: const [
-            'יום א׳',
-            'יום ב׳',
-            'יום ג׳',
-            'יום ד׳',
-            'יום ה׳',
-            'יום ו׳',
-            'שבת'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'יום א׳',
-            'יום ב׳',
-            'יום ג׳',
-            'יום ד׳',
-            'יום ה׳',
-            'יום ו׳',
-            'שבת'
-          ],
+          SHORTWEEKDAYS: const ['יום א׳', 'יום ב׳', 'יום ג׳', 'יום ד׳', 'יום ה׳', 'יום ו׳', 'שבת'],
+          STANDALONESHORTWEEKDAYS: const ['יום א׳', 'יום ב׳', 'יום ג׳', 'יום ד׳', 'יום ה׳', 'יום ו׳', 'שבת'],
           NARROWWEEKDAYS: const ['א׳', 'ב׳', 'ג׳', 'ד׳', 'ה׳', 'ו׳', 'ש׳'],
-          STANDALONENARROWWEEKDAYS: const [
-            'א׳',
-            'ב׳',
-            'ג׳',
-            'ד׳',
-            'ה׳',
-            'ו׳',
-            'ש׳'
-          ],
+          STANDALONENARROWWEEKDAYS: const ['א׳', 'ב׳', 'ג׳', 'ד׳', 'ה׳', 'ו׳', 'ש׳'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
           QUARTERS: const ['רבעון 1', 'רבעון 2', 'רבעון 3', 'רבעון 4'],
           AMPMS: const ['לפנה״צ', 'אחה״צ'],
-          DATEFORMATS: const [
-            'EEEE, d בMMMM y',
-            'd בMMMM y',
-            'd בMMM y',
-            'd.M.y'
-          ],
+          DATEFORMATS: const ['EEEE, d בMMMM y', 'd בMMMM y', 'd בMMM y', 'd.M.y'],
           TIMEFORMATS: const ['H:mm:ss zzzz', 'H:mm:ss z', 'H:mm:ss', 'H:mm'],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [4, 5],
           FIRSTWEEKCUTOFFDAY: 5),
@@ -9855,100 +4691,14 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "ja",
           ERAS: const ['紀元前', '西暦'],
           ERANAMES: const ['紀元前', '西暦'],
-          NARROWMONTHS: const [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5',
-            '6',
-            '7',
-            '8',
-            '9',
-            '10',
-            '11',
-            '12'
-          ],
-          STANDALONENARROWMONTHS: const [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5',
-            '6',
-            '7',
-            '8',
-            '9',
-            '10',
-            '11',
-            '12'
-          ],
-          MONTHS: const [
-            '1月',
-            '2月',
-            '3月',
-            '4月',
-            '5月',
-            '6月',
-            '7月',
-            '8月',
-            '9月',
-            '10月',
-            '11月',
-            '12月'
-          ],
-          STANDALONEMONTHS: const [
-            '1月',
-            '2月',
-            '3月',
-            '4月',
-            '5月',
-            '6月',
-            '7月',
-            '8月',
-            '9月',
-            '10月',
-            '11月',
-            '12月'
-          ],
-          SHORTMONTHS: const [
-            '1月',
-            '2月',
-            '3月',
-            '4月',
-            '5月',
-            '6月',
-            '7月',
-            '8月',
-            '9月',
-            '10月',
-            '11月',
-            '12月'
-          ],
-          STANDALONESHORTMONTHS: const [
-            '1月',
-            '2月',
-            '3月',
-            '4月',
-            '5月',
-            '6月',
-            '7月',
-            '8月',
-            '9月',
-            '10月',
-            '11月',
-            '12月'
-          ],
+          NARROWMONTHS: const ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+          STANDALONENARROWMONTHS: const ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+          MONTHS: const ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
+          STANDALONEMONTHS: const ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
+          SHORTMONTHS: const ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
+          STANDALONESHORTMONTHS: const ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
           WEEKDAYS: const ['日曜日', '月曜日', '火曜日', '水曜日', '木曜日', '金曜日', '土曜日'],
-          STANDALONEWEEKDAYS: const [
-            '日曜日',
-            '月曜日',
-            '火曜日',
-            '水曜日',
-            '木曜日',
-            '金曜日',
-            '土曜日'
-          ],
+          STANDALONEWEEKDAYS: const ['日曜日', '月曜日', '火曜日', '水曜日', '木曜日', '金曜日', '土曜日'],
           SHORTWEEKDAYS: const ['日', '月', '火', '水', '木', '金', '土'],
           STANDALONESHORTWEEKDAYS: const ['日', '月', '火', '水', '木', '金', '土'],
           NARROWWEEKDAYS: const ['日', '月', '火', '水', '木', '金', '土'],
@@ -9967,34 +4717,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "ka",
           ERAS: const ['ძვ. წ.', 'ახ. წ.'],
           ERANAMES: const ['ძველი წელთაღრიცხვით', 'ახალი წელთაღრიცხვით'],
-          NARROWMONTHS: const [
-            'ი',
-            'თ',
-            'მ',
-            'ა',
-            'მ',
-            'ი',
-            'ი',
-            'ა',
-            'ს',
-            'ო',
-            'ნ',
-            'დ'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'ი',
-            'თ',
-            'მ',
-            'ა',
-            'მ',
-            'ი',
-            'ი',
-            'ა',
-            'ს',
-            'ო',
-            'ნ',
-            'დ'
-          ],
+          NARROWMONTHS: const ['ი', 'თ', 'მ', 'ა', 'მ', 'ი', 'ი', 'ა', 'ს', 'ო', 'ნ', 'დ'],
+          STANDALONENARROWMONTHS: const ['ი', 'თ', 'მ', 'ა', 'მ', 'ი', 'ი', 'ა', 'ს', 'ო', 'ნ', 'დ'],
           MONTHS: const [
             'იანვარი',
             'თებერვალი',
@@ -10023,20 +4747,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'ნოემბერი',
             'დეკემბერი'
           ],
-          SHORTMONTHS: const [
-            'იან',
-            'თებ',
-            'მარ',
-            'აპრ',
-            'მაი',
-            'ივნ',
-            'ივლ',
-            'აგვ',
-            'სექ',
-            'ოქტ',
-            'ნოე',
-            'დეკ'
-          ],
+          SHORTMONTHS: const ['იან', 'თებ', 'მარ', 'აპრ', 'მაი', 'ივნ', 'ივლ', 'აგვ', 'სექ', 'ოქტ', 'ნოე', 'დეკ'],
           STANDALONESHORTMONTHS: const [
             'იან',
             'თებ',
@@ -10051,70 +4762,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'ნოე',
             'დეკ'
           ],
-          WEEKDAYS: const [
-            'კვირა',
-            'ორშაბათი',
-            'სამშაბათი',
-            'ოთხშაბათი',
-            'ხუთშაბათი',
-            'პარასკევი',
-            'შაბათი'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'კვირა',
-            'ორშაბათი',
-            'სამშაბათი',
-            'ოთხშაბათი',
-            'ხუთშაბათი',
-            'პარასკევი',
-            'შაბათი'
-          ],
-          SHORTWEEKDAYS: const [
-            'კვი',
-            'ორშ',
-            'სამ',
-            'ოთხ',
-            'ხუთ',
-            'პარ',
-            'შაბ'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'კვი',
-            'ორშ',
-            'სამ',
-            'ოთხ',
-            'ხუთ',
-            'პარ',
-            'შაბ'
-          ],
+          WEEKDAYS: const ['კვირა', 'ორშაბათი', 'სამშაბათი', 'ოთხშაბათი', 'ხუთშაბათი', 'პარასკევი', 'შაბათი'],
+          STANDALONEWEEKDAYS: const ['კვირა', 'ორშაბათი', 'სამშაბათი', 'ოთხშაბათი', 'ხუთშაბათი', 'პარასკევი', 'შაბათი'],
+          SHORTWEEKDAYS: const ['კვი', 'ორშ', 'სამ', 'ოთხ', 'ხუთ', 'პარ', 'შაბ'],
+          STANDALONESHORTWEEKDAYS: const ['კვი', 'ორშ', 'სამ', 'ოთხ', 'ხუთ', 'პარ', 'შაბ'],
           NARROWWEEKDAYS: const ['კ', 'ო', 'ს', 'ო', 'ხ', 'პ', 'შ'],
           STANDALONENARROWWEEKDAYS: const ['კ', 'ო', 'ს', 'ო', 'ხ', 'პ', 'შ'],
           SHORTQUARTERS: const ['I კვ.', 'II კვ.', 'III კვ.', 'IV კვ.'],
-          QUARTERS: const [
-            'I კვარტალი',
-            'II კვარტალი',
-            'III კვარტალი',
-            'IV კვარტალი'
-          ],
+          QUARTERS: const ['I კვარტალი', 'II კვარტალი', 'III კვარტალი', 'IV კვარტალი'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, dd MMMM, y',
-            'd MMMM, y',
-            'd MMM. y',
-            'dd.MM.yy'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, dd MMMM, y', 'd MMMM, y', 'd MMM. y', 'dd.MM.yy'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 6),
@@ -10123,34 +4782,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "kk",
           ERAS: const ['б.з.д.', 'б.з.'],
           ERANAMES: const ['Біздің заманымызға дейін', 'біздің заманымыз'],
-          NARROWMONTHS: const [
-            'Қ',
-            'А',
-            'Н',
-            'С',
-            'М',
-            'М',
-            'Ш',
-            'Т',
-            'Қ',
-            'Қ',
-            'Қ',
-            'Ж'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'Қ',
-            'А',
-            'Н',
-            'С',
-            'М',
-            'М',
-            'Ш',
-            'Т',
-            'Қ',
-            'Қ',
-            'Қ',
-            'Ж'
-          ],
+          NARROWMONTHS: const ['Қ', 'А', 'Н', 'С', 'М', 'М', 'Ш', 'Т', 'Қ', 'Қ', 'Қ', 'Ж'],
+          STANDALONENARROWMONTHS: const ['Қ', 'А', 'Н', 'С', 'М', 'М', 'Ш', 'Т', 'Қ', 'Қ', 'Қ', 'Ж'],
           MONTHS: const [
             'қаңтар',
             'ақпан',
@@ -10207,57 +4840,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'қар.',
             'жел.'
           ],
-          WEEKDAYS: const [
-            'жексенбі',
-            'дүйсенбі',
-            'сейсенбі',
-            'сәрсенбі',
-            'бейсенбі',
-            'жұма',
-            'сенбі'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'жексенбі',
-            'дүйсенбі',
-            'сейсенбі',
-            'сәрсенбі',
-            'бейсенбі',
-            'жұма',
-            'сенбі'
-          ],
+          WEEKDAYS: const ['жексенбі', 'дүйсенбі', 'сейсенбі', 'сәрсенбі', 'бейсенбі', 'жұма', 'сенбі'],
+          STANDALONEWEEKDAYS: const ['жексенбі', 'дүйсенбі', 'сейсенбі', 'сәрсенбі', 'бейсенбі', 'жұма', 'сенбі'],
           SHORTWEEKDAYS: const ['жс', 'дс', 'сс', 'ср', 'бс', 'жм', 'сб'],
-          STANDALONESHORTWEEKDAYS: const [
-            'жс',
-            'дс',
-            'сс',
-            'ср',
-            'бс',
-            'жм',
-            'сб'
-          ],
+          STANDALONESHORTWEEKDAYS: const ['жс', 'дс', 'сс', 'ср', 'бс', 'жм', 'сб'],
           NARROWWEEKDAYS: const ['Ж', 'Д', 'С', 'С', 'Б', 'Ж', 'С'],
           STANDALONENARROWWEEKDAYS: const ['Ж', 'Д', 'С', 'С', 'Б', 'Ж', 'С'],
           SHORTQUARTERS: const ['І тқс.', 'ІІ тқс.', 'ІІІ тқс.', 'IV тқс.'],
           QUARTERS: const ['І тоқсан', 'ІІ тоқсан', 'ІІІ тоқсан', 'IV тоқсан'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'y \'ж\'. d MMMM, EEEE',
-            'y \'ж\'. d MMMM',
-            'y \'ж\'. dd MMM',
-            'dd.MM.yy'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['y \'ж\'. d MMMM, EEEE', 'y \'ж\'. d MMMM', 'y \'ж\'. dd MMM', 'dd.MM.yy'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 6),
@@ -10266,34 +4860,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "km",
           ERAS: const ['មុន គ.ស.', 'គ.ស.'],
           ERANAMES: const ['មុន​គ្រិស្តសករាជ', 'គ្រិស្តសករាជ'],
-          NARROWMONTHS: const [
-            'ម',
-            'ក',
-            'ម',
-            'ម',
-            'ឧ',
-            'ម',
-            'ក',
-            'ស',
-            'ក',
-            'ត',
-            'វ',
-            'ធ'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'ម',
-            'ក',
-            'ម',
-            'ម',
-            'ឧ',
-            'ម',
-            'ក',
-            'ស',
-            'ក',
-            'ត',
-            'វ',
-            'ធ'
-          ],
+          NARROWMONTHS: const ['ម', 'ក', 'ម', 'ម', 'ឧ', 'ម', 'ក', 'ស', 'ក', 'ត', 'វ', 'ធ'],
+          STANDALONENARROWMONTHS: const ['ម', 'ក', 'ម', 'ម', 'ឧ', 'ម', 'ក', 'ស', 'ក', 'ត', 'វ', 'ធ'],
           MONTHS: const [
             'មករា',
             'កុម្ភៈ',
@@ -10350,70 +4918,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'វិច្ឆិកា',
             'ធ្នូ'
           ],
-          WEEKDAYS: const [
-            'អាទិត្យ',
-            'ច័ន្ទ',
-            'អង្គារ',
-            'ពុធ',
-            'ព្រហស្បតិ៍',
-            'សុក្រ',
-            'សៅរ៍'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'អាទិត្យ',
-            'ចន្ទ',
-            'អង្គារ',
-            'ពុធ',
-            'ព្រហស្បតិ៍',
-            'សុក្រ',
-            'សៅរ៍'
-          ],
-          SHORTWEEKDAYS: const [
-            'អាទិត្យ',
-            'ចន្ទ',
-            'អង្គារ',
-            'ពុធ',
-            'ព្រហ',
-            'សុក្រ',
-            'សៅរ៍'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'អាទិត្យ',
-            'ចន្ទ',
-            'អង្គារ',
-            'ពុធ',
-            'ព្រហ',
-            'សុក្រ',
-            'សៅរ៍'
-          ],
+          WEEKDAYS: const ['អាទិត្យ', 'ច័ន្ទ', 'អង្គារ', 'ពុធ', 'ព្រហស្បតិ៍', 'សុក្រ', 'សៅរ៍'],
+          STANDALONEWEEKDAYS: const ['អាទិត្យ', 'ចន្ទ', 'អង្គារ', 'ពុធ', 'ព្រហស្បតិ៍', 'សុក្រ', 'សៅរ៍'],
+          SHORTWEEKDAYS: const ['អាទិត្យ', 'ចន្ទ', 'អង្គារ', 'ពុធ', 'ព្រហ', 'សុក្រ', 'សៅរ៍'],
+          STANDALONESHORTWEEKDAYS: const ['អាទិត្យ', 'ចន្ទ', 'អង្គារ', 'ពុធ', 'ព្រហ', 'សុក្រ', 'សៅរ៍'],
           NARROWWEEKDAYS: const ['អ', 'ច', 'អ', 'ព', 'ព', 'ស', 'ស'],
           STANDALONENARROWWEEKDAYS: const ['អ', 'ច', 'អ', 'ព', 'ព', 'ស', 'ស'],
-          SHORTQUARTERS: const [
-            'ត្រីមាសទី 1',
-            'ត្រីមាសទី 2',
-            'ត្រីមាសទី 3',
-            'ត្រីមាសទី 4'
-          ],
-          QUARTERS: const [
-            'ត្រីមាសទី 1',
-            'ត្រីមាសទី 2',
-            'ត្រីមាសទី 3',
-            'ត្រីមាសទី 4'
-          ],
+          SHORTQUARTERS: const ['ត្រីមាសទី 1', 'ត្រីមាសទី 2', 'ត្រីមាសទី 3', 'ត្រីមាសទី 4'],
+          QUARTERS: const ['ត្រីមាសទី 1', 'ត្រីមាសទី 2', 'ត្រីមាសទី 3', 'ត្រីមាសទី 4'],
           AMPMS: const ['AM', 'PM'],
           DATEFORMATS: const ['EEEE d MMMM y', 'd MMMM y', 'd MMM y', 'd/M/yy'],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 5),
@@ -10422,34 +4938,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "kn",
           ERAS: const ['ಕ್ರಿ.ಪೂ', 'ಕ್ರಿ.ಶ'],
           ERANAMES: const ['ಕ್ರಿಸ್ತ ಪೂರ್ವ', 'ಕ್ರಿಸ್ತ ಶಕ'],
-          NARROWMONTHS: const [
-            'ಜ',
-            'ಫೆ',
-            'ಮಾ',
-            'ಏ',
-            'ಮೇ',
-            'ಜೂ',
-            'ಜು',
-            'ಆ',
-            'ಸೆ',
-            'ಅ',
-            'ನ',
-            'ಡಿ'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'ಜ',
-            'ಫೆ',
-            'ಮಾ',
-            'ಏ',
-            'ಮೇ',
-            'ಜೂ',
-            'ಜು',
-            'ಆ',
-            'ಸೆ',
-            'ಅ',
-            'ನ',
-            'ಡಿ'
-          ],
+          NARROWMONTHS: const ['ಜ', 'ಫೆ', 'ಮಾ', 'ಏ', 'ಮೇ', 'ಜೂ', 'ಜು', 'ಆ', 'ಸೆ', 'ಅ', 'ನ', 'ಡಿ'],
+          STANDALONENARROWMONTHS: const ['ಜ', 'ಫೆ', 'ಮಾ', 'ಏ', 'ಮೇ', 'ಜೂ', 'ಜು', 'ಆ', 'ಸೆ', 'ಅ', 'ನ', 'ಡಿ'],
           MONTHS: const [
             'ಜನವರಿ',
             'ಫೆಬ್ರವರಿ',
@@ -10506,72 +4996,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'ನವೆಂ',
             'ಡಿಸೆಂ'
           ],
-          WEEKDAYS: const [
-            'ಭಾನುವಾರ',
-            'ಸೋಮವಾರ',
-            'ಮಂಗಳವಾರ',
-            'ಬುಧವಾರ',
-            'ಗುರುವಾರ',
-            'ಶುಕ್ರವಾರ',
-            'ಶನಿವಾರ'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'ಭಾನುವಾರ',
-            'ಸೋಮವಾರ',
-            'ಮಂಗಳವಾರ',
-            'ಬುಧವಾರ',
-            'ಗುರುವಾರ',
-            'ಶುಕ್ರವಾರ',
-            'ಶನಿವಾರ'
-          ],
-          SHORTWEEKDAYS: const [
-            'ಭಾನು',
-            'ಸೋಮ',
-            'ಮಂಗಳ',
-            'ಬುಧ',
-            'ಗುರು',
-            'ಶುಕ್ರ',
-            'ಶನಿ'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'ಭಾನು',
-            'ಸೋಮ',
-            'ಮಂಗಳ',
-            'ಬುಧ',
-            'ಗುರು',
-            'ಶುಕ್ರ',
-            'ಶನಿ'
-          ],
+          WEEKDAYS: const ['ಭಾನುವಾರ', 'ಸೋಮವಾರ', 'ಮಂಗಳವಾರ', 'ಬುಧವಾರ', 'ಗುರುವಾರ', 'ಶುಕ್ರವಾರ', 'ಶನಿವಾರ'],
+          STANDALONEWEEKDAYS: const ['ಭಾನುವಾರ', 'ಸೋಮವಾರ', 'ಮಂಗಳವಾರ', 'ಬುಧವಾರ', 'ಗುರುವಾರ', 'ಶುಕ್ರವಾರ', 'ಶನಿವಾರ'],
+          SHORTWEEKDAYS: const ['ಭಾನು', 'ಸೋಮ', 'ಮಂಗಳ', 'ಬುಧ', 'ಗುರು', 'ಶುಕ್ರ', 'ಶನಿ'],
+          STANDALONESHORTWEEKDAYS: const ['ಭಾನು', 'ಸೋಮ', 'ಮಂಗಳ', 'ಬುಧ', 'ಗುರು', 'ಶುಕ್ರ', 'ಶನಿ'],
           NARROWWEEKDAYS: const ['ಭಾ', 'ಸೋ', 'ಮಂ', 'ಬು', 'ಗು', 'ಶು', 'ಶ'],
-          STANDALONENARROWWEEKDAYS: const [
-            'ಭಾ',
-            'ಸೋ',
-            'ಮಂ',
-            'ಬು',
-            'ಗು',
-            'ಶು',
-            'ಶ'
-          ],
+          STANDALONENARROWWEEKDAYS: const ['ಭಾ', 'ಸೋ', 'ಮಂ', 'ಬು', 'ಗು', 'ಶು', 'ಶ'],
           SHORTQUARTERS: const ['ತ್ರೈ 1', 'ತ್ರೈ 2', 'ತ್ರೈ 3', 'ತ್ರೈ 4'],
-          QUARTERS: const [
-            '1ನೇ ತ್ರೈಮಾಸಿಕ',
-            '2ನೇ ತ್ರೈಮಾಸಿಕ',
-            '3ನೇ ತ್ರೈಮಾಸಿಕ',
-            '4ನೇ ತ್ರೈಮಾಸಿಕ'
-          ],
+          QUARTERS: const ['1ನೇ ತ್ರೈಮಾಸಿಕ', '2ನೇ ತ್ರೈಮಾಸಿಕ', '3ನೇ ತ್ರೈಮಾಸಿಕ', '4ನೇ ತ್ರೈಮಾಸಿಕ'],
           AMPMS: const ['ಪೂರ್ವಾಹ್ನ', 'ಅಪರಾಹ್ನ'],
-          DATEFORMATS: const [
-            'EEEE, MMMM d, y',
-            'MMMM d, y',
-            'MMM d, y',
-            'd/M/yy'
-          ],
-          TIMEFORMATS: const [
-            'hh:mm:ss a zzzz',
-            'hh:mm:ss a z',
-            'hh:mm:ss a',
-            'hh:mm a'
-          ],
+          DATEFORMATS: const ['EEEE, MMMM d, y', 'MMMM d, y', 'MMM d, y', 'd/M/yy'],
+          TIMEFORMATS: const ['hh:mm:ss a zzzz', 'hh:mm:ss a z', 'hh:mm:ss a', 'hh:mm a'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [6, 6],
@@ -10581,100 +5016,14 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "ko",
           ERAS: const ['BC', 'AD'],
           ERANAMES: const ['기원전', '서기'],
-          NARROWMONTHS: const [
-            '1월',
-            '2월',
-            '3월',
-            '4월',
-            '5월',
-            '6월',
-            '7월',
-            '8월',
-            '9월',
-            '10월',
-            '11월',
-            '12월'
-          ],
-          STANDALONENARROWMONTHS: const [
-            '1월',
-            '2월',
-            '3월',
-            '4월',
-            '5월',
-            '6월',
-            '7월',
-            '8월',
-            '9월',
-            '10월',
-            '11월',
-            '12월'
-          ],
-          MONTHS: const [
-            '1월',
-            '2월',
-            '3월',
-            '4월',
-            '5월',
-            '6월',
-            '7월',
-            '8월',
-            '9월',
-            '10월',
-            '11월',
-            '12월'
-          ],
-          STANDALONEMONTHS: const [
-            '1월',
-            '2월',
-            '3월',
-            '4월',
-            '5월',
-            '6월',
-            '7월',
-            '8월',
-            '9월',
-            '10월',
-            '11월',
-            '12월'
-          ],
-          SHORTMONTHS: const [
-            '1월',
-            '2월',
-            '3월',
-            '4월',
-            '5월',
-            '6월',
-            '7월',
-            '8월',
-            '9월',
-            '10월',
-            '11월',
-            '12월'
-          ],
-          STANDALONESHORTMONTHS: const [
-            '1월',
-            '2월',
-            '3월',
-            '4월',
-            '5월',
-            '6월',
-            '7월',
-            '8월',
-            '9월',
-            '10월',
-            '11월',
-            '12월'
-          ],
+          NARROWMONTHS: const ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+          STANDALONENARROWMONTHS: const ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+          MONTHS: const ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+          STANDALONEMONTHS: const ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+          SHORTMONTHS: const ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+          STANDALONESHORTMONTHS: const ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
           WEEKDAYS: const ['일요일', '월요일', '화요일', '수요일', '목요일', '금요일', '토요일'],
-          STANDALONEWEEKDAYS: const [
-            '일요일',
-            '월요일',
-            '화요일',
-            '수요일',
-            '목요일',
-            '금요일',
-            '토요일'
-          ],
+          STANDALONEWEEKDAYS: const ['일요일', '월요일', '화요일', '수요일', '목요일', '금요일', '토요일'],
           SHORTWEEKDAYS: const ['일', '월', '화', '수', '목', '금', '토'],
           STANDALONESHORTWEEKDAYS: const ['일', '월', '화', '수', '목', '금', '토'],
           NARROWWEEKDAYS: const ['일', '월', '화', '수', '목', '금', '토'],
@@ -10682,18 +5031,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           SHORTQUARTERS: const ['1분기', '2분기', '3분기', '4분기'],
           QUARTERS: const ['제 1/4분기', '제 2/4분기', '제 3/4분기', '제 4/4분기'],
           AMPMS: const ['오전', '오후'],
-          DATEFORMATS: const [
-            'y년 M월 d일 EEEE',
-            'y년 M월 d일',
-            'y. M. d.',
-            'yy. M. d.'
-          ],
-          TIMEFORMATS: const [
-            'a h시 m분 s초 zzzz',
-            'a h시 m분 s초 z',
-            'a h:mm:ss',
-            'a h:mm'
-          ],
+          DATEFORMATS: const ['y년 M월 d일 EEEE', 'y년 M월 d일', 'y. M. d.', 'yy. M. d.'],
+          TIMEFORMATS: const ['a h시 m분 s초 zzzz', 'a h시 m분 s초 z', 'a h:mm:ss', 'a h:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
@@ -10703,34 +5042,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "ky",
           ERAS: const ['б.з.ч.', 'б.з.'],
           ERANAMES: const ['биздин заманга чейин', 'биздин заман'],
-          NARROWMONTHS: const [
-            'Я',
-            'Ф',
-            'М',
-            'А',
-            'М',
-            'И',
-            'И',
-            'А',
-            'С',
-            'О',
-            'Н',
-            'Д'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'Я',
-            'Ф',
-            'М',
-            'А',
-            'М',
-            'И',
-            'И',
-            'А',
-            'С',
-            'О',
-            'Н',
-            'Д'
-          ],
+          NARROWMONTHS: const ['Я', 'Ф', 'М', 'А', 'М', 'И', 'И', 'А', 'С', 'О', 'Н', 'Д'],
+          STANDALONENARROWMONTHS: const ['Я', 'Ф', 'М', 'А', 'М', 'И', 'И', 'А', 'С', 'О', 'Н', 'Д'],
           MONTHS: const [
             'январь',
             'февраль',
@@ -10787,59 +5100,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Ноя',
             'Дек'
           ],
-          WEEKDAYS: const [
-            'жекшемби',
-            'дүйшөмбү',
-            'шейшемби',
-            'шаршемби',
-            'бейшемби',
-            'жума',
-            'ишемби'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'жекшемби',
-            'дүйшөмбү',
-            'шейшемби',
-            'шаршемби',
-            'бейшемби',
-            'жума',
-            'ишемби'
-          ],
-          SHORTWEEKDAYS: const [
-            'жек.',
-            'дүй.',
-            'шейш.',
-            'шарш.',
-            'бейш.',
-            'жума',
-            'ишм.'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'жек.',
-            'дүй.',
-            'шейш.',
-            'шарш.',
-            'бейш.',
-            'жума',
-            'ишм.'
-          ],
+          WEEKDAYS: const ['жекшемби', 'дүйшөмбү', 'шейшемби', 'шаршемби', 'бейшемби', 'жума', 'ишемби'],
+          STANDALONEWEEKDAYS: const ['жекшемби', 'дүйшөмбү', 'шейшемби', 'шаршемби', 'бейшемби', 'жума', 'ишемби'],
+          SHORTWEEKDAYS: const ['жек.', 'дүй.', 'шейш.', 'шарш.', 'бейш.', 'жума', 'ишм.'],
+          STANDALONESHORTWEEKDAYS: const ['жек.', 'дүй.', 'шейш.', 'шарш.', 'бейш.', 'жума', 'ишм.'],
           NARROWWEEKDAYS: const ['Ж', 'Д', 'Ш', 'Ш', 'Б', 'Ж', 'И'],
           STANDALONENARROWWEEKDAYS: const ['Ж', 'Д', 'Ш', 'Ш', 'Б', 'Ж', 'И'],
           SHORTQUARTERS: const ['1-чей.', '2-чей.', '3-чей.', '4-чей.'],
           QUARTERS: const ['1-чейрек', '2-чейрек', '3-чейрек', '4-чейрек'],
           AMPMS: const ['таңкы', 'түштөн кийинки'],
-          DATEFORMATS: const [
-            'y-\'ж\'., d-MMMM, EEEE',
-            'y-\'ж\'., d-MMMM',
-            'y-\'ж\'., d-MMM',
-            'd/M/yy'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['y-\'ж\'., d-MMMM, EEEE', 'y-\'ж\'., d-MMMM', 'y-\'ж\'., d-MMM', 'd/M/yy'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -10849,34 +5120,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "ln",
           ERAS: const ['libóso ya', 'nsima ya Y'],
           ERANAMES: const ['Yambo ya Yézu Krís', 'Nsima ya Yézu Krís'],
-          NARROWMONTHS: const [
-            'y',
-            'f',
-            'm',
-            'a',
-            'm',
-            'y',
-            'y',
-            'a',
-            's',
-            'ɔ',
-            'n',
-            'd'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'y',
-            'f',
-            'm',
-            'a',
-            'm',
-            'y',
-            'y',
-            'a',
-            's',
-            'ɔ',
-            'n',
-            'd'
-          ],
+          NARROWMONTHS: const ['y', 'f', 'm', 'a', 'm', 'y', 'y', 'a', 's', 'ɔ', 'n', 'd'],
+          STANDALONENARROWMONTHS: const ['y', 'f', 'm', 'a', 'm', 'y', 'y', 'a', 's', 'ɔ', 'n', 'd'],
           MONTHS: const [
             'sánzá ya yambo',
             'sánzá ya míbalé',
@@ -10905,20 +5150,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'sánzá ya zómi na mɔ̌kɔ́',
             'sánzá ya zómi na míbalé'
           ],
-          SHORTMONTHS: const [
-            'yan',
-            'fbl',
-            'msi',
-            'apl',
-            'mai',
-            'yun',
-            'yul',
-            'agt',
-            'stb',
-            'ɔtb',
-            'nvb',
-            'dsb'
-          ],
+          SHORTMONTHS: const ['yan', 'fbl', 'msi', 'apl', 'mai', 'yun', 'yul', 'agt', 'stb', 'ɔtb', 'nvb', 'dsb'],
           STANDALONESHORTMONTHS: const [
             'yan',
             'fbl',
@@ -10951,24 +5183,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'mokɔlɔ ya mítáno',
             'mpɔ́sɔ'
           ],
-          SHORTWEEKDAYS: const [
-            'eye',
-            'ybo',
-            'mbl',
-            'mst',
-            'min',
-            'mtn',
-            'mps'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'eye',
-            'ybo',
-            'mbl',
-            'mst',
-            'min',
-            'mtn',
-            'mps'
-          ],
+          SHORTWEEKDAYS: const ['eye', 'ybo', 'mbl', 'mst', 'min', 'mtn', 'mps'],
+          STANDALONESHORTWEEKDAYS: const ['eye', 'ybo', 'mbl', 'mst', 'min', 'mtn', 'mps'],
           NARROWWEEKDAYS: const ['e', 'y', 'm', 'm', 'm', 'm', 'p'],
           STANDALONENARROWWEEKDAYS: const ['e', 'y', 'm', 'm', 'm', 'm', 'p'],
           SHORTQUARTERS: const ['SM1', 'SM2', 'SM3', 'SM4'],
@@ -10980,12 +5196,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           ],
           AMPMS: const ['ntɔ́ngɔ́', 'mpókwa'],
           DATEFORMATS: const ['EEEE d MMMM y', 'd MMMM y', 'd MMM y', 'd/M/y'],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -10995,34 +5206,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "lo",
           ERAS: const ['ກ່ອນ ຄ.ສ.', 'ຄ.ສ.'],
           ERANAMES: const ['ກ່ອນຄຣິດສັກກະລາດ', 'ຄຣິດສັກກະລາດ'],
-          NARROWMONTHS: const [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5',
-            '6',
-            '7',
-            '8',
-            '9',
-            '10',
-            '11',
-            '12'
-          ],
-          STANDALONENARROWMONTHS: const [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5',
-            '6',
-            '7',
-            '8',
-            '9',
-            '10',
-            '11',
-            '12'
-          ],
+          NARROWMONTHS: const ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+          STANDALONENARROWMONTHS: const ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
           MONTHS: const [
             'ມັງກອນ',
             'ກຸມພາ',
@@ -11079,73 +5264,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'ພ.ຈ.',
             'ທ.ວ.'
           ],
-          WEEKDAYS: const [
-            'ວັນອາທິດ',
-            'ວັນຈັນ',
-            'ວັນອັງຄານ',
-            'ວັນພຸດ',
-            'ວັນພະຫັດ',
-            'ວັນສຸກ',
-            'ວັນເສົາ'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'ວັນອາທິດ',
-            'ວັນຈັນ',
-            'ວັນອັງຄານ',
-            'ວັນພຸດ',
-            'ວັນພະຫັດ',
-            'ວັນສຸກ',
-            'ວັນເສົາ'
-          ],
-          SHORTWEEKDAYS: const [
-            'ອາທິດ',
-            'ຈັນ',
-            'ອັງຄານ',
-            'ພຸດ',
-            'ພະຫັດ',
-            'ສຸກ',
-            'ເສົາ'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'ອາທິດ',
-            'ຈັນ',
-            'ອັງຄານ',
-            'ພຸດ',
-            'ພະຫັດ',
-            'ສຸກ',
-            'ເສົາ'
-          ],
+          WEEKDAYS: const ['ວັນອາທິດ', 'ວັນຈັນ', 'ວັນອັງຄານ', 'ວັນພຸດ', 'ວັນພະຫັດ', 'ວັນສຸກ', 'ວັນເສົາ'],
+          STANDALONEWEEKDAYS: const ['ວັນອາທິດ', 'ວັນຈັນ', 'ວັນອັງຄານ', 'ວັນພຸດ', 'ວັນພະຫັດ', 'ວັນສຸກ', 'ວັນເສົາ'],
+          SHORTWEEKDAYS: const ['ອາທິດ', 'ຈັນ', 'ອັງຄານ', 'ພຸດ', 'ພະຫັດ', 'ສຸກ', 'ເສົາ'],
+          STANDALONESHORTWEEKDAYS: const ['ອາທິດ', 'ຈັນ', 'ອັງຄານ', 'ພຸດ', 'ພະຫັດ', 'ສຸກ', 'ເສົາ'],
           NARROWWEEKDAYS: const ['ອາ', 'ຈ', 'ອ', 'ພ', 'ພຫ', 'ສຸ', 'ສ'],
-          STANDALONENARROWWEEKDAYS: const [
-            'ອາ',
-            'ຈ',
-            'ອ',
-            'ພ',
-            'ພຫ',
-            'ສຸ',
-            'ສ'
-          ],
+          STANDALONENARROWWEEKDAYS: const ['ອາ', 'ຈ', 'ອ', 'ພ', 'ພຫ', 'ສຸ', 'ສ'],
           SHORTQUARTERS: const ['ຕມ1', 'ຕມ2', 'ຕມ3', 'ຕມ4'],
           QUARTERS: const ['ໄຕຣມາດ 1', 'ໄຕຣມາດ 2', 'ໄຕຣມາດ 3', 'ໄຕຣມາດ 4'],
           AMPMS: const ['ກ່ອນທ່ຽງ', 'ຫຼັງທ່ຽງ'],
-          DATEFORMATS: const [
-            'EEEE ທີ d MMMM G y',
-            'd MMMM y',
-            'd MMM y',
-            'd/M/y'
-          ],
-          TIMEFORMATS: const [
-            'H ໂມງ m ນາທີ ss ວິນາທີ zzzz',
-            'H ໂມງ m ນາທີ ss ວິນາທີ z',
-            'H:mm:ss',
-            'H:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE ທີ d MMMM G y', 'd MMMM y', 'd MMM y', 'd/M/y'],
+          TIMEFORMATS: const ['H ໂມງ m ນາທີ ss ວິນາທີ zzzz', 'H ໂມງ m ນາທີ ss ວິນາທີ z', 'H:mm:ss', 'H:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 5),
@@ -11154,34 +5284,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "lt",
           ERAS: const ['pr. Kr.', 'po Kr.'],
           ERANAMES: const ['prieš Kristų', 'po Kristaus'],
-          NARROWMONTHS: const [
-            'S',
-            'V',
-            'K',
-            'B',
-            'G',
-            'B',
-            'L',
-            'R',
-            'R',
-            'S',
-            'L',
-            'G'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'S',
-            'V',
-            'K',
-            'B',
-            'G',
-            'B',
-            'L',
-            'R',
-            'R',
-            'S',
-            'L',
-            'G'
-          ],
+          NARROWMONTHS: const ['S', 'V', 'K', 'B', 'G', 'B', 'L', 'R', 'R', 'S', 'L', 'G'],
+          STANDALONENARROWMONTHS: const ['S', 'V', 'K', 'B', 'G', 'B', 'L', 'R', 'R', 'S', 'L', 'G'],
           MONTHS: const [
             'sausio',
             'vasario',
@@ -11257,37 +5361,14 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'šeštadienis'
           ],
           SHORTWEEKDAYS: const ['sk', 'pr', 'an', 'tr', 'kt', 'pn', 'št'],
-          STANDALONESHORTWEEKDAYS: const [
-            'sk',
-            'pr',
-            'an',
-            'tr',
-            'kt',
-            'pn',
-            'št'
-          ],
+          STANDALONESHORTWEEKDAYS: const ['sk', 'pr', 'an', 'tr', 'kt', 'pn', 'št'],
           NARROWWEEKDAYS: const ['S', 'P', 'A', 'T', 'K', 'P', 'Š'],
           STANDALONENARROWWEEKDAYS: const ['S', 'P', 'A', 'T', 'K', 'P', 'Š'],
           SHORTQUARTERS: const ['I k.', 'II k.', 'III k.', 'IV k.'],
-          QUARTERS: const [
-            'I ketvirtis',
-            'II ketvirtis',
-            'III ketvirtis',
-            'IV ketvirtis'
-          ],
+          QUARTERS: const ['I ketvirtis', 'II ketvirtis', 'III ketvirtis', 'IV ketvirtis'],
           AMPMS: const ['priešpiet', 'popiet'],
-          DATEFORMATS: const [
-            'y \'m\'. MMMM d \'d\'., EEEE',
-            'y \'m\'. MMMM d \'d\'.',
-            'y-MM-dd',
-            'y-MM-dd'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['y \'m\'. MMMM d \'d\'., EEEE', 'y \'m\'. MMMM d \'d\'.', 'y-MM-dd', 'y-MM-dd'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -11297,34 +5378,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "lv",
           ERAS: const ['p.m.ē.', 'm.ē.'],
           ERANAMES: const ['pirms mūsu ēras', 'mūsu ērā'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'janvāris',
             'februāris',
@@ -11381,15 +5436,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nov.',
             'dec.'
           ],
-          WEEKDAYS: const [
-            'svētdiena',
-            'pirmdiena',
-            'otrdiena',
-            'trešdiena',
-            'ceturtdiena',
-            'piektdiena',
-            'sestdiena'
-          ],
+          WEEKDAYS: const ['svētdiena', 'pirmdiena', 'otrdiena', 'trešdiena', 'ceturtdiena', 'piektdiena', 'sestdiena'],
           STANDALONEWEEKDAYS: const [
             'Svētdiena',
             'Pirmdiena',
@@ -11399,46 +5446,15 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Piektdiena',
             'Sestdiena'
           ],
-          SHORTWEEKDAYS: const [
-            'svētd.',
-            'pirmd.',
-            'otrd.',
-            'trešd.',
-            'ceturtd.',
-            'piektd.',
-            'sestd.'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Svētd.',
-            'Pirmd.',
-            'Otrd.',
-            'Trešd.',
-            'Ceturtd.',
-            'Piektd.',
-            'Sestd.'
-          ],
+          SHORTWEEKDAYS: const ['svētd.', 'pirmd.', 'otrd.', 'trešd.', 'ceturtd.', 'piektd.', 'sestd.'],
+          STANDALONESHORTWEEKDAYS: const ['Svētd.', 'Pirmd.', 'Otrd.', 'Trešd.', 'Ceturtd.', 'Piektd.', 'Sestd.'],
           NARROWWEEKDAYS: const ['S', 'P', 'O', 'T', 'C', 'P', 'S'],
           STANDALONENARROWWEEKDAYS: const ['S', 'P', 'O', 'T', 'C', 'P', 'S'],
           SHORTQUARTERS: const ['1. cet.', '2. cet.', '3. cet.', '4. cet.'],
-          QUARTERS: const [
-            '1. ceturksnis',
-            '2. ceturksnis',
-            '3. ceturksnis',
-            '4. ceturksnis'
-          ],
+          QUARTERS: const ['1. ceturksnis', '2. ceturksnis', '3. ceturksnis', '4. ceturksnis'],
           AMPMS: const ['priekšpusdienā', 'pēcpusdienā'],
-          DATEFORMATS: const [
-            'EEEE, y. \'gada\' d. MMMM',
-            'y. \'gada\' d. MMMM',
-            'y. \'gada\' d. MMM',
-            'dd.MM.yy'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['EEEE, y. \'gada\' d. MMMM', 'y. \'gada\' d. MMMM', 'y. \'gada\' d. MMM', 'dd.MM.yy'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -11448,34 +5464,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "mg",
           ERAS: const ['BC', 'AD'],
           ERANAMES: const ['Alohan’i JK', 'Aorian’i JK'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'Janoary',
             'Febroary',
@@ -11504,20 +5494,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Novambra',
             'Desambra'
           ],
-          SHORTMONTHS: const [
-            'Jan',
-            'Feb',
-            'Mar',
-            'Apr',
-            'Mey',
-            'Jon',
-            'Jol',
-            'Aog',
-            'Sep',
-            'Okt',
-            'Nov',
-            'Des'
-          ],
+          SHORTMONTHS: const ['Jan', 'Feb', 'Mar', 'Apr', 'Mey', 'Jon', 'Jol', 'Aog', 'Sep', 'Okt', 'Nov', 'Des'],
           STANDALONESHORTMONTHS: const [
             'Jan',
             'Feb',
@@ -11532,64 +5509,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nov',
             'Des'
           ],
-          WEEKDAYS: const [
-            'Alahady',
-            'Alatsinainy',
-            'Talata',
-            'Alarobia',
-            'Alakamisy',
-            'Zoma',
-            'Asabotsy'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Alahady',
-            'Alatsinainy',
-            'Talata',
-            'Alarobia',
-            'Alakamisy',
-            'Zoma',
-            'Asabotsy'
-          ],
-          SHORTWEEKDAYS: const [
-            'Alah',
-            'Alats',
-            'Tal',
-            'Alar',
-            'Alak',
-            'Zom',
-            'Asab'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Alah',
-            'Alats',
-            'Tal',
-            'Alar',
-            'Alak',
-            'Zom',
-            'Asab'
-          ],
+          WEEKDAYS: const ['Alahady', 'Alatsinainy', 'Talata', 'Alarobia', 'Alakamisy', 'Zoma', 'Asabotsy'],
+          STANDALONEWEEKDAYS: const ['Alahady', 'Alatsinainy', 'Talata', 'Alarobia', 'Alakamisy', 'Zoma', 'Asabotsy'],
+          SHORTWEEKDAYS: const ['Alah', 'Alats', 'Tal', 'Alar', 'Alak', 'Zom', 'Asab'],
+          STANDALONESHORTWEEKDAYS: const ['Alah', 'Alats', 'Tal', 'Alar', 'Alak', 'Zom', 'Asab'],
           NARROWWEEKDAYS: const ['A', 'A', 'T', 'A', 'A', 'Z', 'A'],
           STANDALONENARROWWEEKDAYS: const ['A', 'A', 'T', 'A', 'A', 'Z', 'A'],
           SHORTQUARTERS: const ['T1', 'T2', 'T3', 'T4'],
-          QUARTERS: const [
-            'Telovolana voalohany',
-            'Telovolana faharoa',
-            'Telovolana fahatelo',
-            'Telovolana fahefatra'
-          ],
+          QUARTERS: const ['Telovolana voalohany', 'Telovolana faharoa', 'Telovolana fahatelo', 'Telovolana fahefatra'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE d MMMM y',
-            'd MMMM y',
-            'y MMM d',
-            'y-MM-dd'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['EEEE d MMMM y', 'd MMMM y', 'y MMM d', 'y-MM-dd'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -11599,34 +5529,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "mk",
           ERAS: const ['п.н.е.', 'н.е.'],
           ERANAMES: const ['пред нашата ера', 'од нашата ера'],
-          NARROWMONTHS: const [
-            'ј',
-            'ф',
-            'м',
-            'а',
-            'м',
-            'ј',
-            'ј',
-            'а',
-            'с',
-            'о',
-            'н',
-            'д'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'ј',
-            'ф',
-            'м',
-            'а',
-            'м',
-            'ј',
-            'ј',
-            'а',
-            'с',
-            'о',
-            'н',
-            'д'
-          ],
+          NARROWMONTHS: const ['ј', 'ф', 'м', 'а', 'м', 'ј', 'ј', 'а', 'с', 'о', 'н', 'д'],
+          STANDALONENARROWMONTHS: const ['ј', 'ф', 'м', 'а', 'м', 'ј', 'ј', 'а', 'с', 'о', 'н', 'д'],
           MONTHS: const [
             'јануари',
             'февруари',
@@ -11683,70 +5587,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'ноем.',
             'дек.'
           ],
-          WEEKDAYS: const [
-            'недела',
-            'понеделник',
-            'вторник',
-            'среда',
-            'четврток',
-            'петок',
-            'сабота'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'недела',
-            'понеделник',
-            'вторник',
-            'среда',
-            'четврток',
-            'петок',
-            'сабота'
-          ],
-          SHORTWEEKDAYS: const [
-            'нед.',
-            'пон.',
-            'вто.',
-            'сре.',
-            'чет.',
-            'пет.',
-            'саб.'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'нед.',
-            'пон.',
-            'вто.',
-            'сре.',
-            'чет.',
-            'пет.',
-            'саб.'
-          ],
+          WEEKDAYS: const ['недела', 'понеделник', 'вторник', 'среда', 'четврток', 'петок', 'сабота'],
+          STANDALONEWEEKDAYS: const ['недела', 'понеделник', 'вторник', 'среда', 'четврток', 'петок', 'сабота'],
+          SHORTWEEKDAYS: const ['нед.', 'пон.', 'вто.', 'сре.', 'чет.', 'пет.', 'саб.'],
+          STANDALONESHORTWEEKDAYS: const ['нед.', 'пон.', 'вто.', 'сре.', 'чет.', 'пет.', 'саб.'],
           NARROWWEEKDAYS: const ['н', 'п', 'в', 'с', 'ч', 'п', 'с'],
           STANDALONENARROWWEEKDAYS: const ['н', 'п', 'в', 'с', 'ч', 'п', 'с'],
-          SHORTQUARTERS: const [
-            'јан – мар',
-            'апр – јун',
-            'јул – септ',
-            'окт – дек'
-          ],
-          QUARTERS: const [
-            'прво тримесечје',
-            'второ тримесечје',
-            'трето тримесечје',
-            'четврто тримесечје'
-          ],
+          SHORTQUARTERS: const ['јан – мар', 'апр – јун', 'јул – септ', 'окт – дек'],
+          QUARTERS: const ['прво тримесечје', 'второ тримесечје', 'трето тримесечје', 'четврто тримесечје'],
           AMPMS: const ['претпл.', 'попл.'],
           DATEFORMATS: const ['EEEE, d MMMM y', 'd MMMM y', 'd.M.y', 'd.M.yy'],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 6),
@@ -11755,34 +5607,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "ml",
           ERAS: const ['ക്രി.മു.', 'എഡി'],
           ERANAMES: const ['ക്രിസ്‌തുവിന് മുമ്പ്', 'ആന്നോ ഡൊമിനി'],
-          NARROWMONTHS: const [
-            'ജ',
-            'ഫെ',
-            'മാ',
-            'ഏ',
-            'മെ',
-            'ജൂൺ',
-            'ജൂ',
-            'ഓ',
-            'സെ',
-            'ഒ',
-            'ന',
-            'ഡി'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'ജ',
-            'ഫെ',
-            'മാ',
-            'ഏ',
-            'മെ',
-            'ജൂൺ',
-            'ജൂ',
-            'ഓ',
-            'സെ',
-            'ഒ',
-            'ന',
-            'ഡി'
-          ],
+          NARROWMONTHS: const ['ജ', 'ഫെ', 'മാ', 'ഏ', 'മെ', 'ജൂൺ', 'ജൂ', 'ഓ', 'സെ', 'ഒ', 'ന', 'ഡി'],
+          STANDALONENARROWMONTHS: const ['ജ', 'ഫെ', 'മാ', 'ഏ', 'മെ', 'ജൂൺ', 'ജൂ', 'ഓ', 'സെ', 'ഒ', 'ന', 'ഡി'],
           MONTHS: const [
             'ജനുവരി',
             'ഫെബ്രുവരി',
@@ -11857,59 +5683,15 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'വെള്ളിയാഴ്‌ച',
             'ശനിയാഴ്‌ച'
           ],
-          SHORTWEEKDAYS: const [
-            'ഞായർ',
-            'തിങ്കൾ',
-            'ചൊവ്വ',
-            'ബുധൻ',
-            'വ്യാഴം',
-            'വെള്ളി',
-            'ശനി'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'ഞായർ',
-            'തിങ്കൾ',
-            'ചൊവ്വ',
-            'ബുധൻ',
-            'വ്യാഴം',
-            'വെള്ളി',
-            'ശനി'
-          ],
+          SHORTWEEKDAYS: const ['ഞായർ', 'തിങ്കൾ', 'ചൊവ്വ', 'ബുധൻ', 'വ്യാഴം', 'വെള്ളി', 'ശനി'],
+          STANDALONESHORTWEEKDAYS: const ['ഞായർ', 'തിങ്കൾ', 'ചൊവ്വ', 'ബുധൻ', 'വ്യാഴം', 'വെള്ളി', 'ശനി'],
           NARROWWEEKDAYS: const ['ഞ', 'തി', 'ചൊ', 'ബു', 'വ്യാ', 'വെ', 'ശ'],
-          STANDALONENARROWWEEKDAYS: const [
-            'ഞാ',
-            'തി',
-            'ചൊ',
-            'ബു',
-            'വ്യാ',
-            'വെ',
-            'ശ'
-          ],
-          SHORTQUARTERS: const [
-            'ഒന്നാം പാദം',
-            'രണ്ടാം പാദം',
-            'മൂന്നാം പാദം',
-            'നാലാം പാദം'
-          ],
-          QUARTERS: const [
-            'ഒന്നാം പാദം',
-            'രണ്ടാം പാദം',
-            'മൂന്നാം പാദം',
-            'നാലാം പാദം'
-          ],
+          STANDALONENARROWWEEKDAYS: const ['ഞാ', 'തി', 'ചൊ', 'ബു', 'വ്യാ', 'വെ', 'ശ'],
+          SHORTQUARTERS: const ['ഒന്നാം പാദം', 'രണ്ടാം പാദം', 'മൂന്നാം പാദം', 'നാലാം പാദം'],
+          QUARTERS: const ['ഒന്നാം പാദം', 'രണ്ടാം പാദം', 'മൂന്നാം പാദം', 'നാലാം പാദം'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'y, MMMM d, EEEE',
-            'y, MMMM d',
-            'y, MMM d',
-            'd/M/yy'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
+          DATEFORMATS: const ['y, MMMM d, EEEE', 'y, MMMM d', 'y, MMM d', 'd/M/yy'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [6, 6],
@@ -11919,34 +5701,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "mn",
           ERAS: const ['МЭӨ', 'МЭ'],
           ERANAMES: const ['манай эриний өмнөх', 'манай эриний'],
-          NARROWMONTHS: const [
-            'I',
-            'II',
-            'III',
-            'IV',
-            'V',
-            'VI',
-            'VII',
-            'VIII',
-            'IX',
-            'X',
-            'XI',
-            'XII'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'I',
-            'II',
-            'III',
-            'IV',
-            'V',
-            'VI',
-            'VII',
-            'VIII',
-            'IX',
-            'X',
-            'XI',
-            'XII'
-          ],
+          NARROWMONTHS: const ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII'],
+          STANDALONENARROWMONTHS: const ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII'],
           MONTHS: const [
             'нэгдүгээр сар',
             'хоёрдугаар сар',
@@ -12003,56 +5759,14 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             '11-р сар',
             '12-р сар'
           ],
-          WEEKDAYS: const [
-            'ням',
-            'даваа',
-            'мягмар',
-            'лхагва',
-            'пүрэв',
-            'баасан',
-            'бямба'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Ням',
-            'Даваа',
-            'Мягмар',
-            'Лхагва',
-            'Пүрэв',
-            'Баасан',
-            'Бямба'
-          ],
+          WEEKDAYS: const ['ням', 'даваа', 'мягмар', 'лхагва', 'пүрэв', 'баасан', 'бямба'],
+          STANDALONEWEEKDAYS: const ['Ням', 'Даваа', 'Мягмар', 'Лхагва', 'Пүрэв', 'Баасан', 'Бямба'],
           SHORTWEEKDAYS: const ['Ня', 'Да', 'Мя', 'Лх', 'Пү', 'Ба', 'Бя'],
-          STANDALONESHORTWEEKDAYS: const [
-            'Ня',
-            'Да',
-            'Мя',
-            'Лх',
-            'Пү',
-            'Ба',
-            'Бя'
-          ],
+          STANDALONESHORTWEEKDAYS: const ['Ня', 'Да', 'Мя', 'Лх', 'Пү', 'Ба', 'Бя'],
           NARROWWEEKDAYS: const ['Ня', 'Да', 'Мя', 'Лх', 'Пү', 'Ба', 'Бя'],
-          STANDALONENARROWWEEKDAYS: const [
-            'Ня',
-            'Да',
-            'Мя',
-            'Лх',
-            'Пү',
-            'Ба',
-            'Бя'
-          ],
-          SHORTQUARTERS: const [
-            'I улирал',
-            'II улирал',
-            'III улирал',
-            'IV улирал'
-          ],
-          QUARTERS: const [
-            '1-р улирал',
-            '2-р улирал',
-            '3-р улирал',
-            '4-р улирал'
-          ],
+          STANDALONENARROWWEEKDAYS: const ['Ня', 'Да', 'Мя', 'Лх', 'Пү', 'Ба', 'Бя'],
+          SHORTQUARTERS: const ['I улирал', 'II улирал', 'III улирал', 'IV улирал'],
+          QUARTERS: const ['1-р улирал', '2-р улирал', '3-р улирал', '4-р улирал'],
           AMPMS: const ['ү.ө.', 'ү.х.'],
           DATEFORMATS: const [
             'y \'оны\' MMMM\'ын\' d, EEEE \'гараг\'',
@@ -12060,12 +5774,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'y \'оны\' MMM\'ын\' d',
             'y.MM.dd'
           ],
-          TIMEFORMATS: const [
-            'HH:mm:ss (zzzz)',
-            'HH:mm:ss (z)',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          TIMEFORMATS: const ['HH:mm:ss (zzzz)', 'HH:mm:ss (z)', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -12076,34 +5785,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           ZERODIGIT: '\u0966',
           ERAS: const ['ई. स. पू.', 'इ. स.'],
           ERANAMES: const ['ईसवीसनपूर्व', 'ईसवीसन'],
-          NARROWMONTHS: const [
-            'जा',
-            'फे',
-            'मा',
-            'ए',
-            'मे',
-            'जू',
-            'जु',
-            'ऑ',
-            'स',
-            'ऑ',
-            'नो',
-            'डि'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'जा',
-            'फे',
-            'मा',
-            'ए',
-            'मे',
-            'जू',
-            'जु',
-            'ऑ',
-            'स',
-            'ऑ',
-            'नो',
-            'डि'
-          ],
+          NARROWMONTHS: const ['जा', 'फे', 'मा', 'ए', 'मे', 'जू', 'जु', 'ऑ', 'स', 'ऑ', 'नो', 'डि'],
+          STANDALONENARROWMONTHS: const ['जा', 'फे', 'मा', 'ए', 'मे', 'जू', 'जु', 'ऑ', 'स', 'ऑ', 'नो', 'डि'],
           MONTHS: const [
             'जानेवारी',
             'फेब्रुवारी',
@@ -12160,78 +5843,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'नोव्हें',
             'डिसें'
           ],
-          WEEKDAYS: const [
-            'रविवार',
-            'सोमवार',
-            'मंगळवार',
-            'बुधवार',
-            'गुरुवार',
-            'शुक्रवार',
-            'शनिवार'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'रविवार',
-            'सोमवार',
-            'मंगळवार',
-            'बुधवार',
-            'गुरुवार',
-            'शुक्रवार',
-            'शनिवार'
-          ],
-          SHORTWEEKDAYS: const [
-            'रवि',
-            'सोम',
-            'मंगळ',
-            'बुध',
-            'गुरु',
-            'शुक्र',
-            'शनि'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'रवि',
-            'सोम',
-            'मंगळ',
-            'बुध',
-            'गुरु',
-            'शुक्र',
-            'शनि'
-          ],
+          WEEKDAYS: const ['रविवार', 'सोमवार', 'मंगळवार', 'बुधवार', 'गुरुवार', 'शुक्रवार', 'शनिवार'],
+          STANDALONEWEEKDAYS: const ['रविवार', 'सोमवार', 'मंगळवार', 'बुधवार', 'गुरुवार', 'शुक्रवार', 'शनिवार'],
+          SHORTWEEKDAYS: const ['रवि', 'सोम', 'मंगळ', 'बुध', 'गुरु', 'शुक्र', 'शनि'],
+          STANDALONESHORTWEEKDAYS: const ['रवि', 'सोम', 'मंगळ', 'बुध', 'गुरु', 'शुक्र', 'शनि'],
           NARROWWEEKDAYS: const ['र', 'सो', 'मं', 'बु', 'गु', 'शु', 'श'],
-          STANDALONENARROWWEEKDAYS: const [
-            'र',
-            'सो',
-            'मं',
-            'बु',
-            'गु',
-            'शु',
-            'श'
-          ],
+          STANDALONENARROWWEEKDAYS: const ['र', 'सो', 'मं', 'बु', 'गु', 'शु', 'श'],
           SHORTQUARTERS: const ['ति१', 'ति२', 'ति३', 'ति४'],
-          QUARTERS: const [
-            'प्रथम तिमाही',
-            'द्वितीय तिमाही',
-            'तृतीय तिमाही',
-            'चतुर्थ तिमाही'
-          ],
+          QUARTERS: const ['प्रथम तिमाही', 'द्वितीय तिमाही', 'तृतीय तिमाही', 'चतुर्थ तिमाही'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM, y',
-            'd MMMM, y',
-            'd MMM, y',
-            'd/M/yy'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM, y', 'd MMMM, y', 'd MMM, y', 'd/M/yy'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [6, 6],
           FIRSTWEEKCUTOFFDAY: 5),
@@ -12240,34 +5863,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "ms",
           ERAS: const ['S.M.', 'TM'],
           ERANAMES: const ['S.M.', 'TM'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'O',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'O',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'O', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'O', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'Januari',
             'Februari',
@@ -12296,20 +5893,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'November',
             'Disember'
           ],
-          SHORTMONTHS: const [
-            'Jan',
-            'Feb',
-            'Mac',
-            'Apr',
-            'Mei',
-            'Jun',
-            'Jul',
-            'Ogo',
-            'Sep',
-            'Okt',
-            'Nov',
-            'Dis'
-          ],
+          SHORTMONTHS: const ['Jan', 'Feb', 'Mac', 'Apr', 'Mei', 'Jun', 'Jul', 'Ogo', 'Sep', 'Okt', 'Nov', 'Dis'],
           STANDALONESHORTMONTHS: const [
             'Jan',
             'Feb',
@@ -12324,64 +5908,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nov',
             'Dis'
           ],
-          WEEKDAYS: const [
-            'Ahad',
-            'Isnin',
-            'Selasa',
-            'Rabu',
-            'Khamis',
-            'Jumaat',
-            'Sabtu'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Ahad',
-            'Isnin',
-            'Selasa',
-            'Rabu',
-            'Khamis',
-            'Jumaat',
-            'Sabtu'
-          ],
-          SHORTWEEKDAYS: const [
-            'Ahd',
-            'Isn',
-            'Sel',
-            'Rab',
-            'Kha',
-            'Jum',
-            'Sab'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Ahd',
-            'Isn',
-            'Sel',
-            'Rab',
-            'Kha',
-            'Jum',
-            'Sab'
-          ],
+          WEEKDAYS: const ['Ahad', 'Isnin', 'Selasa', 'Rabu', 'Khamis', 'Jumaat', 'Sabtu'],
+          STANDALONEWEEKDAYS: const ['Ahad', 'Isnin', 'Selasa', 'Rabu', 'Khamis', 'Jumaat', 'Sabtu'],
+          SHORTWEEKDAYS: const ['Ahd', 'Isn', 'Sel', 'Rab', 'Kha', 'Jum', 'Sab'],
+          STANDALONESHORTWEEKDAYS: const ['Ahd', 'Isn', 'Sel', 'Rab', 'Kha', 'Jum', 'Sab'],
           NARROWWEEKDAYS: const ['A', 'I', 'S', 'R', 'K', 'J', 'S'],
           STANDALONENARROWWEEKDAYS: const ['A', 'I', 'S', 'R', 'K', 'J', 'S'],
           SHORTQUARTERS: const ['S1', 'S2', 'S3', 'S4'],
-          QUARTERS: const [
-            'Suku pertama',
-            'Suku Ke-2',
-            'Suku Ke-3',
-            'Suku Ke-4'
-          ],
+          QUARTERS: const ['Suku pertama', 'Suku Ke-2', 'Suku Ke-3', 'Suku Ke-4'],
           AMPMS: const ['PG', 'PTG'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'd/MM/yy'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM y', 'd MMMM y', 'd MMM y', 'd/MM/yy'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -12391,34 +5928,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "mt",
           ERAS: const ['QK', 'WK'],
           ERANAMES: const ['Qabel Kristu', 'Wara Kristu'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'Ġ',
-            'L',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'Jn',
-            'Fr',
-            'Mz',
-            'Ap',
-            'Mj',
-            'Ġn',
-            'Lj',
-            'Aw',
-            'St',
-            'Ob',
-            'Nv',
-            'Dċ'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'Ġ', 'L', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['Jn', 'Fr', 'Mz', 'Ap', 'Mj', 'Ġn', 'Lj', 'Aw', 'St', 'Ob', 'Nv', 'Dċ'],
           MONTHS: const [
             'Jannar',
             'Frar',
@@ -12447,20 +5958,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Novembru',
             'Diċembru'
           ],
-          SHORTMONTHS: const [
-            'Jan',
-            'Fra',
-            'Mar',
-            'Apr',
-            'Mej',
-            'Ġun',
-            'Lul',
-            'Aww',
-            'Set',
-            'Ott',
-            'Nov',
-            'Diċ'
-          ],
+          SHORTMONTHS: const ['Jan', 'Fra', 'Mar', 'Apr', 'Mej', 'Ġun', 'Lul', 'Aww', 'Set', 'Ott', 'Nov', 'Diċ'],
           STANDALONESHORTMONTHS: const [
             'Jan',
             'Fra',
@@ -12475,15 +5973,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nov',
             'Diċ'
           ],
-          WEEKDAYS: const [
-            'Il-Ħadd',
-            'It-Tnejn',
-            'It-Tlieta',
-            'L-Erbgħa',
-            'Il-Ħamis',
-            'Il-Ġimgħa',
-            'Is-Sibt'
-          ],
+          WEEKDAYS: const ['Il-Ħadd', 'It-Tnejn', 'It-Tlieta', 'L-Erbgħa', 'Il-Ħamis', 'Il-Ġimgħa', 'Is-Sibt'],
           STANDALONEWEEKDAYS: const [
             'Il-Ħadd',
             'It-Tnejn',
@@ -12493,49 +5983,15 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Il-Ġimgħa',
             'Is-Sibt'
           ],
-          SHORTWEEKDAYS: const [
-            'Ħad',
-            'Tne',
-            'Tli',
-            'Erb',
-            'Ħam',
-            'Ġim',
-            'Sib'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Ħad',
-            'Tne',
-            'Tli',
-            'Erb',
-            'Ħam',
-            'Ġim',
-            'Sib'
-          ],
+          SHORTWEEKDAYS: const ['Ħad', 'Tne', 'Tli', 'Erb', 'Ħam', 'Ġim', 'Sib'],
+          STANDALONESHORTWEEKDAYS: const ['Ħad', 'Tne', 'Tli', 'Erb', 'Ħam', 'Ġim', 'Sib'],
           NARROWWEEKDAYS: const ['Ħd', 'T', 'Tl', 'Er', 'Ħm', 'Ġm', 'Sb'],
-          STANDALONENARROWWEEKDAYS: const [
-            'Ħd',
-            'Tn',
-            'Tl',
-            'Er',
-            'Ħm',
-            'Ġm',
-            'Sb'
-          ],
+          STANDALONENARROWWEEKDAYS: const ['Ħd', 'Tn', 'Tl', 'Er', 'Ħm', 'Ġm', 'Sb'],
           SHORTQUARTERS: const ['K1', 'K2', 'K3', 'K4'],
           QUARTERS: const ['1el kwart', '2ni kwart', '3et kwart', '4ba’ kwart'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, d \'ta\'’ MMMM y',
-            'd \'ta\'’ MMMM y',
-            'dd MMM y',
-            'dd/MM/y'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['EEEE, d \'ta\'’ MMMM y', 'd \'ta\'’ MMMM y', 'dd MMM y', 'dd/MM/y'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
@@ -12546,34 +6002,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           ZERODIGIT: '\u1040',
           ERAS: const ['ဘီစီ', 'အဒေီ'],
           ERANAMES: const ['ခရစ်တော် မပေါ်မီနှစ်', 'ခရစ်နှစ်'],
-          NARROWMONTHS: const [
-            'ဇ',
-            'ဖ',
-            'မ',
-            'ဧ',
-            'မ',
-            'ဇ',
-            'ဇ',
-            'ဩ',
-            'စ',
-            'အ',
-            'န',
-            'ဒ'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'ဇ',
-            'ဖ',
-            'မ',
-            'ဧ',
-            'မ',
-            'ဇ',
-            'ဇ',
-            'ဩ',
-            'စ',
-            'အ',
-            'န',
-            'ဒ'
-          ],
+          NARROWMONTHS: const ['ဇ', 'ဖ', 'မ', 'ဧ', 'မ', 'ဇ', 'ဇ', 'ဩ', 'စ', 'အ', 'န', 'ဒ'],
+          STANDALONENARROWMONTHS: const ['ဇ', 'ဖ', 'မ', 'ဧ', 'မ', 'ဇ', 'ဇ', 'ဩ', 'စ', 'အ', 'န', 'ဒ'],
           MONTHS: const [
             'ဇန်နဝါရီ',
             'ဖေဖော်ဝါရီ',
@@ -12602,91 +6032,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'နိုဝင်ဘာ',
             'ဒီဇင်ဘာ'
           ],
-          SHORTMONTHS: const [
-            'ဇန်',
-            'ဖေ',
-            'မတ်',
-            'ဧ',
-            'မေ',
-            'ဇွန်',
-            'ဇူ',
-            'ဩ',
-            'စက်',
-            'အောက်',
-            'နို',
-            'ဒီ'
-          ],
-          STANDALONESHORTMONTHS: const [
-            'ဇန်',
-            'ဖေ',
-            'မတ်',
-            'ဧ',
-            'မေ',
-            'ဇွန်',
-            'ဇူ',
-            'ဩ',
-            'စက်',
-            'အောက်',
-            'နို',
-            'ဒီ'
-          ],
-          WEEKDAYS: const [
-            'တနင်္ဂနွေ',
-            'တနင်္လာ',
-            'အင်္ဂါ',
-            'ဗုဒ္ဓဟူး',
-            'ကြာသပတေး',
-            'သောကြာ',
-            'စနေ'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'တနင်္ဂနွေ',
-            'တနင်္လာ',
-            'အင်္ဂါ',
-            'ဗုဒ္ဓဟူး',
-            'ကြာသပတေး',
-            'သောကြာ',
-            'စနေ'
-          ],
-          SHORTWEEKDAYS: const [
-            'တနင်္ဂနွေ',
-            'တနင်္လာ',
-            'အင်္ဂါ',
-            'ဗုဒ္ဓဟူး',
-            'ကြာသပတေး',
-            'သောကြာ',
-            'စနေ'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'တနင်္ဂနွေ',
-            'တနင်္လာ',
-            'အင်္ဂါ',
-            'ဗုဒ္ဓဟူး',
-            'ကြာသပတေး',
-            'သောကြာ',
-            'စနေ'
-          ],
+          SHORTMONTHS: const ['ဇန်', 'ဖေ', 'မတ်', 'ဧ', 'မေ', 'ဇွန်', 'ဇူ', 'ဩ', 'စက်', 'အောက်', 'နို', 'ဒီ'],
+          STANDALONESHORTMONTHS: const ['ဇန်', 'ဖေ', 'မတ်', 'ဧ', 'မေ', 'ဇွန်', 'ဇူ', 'ဩ', 'စက်', 'အောက်', 'နို', 'ဒီ'],
+          WEEKDAYS: const ['တနင်္ဂနွေ', 'တနင်္လာ', 'အင်္ဂါ', 'ဗုဒ္ဓဟူး', 'ကြာသပတေး', 'သောကြာ', 'စနေ'],
+          STANDALONEWEEKDAYS: const ['တနင်္ဂနွေ', 'တနင်္လာ', 'အင်္ဂါ', 'ဗုဒ္ဓဟူး', 'ကြာသပတေး', 'သောကြာ', 'စနေ'],
+          SHORTWEEKDAYS: const ['တနင်္ဂနွေ', 'တနင်္လာ', 'အင်္ဂါ', 'ဗုဒ္ဓဟူး', 'ကြာသပတေး', 'သောကြာ', 'စနေ'],
+          STANDALONESHORTWEEKDAYS: const ['တနင်္ဂနွေ', 'တနင်္လာ', 'အင်္ဂါ', 'ဗုဒ္ဓဟူး', 'ကြာသပတေး', 'သောကြာ', 'စနေ'],
           NARROWWEEKDAYS: const ['တ', 'တ', 'အ', 'ဗ', 'က', 'သ', 'စ'],
           STANDALONENARROWWEEKDAYS: const ['တ', 'တ', 'အ', 'ဗ', 'က', 'သ', 'စ'],
-          SHORTQUARTERS: const [
-            'ပထမ သုံးလပတ်',
-            'ဒုတိယ သုံးလပတ်',
-            'တတိယ သုံးလပတ်',
-            'စတုတ္ထ သုံးလပတ်'
-          ],
-          QUARTERS: const [
-            'ပထမ သုံးလပတ်',
-            'ဒုတိယ သုံးလပတ်',
-            'တတိယ သုံးလပတ်',
-            'စတုတ္ထ သုံးလပတ်'
-          ],
+          SHORTQUARTERS: const ['ပထမ သုံးလပတ်', 'ဒုတိယ သုံးလပတ်', 'တတိယ သုံးလပတ်', 'စတုတ္ထ သုံးလပတ်'],
+          QUARTERS: const ['ပထမ သုံးလပတ်', 'ဒုတိယ သုံးလပတ်', 'တတိယ သုံးလပတ်', 'စတုတ္ထ သုံးလပတ်'],
           AMPMS: const ['နံနက်', 'ညနေ'],
-          DATEFORMATS: const [
-            'y၊ MMMM d၊ EEEE',
-            'y၊ MMMM d',
-            'y၊ MMM d',
-            'd/M/yy'
-          ],
+          DATEFORMATS: const ['y၊ MMMM d၊ EEEE', 'y၊ MMMM d', 'y၊ MMM d', 'd/M/yy'],
           TIMEFORMATS: const ['zzzz HH:mm:ss', 'z HH:mm:ss', 'H:mm:ss', 'H:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 6,
@@ -12697,34 +6054,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "nb",
           ERAS: const ['f.Kr.', 'e.Kr.'],
           ERANAMES: const ['før Kristus', 'etter Kristus'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'januar',
             'februar',
@@ -12781,70 +6112,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nov',
             'des'
           ],
-          WEEKDAYS: const [
-            'søndag',
-            'mandag',
-            'tirsdag',
-            'onsdag',
-            'torsdag',
-            'fredag',
-            'lørdag'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'søndag',
-            'mandag',
-            'tirsdag',
-            'onsdag',
-            'torsdag',
-            'fredag',
-            'lørdag'
-          ],
-          SHORTWEEKDAYS: const [
-            'søn.',
-            'man.',
-            'tir.',
-            'ons.',
-            'tor.',
-            'fre.',
-            'lør.'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'søn.',
-            'man.',
-            'tir.',
-            'ons.',
-            'tor.',
-            'fre.',
-            'lør.'
-          ],
+          WEEKDAYS: const ['søndag', 'mandag', 'tirsdag', 'onsdag', 'torsdag', 'fredag', 'lørdag'],
+          STANDALONEWEEKDAYS: const ['søndag', 'mandag', 'tirsdag', 'onsdag', 'torsdag', 'fredag', 'lørdag'],
+          SHORTWEEKDAYS: const ['søn.', 'man.', 'tir.', 'ons.', 'tor.', 'fre.', 'lør.'],
+          STANDALONESHORTWEEKDAYS: const ['søn.', 'man.', 'tir.', 'ons.', 'tor.', 'fre.', 'lør.'],
           NARROWWEEKDAYS: const ['S', 'M', 'T', 'O', 'T', 'F', 'L'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'T', 'O', 'T', 'F', 'L'],
           SHORTQUARTERS: const ['K1', 'K2', 'K3', 'K4'],
-          QUARTERS: const [
-            '1. kvartal',
-            '2. kvartal',
-            '3. kvartal',
-            '4. kvartal'
-          ],
+          QUARTERS: const ['1. kvartal', '2. kvartal', '3. kvartal', '4. kvartal'],
           AMPMS: const ['a.m.', 'p.m.'],
-          DATEFORMATS: const [
-            'EEEE d. MMMM y',
-            'd. MMMM y',
-            'd. MMM y',
-            'dd.MM.y'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE d. MMMM y', 'd. MMMM y', 'd. MMM y', 'dd.MM.y'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 3),
@@ -12854,20 +6133,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           ZERODIGIT: '\u0966',
           ERAS: const ['ईसा पूर्व', 'सन्'],
           ERANAMES: const ['ईसा पूर्व', 'सन्'],
-          NARROWMONTHS: const [
-            'जन',
-            'फेब',
-            'मार्च',
-            'अप्र',
-            'मे',
-            'जुन',
-            'जुल',
-            'अग',
-            'सेप',
-            'अक्टो',
-            'नोभे',
-            'डिसे'
-          ],
+          NARROWMONTHS: const ['जन', 'फेब', 'मार्च', 'अप्र', 'मे', 'जुन', 'जुल', 'अग', 'सेप', 'अक्टो', 'नोभे', 'डिसे'],
           STANDALONENARROWMONTHS: const [
             'जन',
             'फेेब',
@@ -12938,77 +6204,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'नोभेम्बर',
             'डिसेम्बर'
           ],
-          WEEKDAYS: const [
-            'आइतबार',
-            'सोमबार',
-            'मङ्गलबार',
-            'बुधबार',
-            'बिहिबार',
-            'शुक्रबार',
-            'शनिबार'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'आइतबार',
-            'सोमबार',
-            'मङ्गलबार',
-            'बुधबार',
-            'बिहिबार',
-            'शुक्रबार',
-            'शनिबार'
-          ],
-          SHORTWEEKDAYS: const [
-            'आइत',
-            'सोम',
-            'मङ्गल',
-            'बुध',
-            'बिहि',
-            'शुक्र',
-            'शनि'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'आइत',
-            'सोम',
-            'मङ्गल',
-            'बुध',
-            'बिहि',
-            'शुक्र',
-            'शनि'
-          ],
+          WEEKDAYS: const ['आइतबार', 'सोमबार', 'मङ्गलबार', 'बुधबार', 'बिहिबार', 'शुक्रबार', 'शनिबार'],
+          STANDALONEWEEKDAYS: const ['आइतबार', 'सोमबार', 'मङ्गलबार', 'बुधबार', 'बिहिबार', 'शुक्रबार', 'शनिबार'],
+          SHORTWEEKDAYS: const ['आइत', 'सोम', 'मङ्गल', 'बुध', 'बिहि', 'शुक्र', 'शनि'],
+          STANDALONESHORTWEEKDAYS: const ['आइत', 'सोम', 'मङ्गल', 'बुध', 'बिहि', 'शुक्र', 'शनि'],
           NARROWWEEKDAYS: const ['आ', 'सो', 'म', 'बु', 'बि', 'शु', 'श'],
-          STANDALONENARROWWEEKDAYS: const [
-            'आ',
-            'सो',
-            'म',
-            'बु',
-            'बि',
-            'शु',
-            'श'
-          ],
-          SHORTQUARTERS: const [
-            'पहिलो सत्र',
-            'दोस्रो सत्र',
-            'तेस्रो सत्र',
-            'चौथो सत्र'
-          ],
-          QUARTERS: const [
-            'पहिलो सत्र',
-            'दोस्रो सत्र',
-            'तेस्रो सत्र',
-            'चौथो सत्र'
-          ],
+          STANDALONENARROWWEEKDAYS: const ['आ', 'सो', 'म', 'बु', 'बि', 'शु', 'श'],
+          SHORTQUARTERS: const ['पहिलो सत्र', 'दोस्रो सत्र', 'तेस्रो सत्र', 'चौथो सत्र'],
+          QUARTERS: const ['पहिलो सत्र', 'दोस्रो सत्र', 'तेस्रो सत्र', 'चौथो सत्र'],
           AMPMS: const ['पूर्वाह्न', 'अपराह्न'],
-          DATEFORMATS: const [
-            'y MMMM d, EEEE',
-            'y MMMM d',
-            'y MMM d',
-            'yy/M/d'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['y MMMM d, EEEE', 'y MMMM d', 'y MMM d', 'yy/M/d'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
@@ -13018,34 +6224,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "nl",
           ERAS: const ['v.Chr.', 'n.Chr.'],
           ERANAMES: const ['voor Christus', 'na Christus'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'januari',
             'februari',
@@ -13074,20 +6254,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'november',
             'december'
           ],
-          SHORTMONTHS: const [
-            'jan',
-            'feb',
-            'mrt',
-            'apr',
-            'mei',
-            'jun',
-            'jul',
-            'aug',
-            'sep',
-            'okt',
-            'nov',
-            'dec'
-          ],
+          SHORTMONTHS: const ['jan', 'feb', 'mrt', 'apr', 'mei', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'],
           STANDALONESHORTMONTHS: const [
             'jan',
             'feb',
@@ -13102,56 +6269,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nov',
             'dec'
           ],
-          WEEKDAYS: const [
-            'zondag',
-            'maandag',
-            'dinsdag',
-            'woensdag',
-            'donderdag',
-            'vrijdag',
-            'zaterdag'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'zondag',
-            'maandag',
-            'dinsdag',
-            'woensdag',
-            'donderdag',
-            'vrijdag',
-            'zaterdag'
-          ],
+          WEEKDAYS: const ['zondag', 'maandag', 'dinsdag', 'woensdag', 'donderdag', 'vrijdag', 'zaterdag'],
+          STANDALONEWEEKDAYS: const ['zondag', 'maandag', 'dinsdag', 'woensdag', 'donderdag', 'vrijdag', 'zaterdag'],
           SHORTWEEKDAYS: const ['zo', 'ma', 'di', 'wo', 'do', 'vr', 'za'],
-          STANDALONESHORTWEEKDAYS: const [
-            'zo',
-            'ma',
-            'di',
-            'wo',
-            'do',
-            'vr',
-            'za'
-          ],
+          STANDALONESHORTWEEKDAYS: const ['zo', 'ma', 'di', 'wo', 'do', 'vr', 'za'],
           NARROWWEEKDAYS: const ['Z', 'M', 'D', 'W', 'D', 'V', 'Z'],
           STANDALONENARROWWEEKDAYS: const ['Z', 'M', 'D', 'W', 'D', 'V', 'Z'],
           SHORTQUARTERS: const ['K1', 'K2', 'K3', 'K4'],
-          QUARTERS: const [
-            '1e kwartaal',
-            '2e kwartaal',
-            '3e kwartaal',
-            '4e kwartaal'
-          ],
+          QUARTERS: const ['1e kwartaal', '2e kwartaal', '3e kwartaal', '4e kwartaal'],
           AMPMS: const ['a.m.', 'p.m.'],
-          DATEFORMATS: const [
-            'EEEE d MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'dd-MM-y'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['EEEE d MMMM y', 'd MMMM y', 'd MMM y', 'dd-MM-y'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -13161,34 +6289,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "no",
           ERAS: const ['f.Kr.', 'e.Kr.'],
           ERANAMES: const ['før Kristus', 'etter Kristus'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'januar',
             'februar',
@@ -13245,70 +6347,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nov',
             'des'
           ],
-          WEEKDAYS: const [
-            'søndag',
-            'mandag',
-            'tirsdag',
-            'onsdag',
-            'torsdag',
-            'fredag',
-            'lørdag'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'søndag',
-            'mandag',
-            'tirsdag',
-            'onsdag',
-            'torsdag',
-            'fredag',
-            'lørdag'
-          ],
-          SHORTWEEKDAYS: const [
-            'søn.',
-            'man.',
-            'tir.',
-            'ons.',
-            'tor.',
-            'fre.',
-            'lør.'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'søn.',
-            'man.',
-            'tir.',
-            'ons.',
-            'tor.',
-            'fre.',
-            'lør.'
-          ],
+          WEEKDAYS: const ['søndag', 'mandag', 'tirsdag', 'onsdag', 'torsdag', 'fredag', 'lørdag'],
+          STANDALONEWEEKDAYS: const ['søndag', 'mandag', 'tirsdag', 'onsdag', 'torsdag', 'fredag', 'lørdag'],
+          SHORTWEEKDAYS: const ['søn.', 'man.', 'tir.', 'ons.', 'tor.', 'fre.', 'lør.'],
+          STANDALONESHORTWEEKDAYS: const ['søn.', 'man.', 'tir.', 'ons.', 'tor.', 'fre.', 'lør.'],
           NARROWWEEKDAYS: const ['S', 'M', 'T', 'O', 'T', 'F', 'L'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'T', 'O', 'T', 'F', 'L'],
           SHORTQUARTERS: const ['K1', 'K2', 'K3', 'K4'],
-          QUARTERS: const [
-            '1. kvartal',
-            '2. kvartal',
-            '3. kvartal',
-            '4. kvartal'
-          ],
+          QUARTERS: const ['1. kvartal', '2. kvartal', '3. kvartal', '4. kvartal'],
           AMPMS: const ['a.m.', 'p.m.'],
-          DATEFORMATS: const [
-            'EEEE d. MMMM y',
-            'd. MMMM y',
-            'd. MMM y',
-            'dd.MM.y'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE d. MMMM y', 'd. MMMM y', 'd. MMM y', 'dd.MM.y'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 3),
@@ -13318,34 +6368,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "no_NO",
           ERAS: const ['f.Kr.', 'e.Kr.'],
           ERANAMES: const ['før Kristus', 'etter Kristus'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'januar',
             'februar',
@@ -13402,70 +6426,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nov',
             'des'
           ],
-          WEEKDAYS: const [
-            'søndag',
-            'mandag',
-            'tirsdag',
-            'onsdag',
-            'torsdag',
-            'fredag',
-            'lørdag'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'søndag',
-            'mandag',
-            'tirsdag',
-            'onsdag',
-            'torsdag',
-            'fredag',
-            'lørdag'
-          ],
-          SHORTWEEKDAYS: const [
-            'søn.',
-            'man.',
-            'tir.',
-            'ons.',
-            'tor.',
-            'fre.',
-            'lør.'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'søn.',
-            'man.',
-            'tir.',
-            'ons.',
-            'tor.',
-            'fre.',
-            'lør.'
-          ],
+          WEEKDAYS: const ['søndag', 'mandag', 'tirsdag', 'onsdag', 'torsdag', 'fredag', 'lørdag'],
+          STANDALONEWEEKDAYS: const ['søndag', 'mandag', 'tirsdag', 'onsdag', 'torsdag', 'fredag', 'lørdag'],
+          SHORTWEEKDAYS: const ['søn.', 'man.', 'tir.', 'ons.', 'tor.', 'fre.', 'lør.'],
+          STANDALONESHORTWEEKDAYS: const ['søn.', 'man.', 'tir.', 'ons.', 'tor.', 'fre.', 'lør.'],
           NARROWWEEKDAYS: const ['S', 'M', 'T', 'O', 'T', 'F', 'L'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'T', 'O', 'T', 'F', 'L'],
           SHORTQUARTERS: const ['K1', 'K2', 'K3', 'K4'],
-          QUARTERS: const [
-            '1. kvartal',
-            '2. kvartal',
-            '3. kvartal',
-            '4. kvartal'
-          ],
+          QUARTERS: const ['1. kvartal', '2. kvartal', '3. kvartal', '4. kvartal'],
           AMPMS: const ['a.m.', 'p.m.'],
-          DATEFORMATS: const [
-            'EEEE d. MMMM y',
-            'd. MMMM y',
-            'd. MMM y',
-            'dd.MM.y'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE d. MMMM y', 'd. MMMM y', 'd. MMM y', 'dd.MM.y'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 3),
@@ -13474,34 +6446,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "nyn",
           ERAS: const ['BC', 'AD'],
           ERANAMES: const ['Kurisito Atakaijire', 'Kurisito Yaijire'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'Okwokubanza',
             'Okwakabiri',
@@ -13530,20 +6476,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Okwaikumi na kumwe',
             'Okwaikumi na ibiri'
           ],
-          SHORTMONTHS: const [
-            'KBZ',
-            'KBR',
-            'KST',
-            'KKN',
-            'KTN',
-            'KMK',
-            'KMS',
-            'KMN',
-            'KMW',
-            'KKM',
-            'KNK',
-            'KNB'
-          ],
+          SHORTMONTHS: const ['KBZ', 'KBR', 'KST', 'KKN', 'KTN', 'KMK', 'KMS', 'KMN', 'KMW', 'KKM', 'KNK', 'KNB'],
           STANDALONESHORTMONTHS: const [
             'KBZ',
             'KBR',
@@ -13576,41 +6509,15 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Orwakataano',
             'Orwamukaaga'
           ],
-          SHORTWEEKDAYS: const [
-            'SAN',
-            'ORK',
-            'OKB',
-            'OKS',
-            'OKN',
-            'OKT',
-            'OMK'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'SAN',
-            'ORK',
-            'OKB',
-            'OKS',
-            'OKN',
-            'OKT',
-            'OMK'
-          ],
+          SHORTWEEKDAYS: const ['SAN', 'ORK', 'OKB', 'OKS', 'OKN', 'OKT', 'OMK'],
+          STANDALONESHORTWEEKDAYS: const ['SAN', 'ORK', 'OKB', 'OKS', 'OKN', 'OKT', 'OMK'],
           NARROWWEEKDAYS: const ['S', 'K', 'R', 'S', 'N', 'T', 'M'],
           STANDALONENARROWWEEKDAYS: const ['S', 'K', 'R', 'S', 'N', 'T', 'M'],
           SHORTQUARTERS: const ['K1', 'K2', 'K3', 'K4'],
           QUARTERS: const ['KWOTA 1', 'KWOTA 2', 'KWOTA 3', 'KWOTA 4'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'dd/MM/y'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM y', 'd MMMM y', 'd MMM y', 'dd/MM/y'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -13620,34 +6527,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "or",
           ERAS: const ['BC', 'AD'],
           ERANAMES: const ['ଖ୍ରୀଷ୍ଟପୂର୍ବ', 'ଖ୍ରୀଷ୍ଟାବ୍ଦ'],
-          NARROWMONTHS: const [
-            'ଜା',
-            'ଫେ',
-            'ମା',
-            'ଅ',
-            'ମଇ',
-            'ଜୁ',
-            'ଜୁ',
-            'ଅ',
-            'ସେ',
-            'ଅ',
-            'ନ',
-            'ଡି'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'ଜା',
-            'ଫେ',
-            'ମା',
-            'ଅ',
-            'ମଇ',
-            'ଜୁ',
-            'ଜୁ',
-            'ଅ',
-            'ସେ',
-            'ଅ',
-            'ନ',
-            'ଡି'
-          ],
+          NARROWMONTHS: const ['ଜା', 'ଫେ', 'ମା', 'ଅ', 'ମଇ', 'ଜୁ', 'ଜୁ', 'ଅ', 'ସେ', 'ଅ', 'ନ', 'ଡି'],
+          STANDALONENARROWMONTHS: const ['ଜା', 'ଫେ', 'ମା', 'ଅ', 'ମଇ', 'ଜୁ', 'ଜୁ', 'ଅ', 'ସେ', 'ଅ', 'ନ', 'ଡି'],
           MONTHS: const [
             'ଜାନୁଆରୀ',
             'ଫେବୃଆରୀ',
@@ -13704,83 +6585,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'ନଭେମ୍ବର',
             'ଡିସେମ୍ବର'
           ],
-          WEEKDAYS: const [
-            'ରବିବାର',
-            'ସୋମବାର',
-            'ମଙ୍ଗଳବାର',
-            'ବୁଧବାର',
-            'ଗୁରୁବାର',
-            'ଶୁକ୍ରବାର',
-            'ଶନିବାର'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'ରବିବାର',
-            'ସୋମବାର',
-            'ମଙ୍ଗଳବାର',
-            'ବୁଧବାର',
-            'ଗୁରୁବାର',
-            'ଶୁକ୍ରବାର',
-            'ଶନିବାର'
-          ],
-          SHORTWEEKDAYS: const [
-            'ରବି',
-            'ସୋମ',
-            'ମଙ୍ଗଳ',
-            'ବୁଧ',
-            'ଗୁରୁ',
-            'ଶୁକ୍ର',
-            'ଶନି'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'ରବି',
-            'ସୋମ',
-            'ମଙ୍ଗଳ',
-            'ବୁଧ',
-            'ଗୁରୁ',
-            'ଶୁକ୍ର',
-            'ଶନି'
-          ],
+          WEEKDAYS: const ['ରବିବାର', 'ସୋମବାର', 'ମଙ୍ଗଳବାର', 'ବୁଧବାର', 'ଗୁରୁବାର', 'ଶୁକ୍ରବାର', 'ଶନିବାର'],
+          STANDALONEWEEKDAYS: const ['ରବିବାର', 'ସୋମବାର', 'ମଙ୍ଗଳବାର', 'ବୁଧବାର', 'ଗୁରୁବାର', 'ଶୁକ୍ରବାର', 'ଶନିବାର'],
+          SHORTWEEKDAYS: const ['ରବି', 'ସୋମ', 'ମଙ୍ଗଳ', 'ବୁଧ', 'ଗୁରୁ', 'ଶୁକ୍ର', 'ଶନି'],
+          STANDALONESHORTWEEKDAYS: const ['ରବି', 'ସୋମ', 'ମଙ୍ଗଳ', 'ବୁଧ', 'ଗୁରୁ', 'ଶୁକ୍ର', 'ଶନି'],
           NARROWWEEKDAYS: const ['ର', 'ସୋ', 'ମ', 'ବୁ', 'ଗୁ', 'ଶୁ', 'ଶ'],
-          STANDALONENARROWWEEKDAYS: const [
-            'ର',
-            'ସୋ',
-            'ମ',
-            'ବୁ',
-            'ଗୁ',
-            'ଶୁ',
-            'ଶ'
-          ],
-          SHORTQUARTERS: const [
-            '1ମ ତ୍ରୟମାସ',
-            '2ୟ ତ୍ରୟମାସ',
-            '3ୟ ତ୍ରୟମାସ',
-            '4ର୍ଥ ତ୍ରୟମାସ'
-          ],
-          QUARTERS: const [
-            '1ମ ତ୍ରୟମାସ',
-            '2ୟ ତ୍ରୟମାସ',
-            '3ୟ ତ୍ରୟମାସ',
-            '4ର୍ଥ ତ୍ରୟମାସ'
-          ],
+          STANDALONENARROWWEEKDAYS: const ['ର', 'ସୋ', 'ମ', 'ବୁ', 'ଗୁ', 'ଶୁ', 'ଶ'],
+          SHORTQUARTERS: const ['1ମ ତ୍ରୟମାସ', '2ୟ ତ୍ରୟମାସ', '3ୟ ତ୍ରୟମାସ', '4ର୍ଥ ତ୍ରୟମାସ'],
+          QUARTERS: const ['1ମ ତ୍ରୟମାସ', '2ୟ ତ୍ରୟମାସ', '3ୟ ତ୍ରୟମାସ', '4ର୍ଥ ତ୍ରୟମାସ'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, MMMM d, y',
-            'MMMM d, y',
-            'MMM d, y',
-            'M/d/yy'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, MMMM d, y', 'MMMM d, y', 'MMM d, y', 'M/d/yy'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [6, 6],
           FIRSTWEEKCUTOFFDAY: 5),
@@ -13789,34 +6605,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "pa",
           ERAS: const ['ਈ. ਪੂ.', 'ਸੰਨ'],
           ERANAMES: const ['ਈਸਵੀ ਪੂਰਵ', 'ਈਸਵੀ ਸੰਨ'],
-          NARROWMONTHS: const [
-            'ਜ',
-            'ਫ਼',
-            'ਮਾ',
-            'ਅ',
-            'ਮ',
-            'ਜੂ',
-            'ਜੁ',
-            'ਅ',
-            'ਸ',
-            'ਅ',
-            'ਨ',
-            'ਦ'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'ਜ',
-            'ਫ਼',
-            'ਮਾ',
-            'ਅ',
-            'ਮ',
-            'ਜੂ',
-            'ਜੁ',
-            'ਅ',
-            'ਸ',
-            'ਅ',
-            'ਨ',
-            'ਦ'
-          ],
+          NARROWMONTHS: const ['ਜ', 'ਫ਼', 'ਮਾ', 'ਅ', 'ਮ', 'ਜੂ', 'ਜੁ', 'ਅ', 'ਸ', 'ਅ', 'ਨ', 'ਦ'],
+          STANDALONENARROWMONTHS: const ['ਜ', 'ਫ਼', 'ਮਾ', 'ਅ', 'ਮ', 'ਜੂ', 'ਜੁ', 'ਅ', 'ਸ', 'ਅ', 'ਨ', 'ਦ'],
           MONTHS: const [
             'ਜਨਵਰੀ',
             'ਫ਼ਰਵਰੀ',
@@ -13845,20 +6635,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'ਨਵੰਬਰ',
             'ਦਸੰਬਰ'
           ],
-          SHORTMONTHS: const [
-            'ਜਨ',
-            'ਫ਼ਰ',
-            'ਮਾਰਚ',
-            'ਅਪ੍ਰੈ',
-            'ਮਈ',
-            'ਜੂਨ',
-            'ਜੁਲਾ',
-            'ਅਗ',
-            'ਸਤੰ',
-            'ਅਕਤੂ',
-            'ਨਵੰ',
-            'ਦਸੰ'
-          ],
+          SHORTMONTHS: const ['ਜਨ', 'ਫ਼ਰ', 'ਮਾਰਚ', 'ਅਪ੍ਰੈ', 'ਮਈ', 'ਜੂਨ', 'ਜੁਲਾ', 'ਅਗ', 'ਸਤੰ', 'ਅਕਤੂ', 'ਨਵੰ', 'ਦਸੰ'],
           STANDALONESHORTMONTHS: const [
             'ਜਨ',
             'ਫ਼ਰ',
@@ -13873,72 +6650,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'ਨਵੰ',
             'ਦਸੰ'
           ],
-          WEEKDAYS: const [
-            'ਐਤਵਾਰ',
-            'ਸੋਮਵਾਰ',
-            'ਮੰਗਲਵਾਰ',
-            'ਬੁੱਧਵਾਰ',
-            'ਵੀਰਵਾਰ',
-            'ਸ਼ੁੱਕਰਵਾਰ',
-            'ਸ਼ਨਿੱਚਰਵਾਰ'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'ਐਤਵਾਰ',
-            'ਸੋਮਵਾਰ',
-            'ਮੰਗਲਵਾਰ',
-            'ਬੁੱਧਵਾਰ',
-            'ਵੀਰਵਾਰ',
-            'ਸ਼ੁੱਕਰਵਾਰ',
-            'ਸ਼ਨਿੱਚਰਵਾਰ'
-          ],
-          SHORTWEEKDAYS: const [
-            'ਐਤ',
-            'ਸੋਮ',
-            'ਮੰਗਲ',
-            'ਬੁੱਧ',
-            'ਵੀਰ',
-            'ਸ਼ੁੱਕਰ',
-            'ਸ਼ਨਿੱਚਰ'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'ਐਤ',
-            'ਸੋਮ',
-            'ਮੰਗਲ',
-            'ਬੁੱਧ',
-            'ਵੀਰ',
-            'ਸ਼ੁੱਕਰ',
-            'ਸ਼ਨਿੱਚਰ'
-          ],
+          WEEKDAYS: const ['ਐਤਵਾਰ', 'ਸੋਮਵਾਰ', 'ਮੰਗਲਵਾਰ', 'ਬੁੱਧਵਾਰ', 'ਵੀਰਵਾਰ', 'ਸ਼ੁੱਕਰਵਾਰ', 'ਸ਼ਨਿੱਚਰਵਾਰ'],
+          STANDALONEWEEKDAYS: const ['ਐਤਵਾਰ', 'ਸੋਮਵਾਰ', 'ਮੰਗਲਵਾਰ', 'ਬੁੱਧਵਾਰ', 'ਵੀਰਵਾਰ', 'ਸ਼ੁੱਕਰਵਾਰ', 'ਸ਼ਨਿੱਚਰਵਾਰ'],
+          SHORTWEEKDAYS: const ['ਐਤ', 'ਸੋਮ', 'ਮੰਗਲ', 'ਬੁੱਧ', 'ਵੀਰ', 'ਸ਼ੁੱਕਰ', 'ਸ਼ਨਿੱਚਰ'],
+          STANDALONESHORTWEEKDAYS: const ['ਐਤ', 'ਸੋਮ', 'ਮੰਗਲ', 'ਬੁੱਧ', 'ਵੀਰ', 'ਸ਼ੁੱਕਰ', 'ਸ਼ਨਿੱਚਰ'],
           NARROWWEEKDAYS: const ['ਐ', 'ਸੋ', 'ਮੰ', 'ਬੁੱ', 'ਵੀ', 'ਸ਼ੁੱ', 'ਸ਼'],
-          STANDALONENARROWWEEKDAYS: const [
-            'ਐ',
-            'ਸੋ',
-            'ਮੰ',
-            'ਬੁੱ',
-            'ਵੀ',
-            'ਸ਼ੁੱ',
-            'ਸ਼'
-          ],
+          STANDALONENARROWWEEKDAYS: const ['ਐ', 'ਸੋ', 'ਮੰ', 'ਬੁੱ', 'ਵੀ', 'ਸ਼ੁੱ', 'ਸ਼'],
           SHORTQUARTERS: const ['ਤਿਮਾਹੀ1', 'ਤਿਮਾਹੀ2', 'ਤਿਮਾਹੀ3', 'ਤਿਮਾਹੀ4'],
-          QUARTERS: const [
-            'ਪਹਿਲੀ ਤਿਮਾਹੀ',
-            'ਦੂਜੀ ਤਿਮਾਹੀ',
-            'ਤੀਜੀ ਤਿਮਾਹੀ',
-            'ਚੌਥੀ ਤਿਮਾਹੀ'
-          ],
+          QUARTERS: const ['ਪਹਿਲੀ ਤਿਮਾਹੀ', 'ਦੂਜੀ ਤਿਮਾਹੀ', 'ਤੀਜੀ ਤਿਮਾਹੀ', 'ਚੌਥੀ ਤਿਮਾਹੀ'],
           AMPMS: const ['ਪੂ.ਦੁ.', 'ਬਾ.ਦੁ.'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'd/M/yy'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM y', 'd MMMM y', 'd MMM y', 'd/M/yy'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [6, 6],
@@ -13948,34 +6670,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "pl",
           ERAS: const ['p.n.e.', 'n.e.'],
           ERANAMES: const ['przed naszą erą', 'naszej ery'],
-          NARROWMONTHS: const [
-            's',
-            'l',
-            'm',
-            'k',
-            'm',
-            'c',
-            'l',
-            's',
-            'w',
-            'p',
-            'l',
-            'g'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'S',
-            'L',
-            'M',
-            'K',
-            'M',
-            'C',
-            'L',
-            'S',
-            'W',
-            'P',
-            'L',
-            'G'
-          ],
+          NARROWMONTHS: const ['s', 'l', 'm', 'k', 'm', 'c', 'l', 's', 'w', 'p', 'l', 'g'],
+          STANDALONENARROWMONTHS: const ['S', 'L', 'M', 'K', 'M', 'C', 'L', 'S', 'W', 'P', 'L', 'G'],
           MONTHS: const [
             'stycznia',
             'lutego',
@@ -14004,20 +6700,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'listopad',
             'grudzień'
           ],
-          SHORTMONTHS: const [
-            'sty',
-            'lut',
-            'mar',
-            'kwi',
-            'maj',
-            'cze',
-            'lip',
-            'sie',
-            'wrz',
-            'paź',
-            'lis',
-            'gru'
-          ],
+          SHORTMONTHS: const ['sty', 'lut', 'mar', 'kwi', 'maj', 'cze', 'lip', 'sie', 'wrz', 'paź', 'lis', 'gru'],
           STANDALONESHORTMONTHS: const [
             'sty',
             'lut',
@@ -14032,64 +6715,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'lis',
             'gru'
           ],
-          WEEKDAYS: const [
-            'niedziela',
-            'poniedziałek',
-            'wtorek',
-            'środa',
-            'czwartek',
-            'piątek',
-            'sobota'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'niedziela',
-            'poniedziałek',
-            'wtorek',
-            'środa',
-            'czwartek',
-            'piątek',
-            'sobota'
-          ],
-          SHORTWEEKDAYS: const [
-            'niedz.',
-            'pon.',
-            'wt.',
-            'śr.',
-            'czw.',
-            'pt.',
-            'sob.'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'niedz.',
-            'pon.',
-            'wt.',
-            'śr.',
-            'czw.',
-            'pt.',
-            'sob.'
-          ],
+          WEEKDAYS: const ['niedziela', 'poniedziałek', 'wtorek', 'środa', 'czwartek', 'piątek', 'sobota'],
+          STANDALONEWEEKDAYS: const ['niedziela', 'poniedziałek', 'wtorek', 'środa', 'czwartek', 'piątek', 'sobota'],
+          SHORTWEEKDAYS: const ['niedz.', 'pon.', 'wt.', 'śr.', 'czw.', 'pt.', 'sob.'],
+          STANDALONESHORTWEEKDAYS: const ['niedz.', 'pon.', 'wt.', 'śr.', 'czw.', 'pt.', 'sob.'],
           NARROWWEEKDAYS: const ['n', 'p', 'w', 'ś', 'c', 'p', 's'],
           STANDALONENARROWWEEKDAYS: const ['N', 'P', 'W', 'Ś', 'C', 'P', 'S'],
           SHORTQUARTERS: const ['I kw.', 'II kw.', 'III kw.', 'IV kw.'],
-          QUARTERS: const [
-            'I kwartał',
-            'II kwartał',
-            'III kwartał',
-            'IV kwartał'
-          ],
+          QUARTERS: const ['I kwartał', 'II kwartał', 'III kwartał', 'IV kwartał'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'd.MM.y'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM y', 'd MMMM y', 'd MMM y', 'd.MM.y'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -14100,34 +6736,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           ZERODIGIT: '\u06F0',
           ERAS: const ['له میلاد وړاندې', 'م.'],
           ERANAMES: const ['له میلاد څخه وړاندې', 'له میلاد څخه وروسته'],
-          NARROWMONTHS: const [
-            'ج',
-            'ف',
-            'م',
-            'ا',
-            'م',
-            'ج',
-            'ج',
-            'ا',
-            'س',
-            'ا',
-            'ن',
-            'د'
-          ],
-          STANDALONENARROWMONTHS: const [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5',
-            '6',
-            '7',
-            '8',
-            '9',
-            '10',
-            '11',
-            '12'
-          ],
+          NARROWMONTHS: const ['ج', 'ف', 'م', 'ا', 'م', 'ج', 'ج', 'ا', 'س', 'ا', 'ن', 'د'],
+          STANDALONENARROWMONTHS: const ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
           MONTHS: const [
             'جنوري',
             'فبروري',
@@ -14184,64 +6794,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'نومبر',
             'دسمبر'
           ],
-          WEEKDAYS: const [
-            'يونۍ',
-            'دونۍ',
-            'درېنۍ',
-            'څلرنۍ',
-            'پينځنۍ',
-            'جمعه',
-            'اونۍ'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'يونۍ',
-            'دونۍ',
-            'درېنۍ',
-            'څلرنۍ',
-            'پينځنۍ',
-            'جمعه',
-            'اونۍ'
-          ],
-          SHORTWEEKDAYS: const [
-            'يونۍ',
-            'دونۍ',
-            'درېنۍ',
-            'څلرنۍ',
-            'پينځنۍ',
-            'جمعه',
-            'اونۍ'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'يونۍ',
-            'دونۍ',
-            'درېنۍ',
-            'څلرنۍ',
-            'پينځنۍ',
-            'جمعه',
-            'اونۍ'
-          ],
+          WEEKDAYS: const ['يونۍ', 'دونۍ', 'درېنۍ', 'څلرنۍ', 'پينځنۍ', 'جمعه', 'اونۍ'],
+          STANDALONEWEEKDAYS: const ['يونۍ', 'دونۍ', 'درېنۍ', 'څلرنۍ', 'پينځنۍ', 'جمعه', 'اونۍ'],
+          SHORTWEEKDAYS: const ['يونۍ', 'دونۍ', 'درېنۍ', 'څلرنۍ', 'پينځنۍ', 'جمعه', 'اونۍ'],
+          STANDALONESHORTWEEKDAYS: const ['يونۍ', 'دونۍ', 'درېنۍ', 'څلرنۍ', 'پينځنۍ', 'جمعه', 'اونۍ'],
           NARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
-          SHORTQUARTERS: const [
-            'لومړۍ ربعه',
-            '۲مه ربعه',
-            '۳مه ربعه',
-            '۴مه ربعه'
-          ],
+          SHORTQUARTERS: const ['لومړۍ ربعه', '۲مه ربعه', '۳مه ربعه', '۴مه ربعه'],
           QUARTERS: const ['لومړۍ ربعه', '۲مه ربعه', '۳مه ربعه', '۴مه ربعه'],
           AMPMS: const ['غ.م.', 'غ.و.'],
-          DATEFORMATS: const [
-            'EEEE د y د MMMM d',
-            'د y د MMMM d',
-            'y MMM d',
-            'y/M/d'
-          ],
-          TIMEFORMATS: const [
-            'H:mm:ss (zzzz)',
-            'H:mm:ss (z)',
-            'H:mm:ss',
-            'H:mm'
-          ],
+          DATEFORMATS: const ['EEEE د y د MMMM d', 'د y د MMMM d', 'y MMM d', 'y/M/d'],
+          TIMEFORMATS: const ['H:mm:ss (zzzz)', 'H:mm:ss (z)', 'H:mm:ss', 'H:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 5,
           WEEKENDRANGE: const [3, 4],
@@ -14251,34 +6814,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "pt",
           ERAS: const ['a.C.', 'd.C.'],
           ERANAMES: const ['antes de Cristo', 'depois de Cristo'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'janeiro',
             'fevereiro',
@@ -14353,33 +6890,12 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'sexta-feira',
             'sábado'
           ],
-          SHORTWEEKDAYS: const [
-            'dom.',
-            'seg.',
-            'ter.',
-            'qua.',
-            'qui.',
-            'sex.',
-            'sáb.'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'dom.',
-            'seg.',
-            'ter.',
-            'qua.',
-            'qui.',
-            'sex.',
-            'sáb.'
-          ],
+          SHORTWEEKDAYS: const ['dom.', 'seg.', 'ter.', 'qua.', 'qui.', 'sex.', 'sáb.'],
+          STANDALONESHORTWEEKDAYS: const ['dom.', 'seg.', 'ter.', 'qua.', 'qui.', 'sex.', 'sáb.'],
           NARROWWEEKDAYS: const ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'],
           STANDALONENARROWWEEKDAYS: const ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'],
           SHORTQUARTERS: const ['T1', 'T2', 'T3', 'T4'],
-          QUARTERS: const [
-            '1º trimestre',
-            '2º trimestre',
-            '3º trimestre',
-            '4º trimestre'
-          ],
+          QUARTERS: const ['1º trimestre', '2º trimestre', '3º trimestre', '4º trimestre'],
           AMPMS: const ['AM', 'PM'],
           DATEFORMATS: const [
             'EEEE, d \'de\' MMMM \'de\' y',
@@ -14387,12 +6903,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'd \'de\' MMM \'de\' y',
             'dd/MM/y'
           ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
@@ -14403,34 +6914,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "pt_BR",
           ERAS: const ['a.C.', 'd.C.'],
           ERANAMES: const ['antes de Cristo', 'depois de Cristo'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'janeiro',
             'fevereiro',
@@ -14505,33 +6990,12 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'sexta-feira',
             'sábado'
           ],
-          SHORTWEEKDAYS: const [
-            'dom.',
-            'seg.',
-            'ter.',
-            'qua.',
-            'qui.',
-            'sex.',
-            'sáb.'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'dom.',
-            'seg.',
-            'ter.',
-            'qua.',
-            'qui.',
-            'sex.',
-            'sáb.'
-          ],
+          SHORTWEEKDAYS: const ['dom.', 'seg.', 'ter.', 'qua.', 'qui.', 'sex.', 'sáb.'],
+          STANDALONESHORTWEEKDAYS: const ['dom.', 'seg.', 'ter.', 'qua.', 'qui.', 'sex.', 'sáb.'],
           NARROWWEEKDAYS: const ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'],
           STANDALONENARROWWEEKDAYS: const ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'],
           SHORTQUARTERS: const ['T1', 'T2', 'T3', 'T4'],
-          QUARTERS: const [
-            '1º trimestre',
-            '2º trimestre',
-            '3º trimestre',
-            '4º trimestre'
-          ],
+          QUARTERS: const ['1º trimestre', '2º trimestre', '3º trimestre', '4º trimestre'],
           AMPMS: const ['AM', 'PM'],
           DATEFORMATS: const [
             'EEEE, d \'de\' MMMM \'de\' y',
@@ -14539,12 +7003,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'd \'de\' MMM \'de\' y',
             'dd/MM/y'
           ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
@@ -14554,34 +7013,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "pt_PT",
           ERAS: const ['a.C.', 'd.C.'],
           ERANAMES: const ['antes de Cristo', 'depois de Cristo'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'janeiro',
             'fevereiro',
@@ -14656,52 +7089,16 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'sexta-feira',
             'sábado'
           ],
-          SHORTWEEKDAYS: const [
-            'domingo',
-            'segunda',
-            'terça',
-            'quarta',
-            'quinta',
-            'sexta',
-            'sábado'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'domingo',
-            'segunda',
-            'terça',
-            'quarta',
-            'quinta',
-            'sexta',
-            'sábado'
-          ],
+          SHORTWEEKDAYS: const ['domingo', 'segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado'],
+          STANDALONESHORTWEEKDAYS: const ['domingo', 'segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado'],
           NARROWWEEKDAYS: const ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'],
           STANDALONENARROWWEEKDAYS: const ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'],
           SHORTQUARTERS: const ['T1', 'T2', 'T3', 'T4'],
-          QUARTERS: const [
-            '1.º trimestre',
-            '2.º trimestre',
-            '3.º trimestre',
-            '4.º trimestre'
-          ],
+          QUARTERS: const ['1.º trimestre', '2.º trimestre', '3.º trimestre', '4.º trimestre'],
           AMPMS: const ['da manhã', 'da tarde'],
-          DATEFORMATS: const [
-            'EEEE, d \'de\' MMMM \'de\' y',
-            'd \'de\' MMMM \'de\' y',
-            'dd/MM/y',
-            'dd/MM/yy'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, d \'de\' MMMM \'de\' y', 'd \'de\' MMMM \'de\' y', 'dd/MM/y', 'dd/MM/yy'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 2),
@@ -14710,34 +7107,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "ro",
           ERAS: const ['î.Hr.', 'd.Hr.'],
           ERANAMES: const ['înainte de Hristos', 'după Hristos'],
-          NARROWMONTHS: const [
-            'I',
-            'F',
-            'M',
-            'A',
-            'M',
-            'I',
-            'I',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'I',
-            'F',
-            'M',
-            'A',
-            'M',
-            'I',
-            'I',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['I', 'F', 'M', 'A', 'M', 'I', 'I', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['I', 'F', 'M', 'A', 'M', 'I', 'I', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'ianuarie',
             'februarie',
@@ -14794,70 +7165,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nov.',
             'dec.'
           ],
-          WEEKDAYS: const [
-            'duminică',
-            'luni',
-            'marți',
-            'miercuri',
-            'joi',
-            'vineri',
-            'sâmbătă'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'duminică',
-            'luni',
-            'marți',
-            'miercuri',
-            'joi',
-            'vineri',
-            'sâmbătă'
-          ],
-          SHORTWEEKDAYS: const [
-            'dum.',
-            'lun.',
-            'mar.',
-            'mie.',
-            'joi',
-            'vin.',
-            'sâm.'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'dum.',
-            'lun.',
-            'mar.',
-            'mie.',
-            'joi',
-            'vin.',
-            'sâm.'
-          ],
+          WEEKDAYS: const ['duminică', 'luni', 'marți', 'miercuri', 'joi', 'vineri', 'sâmbătă'],
+          STANDALONEWEEKDAYS: const ['duminică', 'luni', 'marți', 'miercuri', 'joi', 'vineri', 'sâmbătă'],
+          SHORTWEEKDAYS: const ['dum.', 'lun.', 'mar.', 'mie.', 'joi', 'vin.', 'sâm.'],
+          STANDALONESHORTWEEKDAYS: const ['dum.', 'lun.', 'mar.', 'mie.', 'joi', 'vin.', 'sâm.'],
           NARROWWEEKDAYS: const ['D', 'L', 'M', 'M', 'J', 'V', 'S'],
           STANDALONENARROWWEEKDAYS: const ['D', 'L', 'M', 'M', 'J', 'V', 'S'],
           SHORTQUARTERS: const ['trim. I', 'trim. II', 'trim. III', 'trim. IV'],
-          QUARTERS: const [
-            'trimestrul I',
-            'trimestrul al II-lea',
-            'trimestrul al III-lea',
-            'trimestrul al IV-lea'
-          ],
+          QUARTERS: const ['trimestrul I', 'trimestrul al II-lea', 'trimestrul al III-lea', 'trimestrul al IV-lea'],
           AMPMS: const ['a.m.', 'p.m.'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'dd.MM.y'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM y', 'd MMMM y', 'd MMM y', 'dd.MM.y'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 6),
@@ -14866,34 +7185,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "ru",
           ERAS: const ['до н. э.', 'н. э.'],
           ERANAMES: const ['до Рождества Христова', 'от Рождества Христова'],
-          NARROWMONTHS: const [
-            'Я',
-            'Ф',
-            'М',
-            'А',
-            'М',
-            'И',
-            'И',
-            'А',
-            'С',
-            'О',
-            'Н',
-            'Д'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'Я',
-            'Ф',
-            'М',
-            'А',
-            'М',
-            'И',
-            'И',
-            'А',
-            'С',
-            'О',
-            'Н',
-            'Д'
-          ],
+          NARROWMONTHS: const ['Я', 'Ф', 'М', 'А', 'М', 'И', 'И', 'А', 'С', 'О', 'Н', 'Д'],
+          STANDALONENARROWMONTHS: const ['Я', 'Ф', 'М', 'А', 'М', 'И', 'И', 'А', 'С', 'О', 'Н', 'Д'],
           MONTHS: const [
             'января',
             'февраля',
@@ -14950,62 +7243,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'нояб.',
             'дек.'
           ],
-          WEEKDAYS: const [
-            'воскресенье',
-            'понедельник',
-            'вторник',
-            'среда',
-            'четверг',
-            'пятница',
-            'суббота'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'воскресенье',
-            'понедельник',
-            'вторник',
-            'среда',
-            'четверг',
-            'пятница',
-            'суббота'
-          ],
+          WEEKDAYS: const ['воскресенье', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота'],
+          STANDALONEWEEKDAYS: const ['воскресенье', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота'],
           SHORTWEEKDAYS: const ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'],
-          STANDALONESHORTWEEKDAYS: const [
-            'вс',
-            'пн',
-            'вт',
-            'ср',
-            'чт',
-            'пт',
-            'сб'
-          ],
+          STANDALONESHORTWEEKDAYS: const ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'],
           NARROWWEEKDAYS: const ['В', 'П', 'В', 'С', 'Ч', 'П', 'С'],
           STANDALONENARROWWEEKDAYS: const ['В', 'П', 'В', 'С', 'Ч', 'П', 'С'],
           SHORTQUARTERS: const ['1-й кв.', '2-й кв.', '3-й кв.', '4-й кв.'],
-          QUARTERS: const [
-            '1-й квартал',
-            '2-й квартал',
-            '3-й квартал',
-            '4-й квартал'
-          ],
+          QUARTERS: const ['1-й квартал', '2-й квартал', '3-й квартал', '4-й квартал'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM y \'г\'.',
-            'd MMMM y \'г\'.',
-            'd MMM y \'г\'.',
-            'dd.MM.y'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM y \'г\'.', 'd MMMM y \'г\'.', 'd MMM y \'г\'.', 'dd.MM.y'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 3),
@@ -15014,34 +7263,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "si",
           ERAS: const ['ක්‍රි.පූ.', 'ක්‍රි.ව.'],
           ERANAMES: const ['ක්‍රිස්තු පූර්ව', 'ක්‍රිස්තු වර්ෂ'],
-          NARROWMONTHS: const [
-            'ජ',
-            'පෙ',
-            'මා',
-            'අ',
-            'මැ',
-            'ජූ',
-            'ජූ',
-            'අ',
-            'සැ',
-            'ඔ',
-            'නෙ',
-            'දෙ'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'ජ',
-            'පෙ',
-            'මා',
-            'අ',
-            'මැ',
-            'ජූ',
-            'ජූ',
-            'අ',
-            'සැ',
-            'ඔ',
-            'නෙ',
-            'දෙ'
-          ],
+          NARROWMONTHS: const ['ජ', 'පෙ', 'මා', 'අ', 'මැ', 'ජූ', 'ජූ', 'අ', 'සැ', 'ඔ', 'නෙ', 'දෙ'],
+          STANDALONENARROWMONTHS: const ['ජ', 'පෙ', 'මා', 'අ', 'මැ', 'ජූ', 'ජූ', 'අ', 'සැ', 'ඔ', 'නෙ', 'දෙ'],
           MONTHS: const [
             'ජනවාරි',
             'පෙබරවාරි',
@@ -15098,72 +7321,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'නොවැ',
             'දෙසැ'
           ],
-          WEEKDAYS: const [
-            'ඉරිදා',
-            'සඳුදා',
-            'අඟහරුවාදා',
-            'බදාදා',
-            'බ්‍රහස්පතින්දා',
-            'සිකුරාදා',
-            'සෙනසුරාදා'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'ඉරිදා',
-            'සඳුදා',
-            'අඟහරුවාදා',
-            'බදාදා',
-            'බ්‍රහස්පතින්දා',
-            'සිකුරාදා',
-            'සෙනසුරාදා'
-          ],
-          SHORTWEEKDAYS: const [
-            'ඉරිදා',
-            'සඳුදා',
-            'අඟහ',
-            'බදාදා',
-            'බ්‍රහස්',
-            'සිකු',
-            'සෙන'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'ඉරිදා',
-            'සඳුදා',
-            'අඟහ',
-            'බදාදා',
-            'බ්‍රහස්',
-            'සිකු',
-            'සෙන'
-          ],
+          WEEKDAYS: const ['ඉරිදා', 'සඳුදා', 'අඟහරුවාදා', 'බදාදා', 'බ්‍රහස්පතින්දා', 'සිකුරාදා', 'සෙනසුරාදා'],
+          STANDALONEWEEKDAYS: const ['ඉරිදා', 'සඳුදා', 'අඟහරුවාදා', 'බදාදා', 'බ්‍රහස්පතින්දා', 'සිකුරාදා', 'සෙනසුරාදා'],
+          SHORTWEEKDAYS: const ['ඉරිදා', 'සඳුදා', 'අඟහ', 'බදාදා', 'බ්‍රහස්', 'සිකු', 'සෙන'],
+          STANDALONESHORTWEEKDAYS: const ['ඉරිදා', 'සඳුදා', 'අඟහ', 'බදාදා', 'බ්‍රහස්', 'සිකු', 'සෙන'],
           NARROWWEEKDAYS: const ['ඉ', 'ස', 'අ', 'බ', 'බ්‍ර', 'සි', 'සෙ'],
-          STANDALONENARROWWEEKDAYS: const [
-            'ඉ',
-            'ස',
-            'අ',
-            'බ',
-            'බ්‍ර',
-            'සි',
-            'සෙ'
-          ],
+          STANDALONENARROWWEEKDAYS: const ['ඉ', 'ස', 'අ', 'බ', 'බ්‍ර', 'සි', 'සෙ'],
           SHORTQUARTERS: const ['කාර්:1', 'කාර්:2', 'කාර්:3', 'කාර්:4'],
-          QUARTERS: const [
-            '1 වන කාර්තුව',
-            '2 වන කාර්තුව',
-            '3 වන කාර්තුව',
-            '4 වන කාර්තුව'
-          ],
+          QUARTERS: const ['1 වන කාර්තුව', '2 වන කාර්තුව', '3 වන කාර්තුව', '4 වන කාර්තුව'],
           AMPMS: const ['පෙ.ව.', 'ප.ව.'],
-          DATEFORMATS: const [
-            'y MMMM d, EEEE',
-            'y MMMM d',
-            'y MMM d',
-            'y-MM-dd'
-          ],
-          TIMEFORMATS: const [
-            'HH.mm.ss zzzz',
-            'HH.mm.ss z',
-            'HH.mm.ss',
-            'HH.mm'
-          ],
+          DATEFORMATS: const ['y MMMM d, EEEE', 'y MMMM d', 'y MMM d', 'y-MM-dd'],
+          TIMEFORMATS: const ['HH.mm.ss zzzz', 'HH.mm.ss z', 'HH.mm.ss', 'HH.mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -15173,34 +7341,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "sk",
           ERAS: const ['pred Kr.', 'po Kr.'],
           ERANAMES: const ['pred Kristom', 'po Kristovi'],
-          NARROWMONTHS: const [
-            'j',
-            'f',
-            'm',
-            'a',
-            'm',
-            'j',
-            'j',
-            'a',
-            's',
-            'o',
-            'n',
-            'd'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'j',
-            'f',
-            'm',
-            'a',
-            'm',
-            'j',
-            'j',
-            'a',
-            's',
-            'o',
-            'n',
-            'd'
-          ],
+          NARROWMONTHS: const ['j', 'f', 'm', 'a', 'm', 'j', 'j', 'a', 's', 'o', 'n', 'd'],
+          STANDALONENARROWMONTHS: const ['j', 'f', 'm', 'a', 'm', 'j', 'j', 'a', 's', 'o', 'n', 'd'],
           MONTHS: const [
             'januára',
             'februára',
@@ -15229,20 +7371,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'november',
             'december'
           ],
-          SHORTMONTHS: const [
-            'jan',
-            'feb',
-            'mar',
-            'apr',
-            'máj',
-            'jún',
-            'júl',
-            'aug',
-            'sep',
-            'okt',
-            'nov',
-            'dec'
-          ],
+          SHORTMONTHS: const ['jan', 'feb', 'mar', 'apr', 'máj', 'jún', 'júl', 'aug', 'sep', 'okt', 'nov', 'dec'],
           STANDALONESHORTMONTHS: const [
             'jan',
             'feb',
@@ -15257,57 +7386,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nov',
             'dec'
           ],
-          WEEKDAYS: const [
-            'nedeľa',
-            'pondelok',
-            'utorok',
-            'streda',
-            'štvrtok',
-            'piatok',
-            'sobota'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'nedeľa',
-            'pondelok',
-            'utorok',
-            'streda',
-            'štvrtok',
-            'piatok',
-            'sobota'
-          ],
+          WEEKDAYS: const ['nedeľa', 'pondelok', 'utorok', 'streda', 'štvrtok', 'piatok', 'sobota'],
+          STANDALONEWEEKDAYS: const ['nedeľa', 'pondelok', 'utorok', 'streda', 'štvrtok', 'piatok', 'sobota'],
           SHORTWEEKDAYS: const ['ne', 'po', 'ut', 'st', 'št', 'pi', 'so'],
-          STANDALONESHORTWEEKDAYS: const [
-            'ne',
-            'po',
-            'ut',
-            'st',
-            'št',
-            'pi',
-            'so'
-          ],
+          STANDALONESHORTWEEKDAYS: const ['ne', 'po', 'ut', 'st', 'št', 'pi', 'so'],
           NARROWWEEKDAYS: const ['n', 'p', 'u', 's', 'š', 'p', 's'],
           STANDALONENARROWWEEKDAYS: const ['n', 'p', 'u', 's', 'š', 'p', 's'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
-          QUARTERS: const [
-            '1. štvrťrok',
-            '2. štvrťrok',
-            '3. štvrťrok',
-            '4. štvrťrok'
-          ],
+          QUARTERS: const ['1. štvrťrok', '2. štvrťrok', '3. štvrťrok', '4. štvrťrok'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE d. MMMM y',
-            'd. MMMM y',
-            'd. M. y',
-            'd. M. y'
-          ],
+          DATEFORMATS: const ['EEEE d. MMMM y', 'd. MMMM y', 'd. M. y', 'd. M. y'],
           TIMEFORMATS: const ['H:mm:ss zzzz', 'H:mm:ss z', 'H:mm:ss', 'H:mm'],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1} {0}'
-          ],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 3),
@@ -15316,34 +7406,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "sl",
           ERAS: const ['pr. Kr.', 'po Kr.'],
           ERANAMES: const ['pred Kristusom', 'po Kristusu'],
-          NARROWMONTHS: const [
-            'j',
-            'f',
-            'm',
-            'a',
-            'm',
-            'j',
-            'j',
-            'a',
-            's',
-            'o',
-            'n',
-            'd'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'j',
-            'f',
-            'm',
-            'a',
-            'm',
-            'j',
-            'j',
-            'a',
-            's',
-            'o',
-            'n',
-            'd'
-          ],
+          NARROWMONTHS: const ['j', 'f', 'm', 'a', 'm', 'j', 'j', 'a', 's', 'o', 'n', 'd'],
+          STANDALONENARROWMONTHS: const ['j', 'f', 'm', 'a', 'm', 'j', 'j', 'a', 's', 'o', 'n', 'd'],
           MONTHS: const [
             'januar',
             'februar',
@@ -15400,64 +7464,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nov.',
             'dec.'
           ],
-          WEEKDAYS: const [
-            'nedelja',
-            'ponedeljek',
-            'torek',
-            'sreda',
-            'četrtek',
-            'petek',
-            'sobota'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'nedelja',
-            'ponedeljek',
-            'torek',
-            'sreda',
-            'četrtek',
-            'petek',
-            'sobota'
-          ],
-          SHORTWEEKDAYS: const [
-            'ned.',
-            'pon.',
-            'tor.',
-            'sre.',
-            'čet.',
-            'pet.',
-            'sob.'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'ned.',
-            'pon.',
-            'tor.',
-            'sre.',
-            'čet.',
-            'pet.',
-            'sob.'
-          ],
+          WEEKDAYS: const ['nedelja', 'ponedeljek', 'torek', 'sreda', 'četrtek', 'petek', 'sobota'],
+          STANDALONEWEEKDAYS: const ['nedelja', 'ponedeljek', 'torek', 'sreda', 'četrtek', 'petek', 'sobota'],
+          SHORTWEEKDAYS: const ['ned.', 'pon.', 'tor.', 'sre.', 'čet.', 'pet.', 'sob.'],
+          STANDALONESHORTWEEKDAYS: const ['ned.', 'pon.', 'tor.', 'sre.', 'čet.', 'pet.', 'sob.'],
           NARROWWEEKDAYS: const ['n', 'p', 't', 's', 'č', 'p', 's'],
           STANDALONENARROWWEEKDAYS: const ['n', 'p', 't', 's', 'č', 'p', 's'],
           SHORTQUARTERS: const ['1. čet.', '2. čet.', '3. čet.', '4. čet.'],
-          QUARTERS: const [
-            '1. četrtletje',
-            '2. četrtletje',
-            '3. četrtletje',
-            '4. četrtletje'
-          ],
+          QUARTERS: const ['1. četrtletje', '2. četrtletje', '3. četrtletje', '4. četrtletje'],
           AMPMS: const ['dop.', 'pop.'],
-          DATEFORMATS: const [
-            'EEEE, d. MMMM y',
-            'd. MMMM y',
-            'd. MMM y',
-            'd. MM. yy'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['EEEE, d. MMMM y', 'd. MMMM y', 'd. MMM y', 'd. MM. yy'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -15467,34 +7484,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "sq",
           ERAS: const ['p.K.', 'mb.K.'],
           ERANAMES: const ['para Krishtit', 'mbas Krishtit'],
-          NARROWMONTHS: const [
-            'j',
-            'sh',
-            'm',
-            'p',
-            'm',
-            'q',
-            'k',
-            'g',
-            'sh',
-            't',
-            'n',
-            'dh'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'j',
-            'sh',
-            'm',
-            'p',
-            'm',
-            'q',
-            'k',
-            'g',
-            'sh',
-            't',
-            'n',
-            'dh'
-          ],
+          NARROWMONTHS: const ['j', 'sh', 'm', 'p', 'm', 'q', 'k', 'g', 'sh', 't', 'n', 'dh'],
+          STANDALONENARROWMONTHS: const ['j', 'sh', 'm', 'p', 'm', 'q', 'k', 'g', 'sh', 't', 'n', 'dh'],
           MONTHS: const [
             'janar',
             'shkurt',
@@ -15523,20 +7514,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nëntor',
             'dhjetor'
           ],
-          SHORTMONTHS: const [
-            'jan',
-            'shk',
-            'mar',
-            'pri',
-            'maj',
-            'qer',
-            'korr',
-            'gush',
-            'sht',
-            'tet',
-            'nën',
-            'dhj'
-          ],
+          SHORTMONTHS: const ['jan', 'shk', 'mar', 'pri', 'maj', 'qer', 'korr', 'gush', 'sht', 'tet', 'nën', 'dhj'],
           STANDALONESHORTMONTHS: const [
             'jan',
             'shk',
@@ -15551,75 +7529,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nën',
             'dhj'
           ],
-          WEEKDAYS: const [
-            'e diel',
-            'e hënë',
-            'e martë',
-            'e mërkurë',
-            'e enjte',
-            'e premte',
-            'e shtunë'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'e diel',
-            'e hënë',
-            'e martë',
-            'e mërkurë',
-            'e enjte',
-            'e premte',
-            'e shtunë'
-          ],
-          SHORTWEEKDAYS: const [
-            'Die',
-            'Hën',
-            'Mar',
-            'Mër',
-            'Enj',
-            'Pre',
-            'Sht'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'die',
-            'hën',
-            'mar',
-            'mër',
-            'enj',
-            'pre',
-            'sht'
-          ],
+          WEEKDAYS: const ['e diel', 'e hënë', 'e martë', 'e mërkurë', 'e enjte', 'e premte', 'e shtunë'],
+          STANDALONEWEEKDAYS: const ['e diel', 'e hënë', 'e martë', 'e mërkurë', 'e enjte', 'e premte', 'e shtunë'],
+          SHORTWEEKDAYS: const ['Die', 'Hën', 'Mar', 'Mër', 'Enj', 'Pre', 'Sht'],
+          STANDALONESHORTWEEKDAYS: const ['die', 'hën', 'mar', 'mër', 'enj', 'pre', 'sht'],
           NARROWWEEKDAYS: const ['d', 'h', 'm', 'm', 'e', 'p', 'sh'],
           STANDALONENARROWWEEKDAYS: const ['d', 'h', 'm', 'm', 'e', 'p', 'sh'],
-          SHORTQUARTERS: const [
-            'tremujori I',
-            'tremujori II',
-            'tremujori III',
-            'tremujori IV'
-          ],
-          QUARTERS: const [
-            'tremujori i parë',
-            'tremujori i dytë',
-            'tremujori i tretë',
-            'tremujori i katërt'
-          ],
+          SHORTQUARTERS: const ['tremujori I', 'tremujori II', 'tremujori III', 'tremujori IV'],
+          QUARTERS: const ['tremujori i parë', 'tremujori i dytë', 'tremujori i tretë', 'tremujori i katërt'],
           AMPMS: const ['e paradites', 'e pasdites'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'd.M.yy'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a, zzzz',
-            'h:mm:ss a, z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM y', 'd MMMM y', 'd MMM y', 'd.M.yy'],
+          TIMEFORMATS: const ['h:mm:ss a, zzzz', 'h:mm:ss a, z', 'h:mm:ss a', 'h:mm a'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 6),
@@ -15628,34 +7549,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "sr",
           ERAS: const ['п. н. е.', 'н. е.'],
           ERANAMES: const ['пре нове ере', 'нове ере'],
-          NARROWMONTHS: const [
-            'ј',
-            'ф',
-            'м',
-            'а',
-            'м',
-            'ј',
-            'ј',
-            'а',
-            'с',
-            'о',
-            'н',
-            'д'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'ј',
-            'ф',
-            'м',
-            'а',
-            'м',
-            'ј',
-            'ј',
-            'а',
-            'с',
-            'о',
-            'н',
-            'д'
-          ],
+          NARROWMONTHS: const ['ј', 'ф', 'м', 'а', 'м', 'ј', 'ј', 'а', 'с', 'о', 'н', 'д'],
+          STANDALONENARROWMONTHS: const ['ј', 'ф', 'м', 'а', 'м', 'ј', 'ј', 'а', 'с', 'о', 'н', 'д'],
           MONTHS: const [
             'јануар',
             'фебруар',
@@ -15684,20 +7579,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'новембар',
             'децембар'
           ],
-          SHORTMONTHS: const [
-            'јан',
-            'феб',
-            'мар',
-            'апр',
-            'мај',
-            'јун',
-            'јул',
-            'авг',
-            'сеп',
-            'окт',
-            'нов',
-            'дец'
-          ],
+          SHORTMONTHS: const ['јан', 'феб', 'мар', 'апр', 'мај', 'јун', 'јул', 'авг', 'сеп', 'окт', 'нов', 'дец'],
           STANDALONESHORTMONTHS: const [
             'јан',
             'феб',
@@ -15712,64 +7594,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'нов',
             'дец'
           ],
-          WEEKDAYS: const [
-            'недеља',
-            'понедељак',
-            'уторак',
-            'среда',
-            'четвртак',
-            'петак',
-            'субота'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'недеља',
-            'понедељак',
-            'уторак',
-            'среда',
-            'четвртак',
-            'петак',
-            'субота'
-          ],
-          SHORTWEEKDAYS: const [
-            'нед',
-            'пон',
-            'уто',
-            'сре',
-            'чет',
-            'пет',
-            'суб'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'нед',
-            'пон',
-            'уто',
-            'сре',
-            'чет',
-            'пет',
-            'суб'
-          ],
+          WEEKDAYS: const ['недеља', 'понедељак', 'уторак', 'среда', 'четвртак', 'петак', 'субота'],
+          STANDALONEWEEKDAYS: const ['недеља', 'понедељак', 'уторак', 'среда', 'четвртак', 'петак', 'субота'],
+          SHORTWEEKDAYS: const ['нед', 'пон', 'уто', 'сре', 'чет', 'пет', 'суб'],
+          STANDALONESHORTWEEKDAYS: const ['нед', 'пон', 'уто', 'сре', 'чет', 'пет', 'суб'],
           NARROWWEEKDAYS: const ['н', 'п', 'у', 'с', 'ч', 'п', 'с'],
           STANDALONENARROWWEEKDAYS: const ['н', 'п', 'у', 'с', 'ч', 'п', 'с'],
           SHORTQUARTERS: const ['1. кв.', '2. кв.', '3. кв.', '4. кв.'],
-          QUARTERS: const [
-            'први квартал',
-            'други квартал',
-            'трећи квартал',
-            'четврти квартал'
-          ],
+          QUARTERS: const ['први квартал', 'други квартал', 'трећи квартал', 'четврти квартал'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, d. MMMM y.',
-            'd. MMMM y.',
-            'd. M. y.',
-            'd.M.yy.'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['EEEE, d. MMMM y.', 'd. MMMM y.', 'd. M. y.', 'd.M.yy.'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -15779,34 +7614,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "sr_Latn",
           ERAS: const ['p. n. e.', 'n. e.'],
           ERANAMES: const ['pre nove ere', 'nove ere'],
-          NARROWMONTHS: const [
-            'j',
-            'f',
-            'm',
-            'a',
-            'm',
-            'j',
-            'j',
-            'a',
-            's',
-            'o',
-            'n',
-            'd'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'j',
-            'f',
-            'm',
-            'a',
-            'm',
-            'j',
-            'j',
-            'a',
-            's',
-            'o',
-            'n',
-            'd'
-          ],
+          NARROWMONTHS: const ['j', 'f', 'm', 'a', 'm', 'j', 'j', 'a', 's', 'o', 'n', 'd'],
+          STANDALONENARROWMONTHS: const ['j', 'f', 'm', 'a', 'm', 'j', 'j', 'a', 's', 'o', 'n', 'd'],
           MONTHS: const [
             'januar',
             'februar',
@@ -15835,20 +7644,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'novembar',
             'decembar'
           ],
-          SHORTMONTHS: const [
-            'jan',
-            'feb',
-            'mar',
-            'apr',
-            'maj',
-            'jun',
-            'jul',
-            'avg',
-            'sep',
-            'okt',
-            'nov',
-            'dec'
-          ],
+          SHORTMONTHS: const ['jan', 'feb', 'mar', 'apr', 'maj', 'jun', 'jul', 'avg', 'sep', 'okt', 'nov', 'dec'],
           STANDALONESHORTMONTHS: const [
             'jan',
             'feb',
@@ -15863,64 +7659,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nov',
             'dec'
           ],
-          WEEKDAYS: const [
-            'nedelja',
-            'ponedeljak',
-            'utorak',
-            'sreda',
-            'četvrtak',
-            'petak',
-            'subota'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'nedelja',
-            'ponedeljak',
-            'utorak',
-            'sreda',
-            'četvrtak',
-            'petak',
-            'subota'
-          ],
-          SHORTWEEKDAYS: const [
-            'ned',
-            'pon',
-            'uto',
-            'sre',
-            'čet',
-            'pet',
-            'sub'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'ned',
-            'pon',
-            'uto',
-            'sre',
-            'čet',
-            'pet',
-            'sub'
-          ],
+          WEEKDAYS: const ['nedelja', 'ponedeljak', 'utorak', 'sreda', 'četvrtak', 'petak', 'subota'],
+          STANDALONEWEEKDAYS: const ['nedelja', 'ponedeljak', 'utorak', 'sreda', 'četvrtak', 'petak', 'subota'],
+          SHORTWEEKDAYS: const ['ned', 'pon', 'uto', 'sre', 'čet', 'pet', 'sub'],
+          STANDALONESHORTWEEKDAYS: const ['ned', 'pon', 'uto', 'sre', 'čet', 'pet', 'sub'],
           NARROWWEEKDAYS: const ['n', 'p', 'u', 's', 'č', 'p', 's'],
           STANDALONENARROWWEEKDAYS: const ['n', 'p', 'u', 's', 'č', 'p', 's'],
           SHORTQUARTERS: const ['1. kv.', '2. kv.', '3. kv.', '4. kv.'],
-          QUARTERS: const [
-            'prvi kvartal',
-            'drugi kvartal',
-            'treći kvartal',
-            'četvrti kvartal'
-          ],
+          QUARTERS: const ['prvi kvartal', 'drugi kvartal', 'treći kvartal', 'četvrti kvartal'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, d. MMMM y.',
-            'd. MMMM y.',
-            'd. M. y.',
-            'd.M.yy.'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['EEEE, d. MMMM y.', 'd. MMMM y.', 'd. M. y.', 'd.M.yy.'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -15930,34 +7679,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "sv",
           ERAS: const ['f.Kr.', 'e.Kr.'],
           ERANAMES: const ['före Kristus', 'efter Kristus'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'januari',
             'februari',
@@ -16014,64 +7737,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'nov.',
             'dec.'
           ],
-          WEEKDAYS: const [
-            'söndag',
-            'måndag',
-            'tisdag',
-            'onsdag',
-            'torsdag',
-            'fredag',
-            'lördag'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'söndag',
-            'måndag',
-            'tisdag',
-            'onsdag',
-            'torsdag',
-            'fredag',
-            'lördag'
-          ],
-          SHORTWEEKDAYS: const [
-            'sön',
-            'mån',
-            'tis',
-            'ons',
-            'tors',
-            'fre',
-            'lör'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'sön',
-            'mån',
-            'tis',
-            'ons',
-            'tors',
-            'fre',
-            'lör'
-          ],
+          WEEKDAYS: const ['söndag', 'måndag', 'tisdag', 'onsdag', 'torsdag', 'fredag', 'lördag'],
+          STANDALONEWEEKDAYS: const ['söndag', 'måndag', 'tisdag', 'onsdag', 'torsdag', 'fredag', 'lördag'],
+          SHORTWEEKDAYS: const ['sön', 'mån', 'tis', 'ons', 'tors', 'fre', 'lör'],
+          STANDALONESHORTWEEKDAYS: const ['sön', 'mån', 'tis', 'ons', 'tors', 'fre', 'lör'],
           NARROWWEEKDAYS: const ['S', 'M', 'T', 'O', 'T', 'F', 'L'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'T', 'O', 'T', 'F', 'L'],
           SHORTQUARTERS: const ['K1', 'K2', 'K3', 'K4'],
-          QUARTERS: const [
-            '1:a kvartalet',
-            '2:a kvartalet',
-            '3:e kvartalet',
-            '4:e kvartalet'
-          ],
+          QUARTERS: const ['1:a kvartalet', '2:a kvartalet', '3:e kvartalet', '4:e kvartalet'],
           AMPMS: const ['fm', 'em'],
-          DATEFORMATS: const [
-            'EEEE d MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'y-MM-dd'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['EEEE d MMMM y', 'd MMMM y', 'd MMM y', 'y-MM-dd'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -16081,34 +7757,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "sw",
           ERAS: const ['KK', 'BK'],
           ERANAMES: const ['Kabla ya Kristo', 'Baada ya Kristo'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'Januari',
             'Februari',
@@ -16137,20 +7787,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Novemba',
             'Desemba'
           ],
-          SHORTMONTHS: const [
-            'Jan',
-            'Feb',
-            'Mac',
-            'Apr',
-            'Mei',
-            'Jun',
-            'Jul',
-            'Ago',
-            'Sep',
-            'Okt',
-            'Nov',
-            'Des'
-          ],
+          SHORTMONTHS: const ['Jan', 'Feb', 'Mac', 'Apr', 'Mei', 'Jun', 'Jul', 'Ago', 'Sep', 'Okt', 'Nov', 'Des'],
           STANDALONESHORTMONTHS: const [
             'Jan',
             'Feb',
@@ -16165,33 +7802,9 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nov',
             'Des'
           ],
-          WEEKDAYS: const [
-            'Jumapili',
-            'Jumatatu',
-            'Jumanne',
-            'Jumatano',
-            'Alhamisi',
-            'Ijumaa',
-            'Jumamosi'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Jumapili',
-            'Jumatatu',
-            'Jumanne',
-            'Jumatano',
-            'Alhamisi',
-            'Ijumaa',
-            'Jumamosi'
-          ],
-          SHORTWEEKDAYS: const [
-            'Jumapili',
-            'Jumatatu',
-            'Jumanne',
-            'Jumatano',
-            'Alhamisi',
-            'Ijumaa',
-            'Jumamosi'
-          ],
+          WEEKDAYS: const ['Jumapili', 'Jumatatu', 'Jumanne', 'Jumatano', 'Alhamisi', 'Ijumaa', 'Jumamosi'],
+          STANDALONEWEEKDAYS: const ['Jumapili', 'Jumatatu', 'Jumanne', 'Jumatano', 'Alhamisi', 'Ijumaa', 'Jumamosi'],
+          SHORTWEEKDAYS: const ['Jumapili', 'Jumatatu', 'Jumanne', 'Jumatano', 'Alhamisi', 'Ijumaa', 'Jumamosi'],
           STANDALONESHORTWEEKDAYS: const [
             'Jumapili',
             'Jumatatu',
@@ -16203,26 +7816,11 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           ],
           NARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
-          SHORTQUARTERS: const [
-            'Robo ya 1',
-            'Robo ya 2',
-            'Robo ya 3',
-            'Robo ya 4'
-          ],
+          SHORTQUARTERS: const ['Robo ya 1', 'Robo ya 2', 'Robo ya 3', 'Robo ya 4'],
           QUARTERS: const ['Robo ya 1', 'Robo ya 2', 'Robo ya 3', 'Robo ya 4'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM y',
-            'd MMMM y',
-            'd MMM y',
-            'dd/MM/y'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM y', 'd MMMM y', 'd MMM y', 'dd/MM/y'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -16232,34 +7830,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "ta",
           ERAS: const ['கி.மு.', 'கி.பி.'],
           ERANAMES: const ['கிறிஸ்துவுக்கு முன்', 'அன்னோ டோமினி'],
-          NARROWMONTHS: const [
-            'ஜ',
-            'பி',
-            'மா',
-            'ஏ',
-            'மே',
-            'ஜூ',
-            'ஜூ',
-            'ஆ',
-            'செ',
-            'அ',
-            'ந',
-            'டி'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'ஜ',
-            'பி',
-            'மா',
-            'ஏ',
-            'மே',
-            'ஜூ',
-            'ஜூ',
-            'ஆ',
-            'செ',
-            'அ',
-            'ந',
-            'டி'
-          ],
+          NARROWMONTHS: const ['ஜ', 'பி', 'மா', 'ஏ', 'மே', 'ஜூ', 'ஜூ', 'ஆ', 'செ', 'அ', 'ந', 'டி'],
+          STANDALONENARROWMONTHS: const ['ஜ', 'பி', 'மா', 'ஏ', 'மே', 'ஜூ', 'ஜூ', 'ஆ', 'செ', 'அ', 'ந', 'டி'],
           MONTHS: const [
             'ஜனவரி',
             'பிப்ரவரி',
@@ -16316,78 +7888,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'நவ.',
             'டிச.'
           ],
-          WEEKDAYS: const [
-            'ஞாயிறு',
-            'திங்கள்',
-            'செவ்வாய்',
-            'புதன்',
-            'வியாழன்',
-            'வெள்ளி',
-            'சனி'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'ஞாயிறு',
-            'திங்கள்',
-            'செவ்வாய்',
-            'புதன்',
-            'வியாழன்',
-            'வெள்ளி',
-            'சனி'
-          ],
-          SHORTWEEKDAYS: const [
-            'ஞாயி.',
-            'திங்.',
-            'செவ்.',
-            'புத.',
-            'வியா.',
-            'வெள்.',
-            'சனி'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'ஞாயி.',
-            'திங்.',
-            'செவ்.',
-            'புத.',
-            'வியா.',
-            'வெள்.',
-            'சனி'
-          ],
+          WEEKDAYS: const ['ஞாயிறு', 'திங்கள்', 'செவ்வாய்', 'புதன்', 'வியாழன்', 'வெள்ளி', 'சனி'],
+          STANDALONEWEEKDAYS: const ['ஞாயிறு', 'திங்கள்', 'செவ்வாய்', 'புதன்', 'வியாழன்', 'வெள்ளி', 'சனி'],
+          SHORTWEEKDAYS: const ['ஞாயி.', 'திங்.', 'செவ்.', 'புத.', 'வியா.', 'வெள்.', 'சனி'],
+          STANDALONESHORTWEEKDAYS: const ['ஞாயி.', 'திங்.', 'செவ்.', 'புத.', 'வியா.', 'வெள்.', 'சனி'],
           NARROWWEEKDAYS: const ['ஞா', 'தி', 'செ', 'பு', 'வி', 'வெ', 'ச'],
-          STANDALONENARROWWEEKDAYS: const [
-            'ஞா',
-            'தி',
-            'செ',
-            'பு',
-            'வி',
-            'வெ',
-            'ச'
-          ],
+          STANDALONENARROWWEEKDAYS: const ['ஞா', 'தி', 'செ', 'பு', 'வி', 'வெ', 'ச'],
           SHORTQUARTERS: const ['காலா.1', 'காலா.2', 'காலா.3', 'காலா.4'],
-          QUARTERS: const [
-            'ஒன்றாம் காலாண்டு',
-            'இரண்டாம் காலாண்டு',
-            'மூன்றாம் காலாண்டு',
-            'நான்காம் காலாண்டு'
-          ],
+          QUARTERS: const ['ஒன்றாம் காலாண்டு', 'இரண்டாம் காலாண்டு', 'மூன்றாம் காலாண்டு', 'நான்காம் காலாண்டு'],
           AMPMS: const ['முற்பகல்', 'பிற்பகல்'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM, y',
-            'd MMMM, y',
-            'd MMM, y',
-            'd/M/yy'
-          ],
-          TIMEFORMATS: const [
-            'a h:mm:ss zzzz',
-            'a h:mm:ss z',
-            'a h:mm:ss',
-            'a h:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM, y', 'd MMMM, y', 'd MMM, y', 'd/M/yy'],
+          TIMEFORMATS: const ['a h:mm:ss zzzz', 'a h:mm:ss z', 'a h:mm:ss', 'a h:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [6, 6],
           FIRSTWEEKCUTOFFDAY: 5),
@@ -16396,34 +7908,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "te",
           ERAS: const ['క్రీపూ', 'క్రీశ'],
           ERANAMES: const ['క్రీస్తు పూర్వం', 'క్రీస్తు శకం'],
-          NARROWMONTHS: const [
-            'జ',
-            'ఫి',
-            'మా',
-            'ఏ',
-            'మే',
-            'జూ',
-            'జు',
-            'ఆ',
-            'సె',
-            'అ',
-            'న',
-            'డి'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'జ',
-            'ఫి',
-            'మా',
-            'ఏ',
-            'మే',
-            'జూ',
-            'జు',
-            'ఆ',
-            'సె',
-            'అ',
-            'న',
-            'డి'
-          ],
+          NARROWMONTHS: const ['జ', 'ఫి', 'మా', 'ఏ', 'మే', 'జూ', 'జు', 'ఆ', 'సె', 'అ', 'న', 'డి'],
+          STANDALONENARROWMONTHS: const ['జ', 'ఫి', 'మా', 'ఏ', 'మే', 'జూ', 'జు', 'ఆ', 'సె', 'అ', 'న', 'డి'],
           MONTHS: const [
             'జనవరి',
             'ఫిబ్రవరి',
@@ -16480,72 +7966,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'నవం',
             'డిసెం'
           ],
-          WEEKDAYS: const [
-            'ఆదివారం',
-            'సోమవారం',
-            'మంగళవారం',
-            'బుధవారం',
-            'గురువారం',
-            'శుక్రవారం',
-            'శనివారం'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'ఆదివారం',
-            'సోమవారం',
-            'మంగళవారం',
-            'బుధవారం',
-            'గురువారం',
-            'శుక్రవారం',
-            'శనివారం'
-          ],
-          SHORTWEEKDAYS: const [
-            'ఆది',
-            'సోమ',
-            'మంగళ',
-            'బుధ',
-            'గురు',
-            'శుక్ర',
-            'శని'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'ఆది',
-            'సోమ',
-            'మంగళ',
-            'బుధ',
-            'గురు',
-            'శుక్ర',
-            'శని'
-          ],
+          WEEKDAYS: const ['ఆదివారం', 'సోమవారం', 'మంగళవారం', 'బుధవారం', 'గురువారం', 'శుక్రవారం', 'శనివారం'],
+          STANDALONEWEEKDAYS: const ['ఆదివారం', 'సోమవారం', 'మంగళవారం', 'బుధవారం', 'గురువారం', 'శుక్రవారం', 'శనివారం'],
+          SHORTWEEKDAYS: const ['ఆది', 'సోమ', 'మంగళ', 'బుధ', 'గురు', 'శుక్ర', 'శని'],
+          STANDALONESHORTWEEKDAYS: const ['ఆది', 'సోమ', 'మంగళ', 'బుధ', 'గురు', 'శుక్ర', 'శని'],
           NARROWWEEKDAYS: const ['ఆ', 'సో', 'మ', 'బు', 'గు', 'శు', 'శ'],
-          STANDALONENARROWWEEKDAYS: const [
-            'ఆ',
-            'సో',
-            'మ',
-            'బు',
-            'గు',
-            'శు',
-            'శ'
-          ],
+          STANDALONENARROWWEEKDAYS: const ['ఆ', 'సో', 'మ', 'బు', 'గు', 'శు', 'శ'],
           SHORTQUARTERS: const ['త్రై1', 'త్రై2', 'త్రై3', 'త్రై4'],
-          QUARTERS: const [
-            '1వ త్రైమాసికం',
-            '2వ త్రైమాసికం',
-            '3వ త్రైమాసికం',
-            '4వ త్రైమాసికం'
-          ],
+          QUARTERS: const ['1వ త్రైమాసికం', '2వ త్రైమాసికం', '3వ త్రైమాసికం', '4వ త్రైమాసికం'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'd, MMMM y, EEEE',
-            'd MMMM, y',
-            'd MMM, y',
-            'dd-MM-yy'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
+          DATEFORMATS: const ['d, MMMM y, EEEE', 'd MMMM, y', 'd MMM, y', 'dd-MM-yy'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [6, 6],
@@ -16639,15 +8070,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'พ.ย.',
             'ธ.ค.'
           ],
-          WEEKDAYS: const [
-            'วันอาทิตย์',
-            'วันจันทร์',
-            'วันอังคาร',
-            'วันพุธ',
-            'วันพฤหัสบดี',
-            'วันศุกร์',
-            'วันเสาร์'
-          ],
+          WEEKDAYS: const ['วันอาทิตย์', 'วันจันทร์', 'วันอังคาร', 'วันพุธ', 'วันพฤหัสบดี', 'วันศุกร์', 'วันเสาร์'],
           STANDALONEWEEKDAYS: const [
             'วันอาทิตย์',
             'วันจันทร์',
@@ -16658,32 +8081,14 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'วันเสาร์'
           ],
           SHORTWEEKDAYS: const ['อา.', 'จ.', 'อ.', 'พ.', 'พฤ.', 'ศ.', 'ส.'],
-          STANDALONESHORTWEEKDAYS: const [
-            'อา.',
-            'จ.',
-            'อ.',
-            'พ.',
-            'พฤ.',
-            'ศ.',
-            'ส.'
-          ],
+          STANDALONESHORTWEEKDAYS: const ['อา.', 'จ.', 'อ.', 'พ.', 'พฤ.', 'ศ.', 'ส.'],
           NARROWWEEKDAYS: const ['อา', 'จ', 'อ', 'พ', 'พฤ', 'ศ', 'ส'],
           STANDALONENARROWWEEKDAYS: const ['อา', 'จ', 'อ', 'พ', 'พฤ', 'ศ', 'ส'],
           SHORTQUARTERS: const ['ไตรมาส 1', 'ไตรมาส 2', 'ไตรมาส 3', 'ไตรมาส 4'],
           QUARTERS: const ['ไตรมาส 1', 'ไตรมาส 2', 'ไตรมาส 3', 'ไตรมาส 4'],
           AMPMS: const ['ก่อนเที่ยง', 'หลังเที่ยง'],
-          DATEFORMATS: const [
-            'EEEEที่ d MMMM G y',
-            'd MMMM G y',
-            'd MMM y',
-            'd/M/yy'
-          ],
-          TIMEFORMATS: const [
-            'H นาฬิกา mm นาที ss วินาที zzzz',
-            'H นาฬิกา mm นาที ss วินาที z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['EEEEที่ d MMMM G y', 'd MMMM G y', 'd MMM y', 'd/M/yy'],
+          TIMEFORMATS: const ['H นาฬิกา mm นาที ss วินาที zzzz', 'H นาฬิกา mm นาที ss วินาที z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
@@ -16693,34 +8098,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "tl",
           ERAS: const ['BC', 'AD'],
           ERANAMES: const ['Before Christ', 'Anno Domini'],
-          NARROWMONTHS: const [
-            'Ene',
-            'Peb',
-            'Mar',
-            'Abr',
-            'May',
-            'Hun',
-            'Hul',
-            'Ago',
-            'Set',
-            'Okt',
-            'Nob',
-            'Dis'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'E',
-            'P',
-            'M',
-            'A',
-            'M',
-            'Hun',
-            'Hul',
-            'Ago',
-            'Set',
-            'Okt',
-            'Nob',
-            'Dis'
-          ],
+          NARROWMONTHS: const ['Ene', 'Peb', 'Mar', 'Abr', 'May', 'Hun', 'Hul', 'Ago', 'Set', 'Okt', 'Nob', 'Dis'],
+          STANDALONENARROWMONTHS: const ['E', 'P', 'M', 'A', 'M', 'Hun', 'Hul', 'Ago', 'Set', 'Okt', 'Nob', 'Dis'],
           MONTHS: const [
             'Enero',
             'Pebrero',
@@ -16749,20 +8128,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nobyembre',
             'Disyembre'
           ],
-          SHORTMONTHS: const [
-            'Ene',
-            'Peb',
-            'Mar',
-            'Abr',
-            'May',
-            'Hun',
-            'Hul',
-            'Ago',
-            'Set',
-            'Okt',
-            'Nob',
-            'Dis'
-          ],
+          SHORTMONTHS: const ['Ene', 'Peb', 'Mar', 'Abr', 'May', 'Hun', 'Hul', 'Ago', 'Set', 'Okt', 'Nob', 'Dis'],
           STANDALONESHORTMONTHS: const [
             'Ene',
             'Peb',
@@ -16777,86 +8143,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Nob',
             'Dis'
           ],
-          WEEKDAYS: const [
-            'Linggo',
-            'Lunes',
-            'Martes',
-            'Miyerkules',
-            'Huwebes',
-            'Biyernes',
-            'Sabado'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Linggo',
-            'Lunes',
-            'Martes',
-            'Miyerkules',
-            'Huwebes',
-            'Biyernes',
-            'Sabado'
-          ],
-          SHORTWEEKDAYS: const [
-            'Lin',
-            'Lun',
-            'Mar',
-            'Miy',
-            'Huw',
-            'Biy',
-            'Sab'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Lin',
-            'Lun',
-            'Mar',
-            'Miy',
-            'Huw',
-            'Biy',
-            'Sab'
-          ],
-          NARROWWEEKDAYS: const [
-            'Lin',
-            'Lun',
-            'Mar',
-            'Miy',
-            'Huw',
-            'Biy',
-            'Sab'
-          ],
-          STANDALONENARROWWEEKDAYS: const [
-            'Lin',
-            'Lun',
-            'Mar',
-            'Miy',
-            'Huw',
-            'Biy',
-            'Sab'
-          ],
+          WEEKDAYS: const ['Linggo', 'Lunes', 'Martes', 'Miyerkules', 'Huwebes', 'Biyernes', 'Sabado'],
+          STANDALONEWEEKDAYS: const ['Linggo', 'Lunes', 'Martes', 'Miyerkules', 'Huwebes', 'Biyernes', 'Sabado'],
+          SHORTWEEKDAYS: const ['Lin', 'Lun', 'Mar', 'Miy', 'Huw', 'Biy', 'Sab'],
+          STANDALONESHORTWEEKDAYS: const ['Lin', 'Lun', 'Mar', 'Miy', 'Huw', 'Biy', 'Sab'],
+          NARROWWEEKDAYS: const ['Lin', 'Lun', 'Mar', 'Miy', 'Huw', 'Biy', 'Sab'],
+          STANDALONENARROWWEEKDAYS: const ['Lin', 'Lun', 'Mar', 'Miy', 'Huw', 'Biy', 'Sab'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
-          QUARTERS: const [
-            'ika-1 quarter',
-            'ika-2 quarter',
-            'ika-3 quarter',
-            'ika-4 na quarter'
-          ],
+          QUARTERS: const ['ika-1 quarter', 'ika-2 quarter', 'ika-3 quarter', 'ika-4 na quarter'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, MMMM d, y',
-            'MMMM d, y',
-            'MMM d, y',
-            'M/d/yy'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, MMMM d, y', 'MMMM d, y', 'MMM d, y', 'M/d/yy'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 5),
@@ -16865,34 +8163,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "tr",
           ERAS: const ['MÖ', 'MS'],
           ERANAMES: const ['Milattan Önce', 'Milattan Sonra'],
-          NARROWMONTHS: const [
-            'O',
-            'Ş',
-            'M',
-            'N',
-            'M',
-            'H',
-            'T',
-            'A',
-            'E',
-            'E',
-            'K',
-            'A'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'O',
-            'Ş',
-            'M',
-            'N',
-            'M',
-            'H',
-            'T',
-            'A',
-            'E',
-            'E',
-            'K',
-            'A'
-          ],
+          NARROWMONTHS: const ['O', 'Ş', 'M', 'N', 'M', 'H', 'T', 'A', 'E', 'E', 'K', 'A'],
+          STANDALONENARROWMONTHS: const ['O', 'Ş', 'M', 'N', 'M', 'H', 'T', 'A', 'E', 'E', 'K', 'A'],
           MONTHS: const [
             'Ocak',
             'Şubat',
@@ -16921,20 +8193,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Kasım',
             'Aralık'
           ],
-          SHORTMONTHS: const [
-            'Oca',
-            'Şub',
-            'Mar',
-            'Nis',
-            'May',
-            'Haz',
-            'Tem',
-            'Ağu',
-            'Eyl',
-            'Eki',
-            'Kas',
-            'Ara'
-          ],
+          SHORTMONTHS: const ['Oca', 'Şub', 'Mar', 'Nis', 'May', 'Haz', 'Tem', 'Ağu', 'Eyl', 'Eki', 'Kas', 'Ara'],
           STANDALONESHORTMONTHS: const [
             'Oca',
             'Şub',
@@ -16949,54 +8208,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Kas',
             'Ara'
           ],
-          WEEKDAYS: const [
-            'Pazar',
-            'Pazartesi',
-            'Salı',
-            'Çarşamba',
-            'Perşembe',
-            'Cuma',
-            'Cumartesi'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Pazar',
-            'Pazartesi',
-            'Salı',
-            'Çarşamba',
-            'Perşembe',
-            'Cuma',
-            'Cumartesi'
-          ],
-          SHORTWEEKDAYS: const [
-            'Paz',
-            'Pzt',
-            'Sal',
-            'Çar',
-            'Per',
-            'Cum',
-            'Cmt'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Paz',
-            'Pzt',
-            'Sal',
-            'Çar',
-            'Per',
-            'Cum',
-            'Cmt'
-          ],
+          WEEKDAYS: const ['Pazar', 'Pazartesi', 'Salı', 'Çarşamba', 'Perşembe', 'Cuma', 'Cumartesi'],
+          STANDALONEWEEKDAYS: const ['Pazar', 'Pazartesi', 'Salı', 'Çarşamba', 'Perşembe', 'Cuma', 'Cumartesi'],
+          SHORTWEEKDAYS: const ['Paz', 'Pzt', 'Sal', 'Çar', 'Per', 'Cum', 'Cmt'],
+          STANDALONESHORTWEEKDAYS: const ['Paz', 'Pzt', 'Sal', 'Çar', 'Per', 'Cum', 'Cmt'],
           NARROWWEEKDAYS: const ['P', 'P', 'S', 'Ç', 'P', 'C', 'C'],
           STANDALONENARROWWEEKDAYS: const ['P', 'P', 'S', 'Ç', 'P', 'C', 'C'],
           SHORTQUARTERS: const ['Ç1', 'Ç2', 'Ç3', 'Ç4'],
           QUARTERS: const ['1. çeyrek', '2. çeyrek', '3. çeyrek', '4. çeyrek'],
           AMPMS: const ['ÖÖ', 'ÖS'],
           DATEFORMATS: const ['d MMMM y EEEE', 'd MMMM y', 'd MMM y', 'd.MM.y'],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -17006,34 +8228,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "uk",
           ERAS: const ['до н. е.', 'н. е.'],
           ERANAMES: const ['до нашої ери', 'нашої ери'],
-          NARROWMONTHS: const [
-            'с',
-            'л',
-            'б',
-            'к',
-            'т',
-            'ч',
-            'л',
-            'с',
-            'в',
-            'ж',
-            'л',
-            'г'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'С',
-            'Л',
-            'Б',
-            'К',
-            'Т',
-            'Ч',
-            'Л',
-            'С',
-            'В',
-            'Ж',
-            'Л',
-            'Г'
-          ],
+          NARROWMONTHS: const ['с', 'л', 'б', 'к', 'т', 'ч', 'л', 'с', 'в', 'ж', 'л', 'г'],
+          STANDALONENARROWMONTHS: const ['С', 'Л', 'Б', 'К', 'Т', 'Ч', 'Л', 'С', 'В', 'Ж', 'Л', 'Г'],
           MONTHS: const [
             'січня',
             'лютого',
@@ -17090,62 +8286,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'лис',
             'гру'
           ],
-          WEEKDAYS: const [
-            'неділя',
-            'понеділок',
-            'вівторок',
-            'середа',
-            'четвер',
-            'пʼятниця',
-            'субота'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'неділя',
-            'понеділок',
-            'вівторок',
-            'середа',
-            'четвер',
-            'пʼятниця',
-            'субота'
-          ],
+          WEEKDAYS: const ['неділя', 'понеділок', 'вівторок', 'середа', 'четвер', 'пʼятниця', 'субота'],
+          STANDALONEWEEKDAYS: const ['неділя', 'понеділок', 'вівторок', 'середа', 'четвер', 'пʼятниця', 'субота'],
           SHORTWEEKDAYS: const ['нд', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'],
-          STANDALONESHORTWEEKDAYS: const [
-            'нд',
-            'пн',
-            'вт',
-            'ср',
-            'чт',
-            'пт',
-            'сб'
-          ],
+          STANDALONESHORTWEEKDAYS: const ['нд', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'],
           NARROWWEEKDAYS: const ['Н', 'П', 'В', 'С', 'Ч', 'П', 'С'],
           STANDALONENARROWWEEKDAYS: const ['Н', 'П', 'В', 'С', 'Ч', 'П', 'С'],
           SHORTQUARTERS: const ['1-й кв.', '2-й кв.', '3-й кв.', '4-й кв.'],
-          QUARTERS: const [
-            '1-й квартал',
-            '2-й квартал',
-            '3-й квартал',
-            '4-й квартал'
-          ],
+          QUARTERS: const ['1-й квартал', '2-й квартал', '3-й квартал', '4-й квартал'],
           AMPMS: const ['дп', 'пп'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM y \'р\'.',
-            'd MMMM y \'р\'.',
-            'd MMM y \'р\'.',
-            'dd.MM.yy'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM y \'р\'.', 'd MMMM y \'р\'.', 'd MMM y \'р\'.', 'dd.MM.yy'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 6),
@@ -17154,34 +8306,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "ur",
           ERAS: const ['قبل مسیح', 'عیسوی'],
           ERANAMES: const ['قبل مسیح', 'عیسوی'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'جنوری',
             'فروری',
@@ -17238,69 +8364,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'نومبر',
             'دسمبر'
           ],
-          WEEKDAYS: const [
-            'اتوار',
-            'پیر',
-            'منگل',
-            'بدھ',
-            'جمعرات',
-            'جمعہ',
-            'ہفتہ'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'اتوار',
-            'پیر',
-            'منگل',
-            'بدھ',
-            'جمعرات',
-            'جمعہ',
-            'ہفتہ'
-          ],
-          SHORTWEEKDAYS: const [
-            'اتوار',
-            'پیر',
-            'منگل',
-            'بدھ',
-            'جمعرات',
-            'جمعہ',
-            'ہفتہ'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'اتوار',
-            'پیر',
-            'منگل',
-            'بدھ',
-            'جمعرات',
-            'جمعہ',
-            'ہفتہ'
-          ],
+          WEEKDAYS: const ['اتوار', 'پیر', 'منگل', 'بدھ', 'جمعرات', 'جمعہ', 'ہفتہ'],
+          STANDALONEWEEKDAYS: const ['اتوار', 'پیر', 'منگل', 'بدھ', 'جمعرات', 'جمعہ', 'ہفتہ'],
+          SHORTWEEKDAYS: const ['اتوار', 'پیر', 'منگل', 'بدھ', 'جمعرات', 'جمعہ', 'ہفتہ'],
+          STANDALONESHORTWEEKDAYS: const ['اتوار', 'پیر', 'منگل', 'بدھ', 'جمعرات', 'جمعہ', 'ہفتہ'],
           NARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
-          SHORTQUARTERS: const [
-            'پہلی سہ ماہی',
-            'دوسری سہ ماہی',
-            'تیسری سہ ماہی',
-            'چوتهی سہ ماہی'
-          ],
-          QUARTERS: const [
-            'پہلی سہ ماہی',
-            'دوسری سہ ماہی',
-            'تیسری سہ ماہی',
-            'چوتهی سہ ماہی'
-          ],
+          SHORTQUARTERS: const ['پہلی سہ ماہی', 'دوسری سہ ماہی', 'تیسری سہ ماہی', 'چوتهی سہ ماہی'],
+          QUARTERS: const ['پہلی سہ ماہی', 'دوسری سہ ماہی', 'تیسری سہ ماہی', 'چوتهی سہ ماہی'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE، d MMMM، y',
-            'd MMMM، y',
-            'd MMM، y',
-            'd/M/yy'
-          ],
-          TIMEFORMATS: const [
-            'h:mm:ss a zzzz',
-            'h:mm:ss a z',
-            'h:mm:ss a',
-            'h:mm a'
-          ],
+          DATEFORMATS: const ['EEEE، d MMMM، y', 'd MMMM، y', 'd MMM، y', 'd/M/yy'],
+          TIMEFORMATS: const ['h:mm:ss a zzzz', 'h:mm:ss a z', 'h:mm:ss a', 'h:mm a'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
@@ -17310,34 +8384,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "uz",
           ERAS: const ['m.a.', 'milodiy'],
           ERANAMES: const ['miloddan avvalgi', 'milodiy'],
-          NARROWMONTHS: const [
-            'Y',
-            'F',
-            'M',
-            'A',
-            'M',
-            'I',
-            'I',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'Y',
-            'F',
-            'M',
-            'A',
-            'M',
-            'I',
-            'I',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['Y', 'F', 'M', 'A', 'M', 'I', 'I', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['Y', 'F', 'M', 'A', 'M', 'I', 'I', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'yanvar',
             'fevral',
@@ -17366,20 +8414,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Noyabr',
             'Dekabr'
           ],
-          SHORTMONTHS: const [
-            'yan',
-            'fev',
-            'mar',
-            'apr',
-            'may',
-            'iyn',
-            'iyl',
-            'avg',
-            'sen',
-            'okt',
-            'noy',
-            'dek'
-          ],
+          SHORTMONTHS: const ['yan', 'fev', 'mar', 'apr', 'may', 'iyn', 'iyl', 'avg', 'sen', 'okt', 'noy', 'dek'],
           STANDALONESHORTMONTHS: const [
             'Yan',
             'Fev',
@@ -17394,65 +8429,18 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Noy',
             'Dek'
           ],
-          WEEKDAYS: const [
-            'yakshanba',
-            'dushanba',
-            'seshanba',
-            'chorshanba',
-            'payshanba',
-            'juma',
-            'shanba'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'yakshanba',
-            'dushanba',
-            'seshanba',
-            'chorshanba',
-            'payshanba',
-            'juma',
-            'shanba'
-          ],
-          SHORTWEEKDAYS: const [
-            'Yak',
-            'Dush',
-            'Sesh',
-            'Chor',
-            'Pay',
-            'Jum',
-            'Shan'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Yak',
-            'Dush',
-            'Sesh',
-            'Chor',
-            'Pay',
-            'Jum',
-            'Shan'
-          ],
+          WEEKDAYS: const ['yakshanba', 'dushanba', 'seshanba', 'chorshanba', 'payshanba', 'juma', 'shanba'],
+          STANDALONEWEEKDAYS: const ['yakshanba', 'dushanba', 'seshanba', 'chorshanba', 'payshanba', 'juma', 'shanba'],
+          SHORTWEEKDAYS: const ['Yak', 'Dush', 'Sesh', 'Chor', 'Pay', 'Jum', 'Shan'],
+          STANDALONESHORTWEEKDAYS: const ['Yak', 'Dush', 'Sesh', 'Chor', 'Pay', 'Jum', 'Shan'],
           NARROWWEEKDAYS: const ['Y', 'D', 'S', 'C', 'P', 'J', 'S'],
           STANDALONENARROWWEEKDAYS: const ['Y', 'D', 'S', 'C', 'P', 'J', 'S'],
           SHORTQUARTERS: const ['1-ch', '2-ch', '3-ch', '4-ch'],
           QUARTERS: const ['1-chorak', '2-chorak', '3-chorak', '4-chorak'],
           AMPMS: const ['TO', 'TK'],
-          DATEFORMATS: const [
-            'EEEE, d-MMMM, y',
-            'd-MMMM, y',
-            'd-MMM, y',
-            'dd/MM/yy'
-          ],
-          TIMEFORMATS: const [
-            'H:mm:ss (zzzz)',
-            'H:mm:ss (z)',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
-          DATETIMEFORMATS: const [
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}',
-            '{1}, {0}'
-          ],
+          DATEFORMATS: const ['EEEE, d-MMMM, y', 'd-MMMM, y', 'd-MMM, y', 'dd/MM/yy'],
+          TIMEFORMATS: const ['H:mm:ss (zzzz)', 'H:mm:ss (z)', 'HH:mm:ss', 'HH:mm'],
+          DATETIMEFORMATS: const ['{1}, {0}', '{1}, {0}', '{1}, {0}', '{1}, {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
           FIRSTWEEKCUTOFFDAY: 6),
@@ -17461,34 +8449,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "vi",
           ERAS: const ['TCN', 'CN'],
           ERANAMES: const ['Trước Thiên Chúa', 'Sau Công Nguyên'],
-          NARROWMONTHS: const [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5',
-            '6',
-            '7',
-            '8',
-            '9',
-            '10',
-            '11',
-            '12'
-          ],
-          STANDALONENARROWMONTHS: const [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5',
-            '6',
-            '7',
-            '8',
-            '9',
-            '10',
-            '11',
-            '12'
-          ],
+          NARROWMONTHS: const ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+          STANDALONENARROWMONTHS: const ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
           MONTHS: const [
             'tháng 1',
             'tháng 2',
@@ -17545,67 +8507,17 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Thg 11',
             'Thg 12'
           ],
-          WEEKDAYS: const [
-            'Chủ Nhật',
-            'Thứ Hai',
-            'Thứ Ba',
-            'Thứ Tư',
-            'Thứ Năm',
-            'Thứ Sáu',
-            'Thứ Bảy'
-          ],
-          STANDALONEWEEKDAYS: const [
-            'Chủ Nhật',
-            'Thứ Hai',
-            'Thứ Ba',
-            'Thứ Tư',
-            'Thứ Năm',
-            'Thứ Sáu',
-            'Thứ Bảy'
-          ],
-          SHORTWEEKDAYS: const [
-            'CN',
-            'Th 2',
-            'Th 3',
-            'Th 4',
-            'Th 5',
-            'Th 6',
-            'Th 7'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'CN',
-            'Th 2',
-            'Th 3',
-            'Th 4',
-            'Th 5',
-            'Th 6',
-            'Th 7'
-          ],
+          WEEKDAYS: const ['Chủ Nhật', 'Thứ Hai', 'Thứ Ba', 'Thứ Tư', 'Thứ Năm', 'Thứ Sáu', 'Thứ Bảy'],
+          STANDALONEWEEKDAYS: const ['Chủ Nhật', 'Thứ Hai', 'Thứ Ba', 'Thứ Tư', 'Thứ Năm', 'Thứ Sáu', 'Thứ Bảy'],
+          SHORTWEEKDAYS: const ['CN', 'Th 2', 'Th 3', 'Th 4', 'Th 5', 'Th 6', 'Th 7'],
+          STANDALONESHORTWEEKDAYS: const ['CN', 'Th 2', 'Th 3', 'Th 4', 'Th 5', 'Th 6', 'Th 7'],
           NARROWWEEKDAYS: const ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'],
-          STANDALONENARROWWEEKDAYS: const [
-            'CN',
-            'T2',
-            'T3',
-            'T4',
-            'T5',
-            'T6',
-            'T7'
-          ],
+          STANDALONENARROWWEEKDAYS: const ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
           QUARTERS: const ['Quý 1', 'Quý 2', 'Quý 3', 'Quý 4'],
           AMPMS: const ['SA', 'CH'],
-          DATEFORMATS: const [
-            'EEEE, d MMMM, y',
-            'd MMMM, y',
-            'd MMM, y',
-            'dd/MM/y'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['EEEE, d MMMM, y', 'd MMMM, y', 'd MMM, y', 'dd/MM/y'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{0} {1}', '{0} {1}', '{0}, {1}', '{0}, {1}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -17615,122 +8527,23 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "zh",
           ERAS: const ['公元前', '公元'],
           ERANAMES: const ['公元前', '公元'],
-          NARROWMONTHS: const [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5',
-            '6',
-            '7',
-            '8',
-            '9',
-            '10',
-            '11',
-            '12'
-          ],
-          STANDALONENARROWMONTHS: const [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5',
-            '6',
-            '7',
-            '8',
-            '9',
-            '10',
-            '11',
-            '12'
-          ],
-          MONTHS: const [
-            '一月',
-            '二月',
-            '三月',
-            '四月',
-            '五月',
-            '六月',
-            '七月',
-            '八月',
-            '九月',
-            '十月',
-            '十一月',
-            '十二月'
-          ],
-          STANDALONEMONTHS: const [
-            '一月',
-            '二月',
-            '三月',
-            '四月',
-            '五月',
-            '六月',
-            '七月',
-            '八月',
-            '九月',
-            '十月',
-            '十一月',
-            '十二月'
-          ],
-          SHORTMONTHS: const [
-            '1月',
-            '2月',
-            '3月',
-            '4月',
-            '5月',
-            '6月',
-            '7月',
-            '8月',
-            '9月',
-            '10月',
-            '11月',
-            '12月'
-          ],
-          STANDALONESHORTMONTHS: const [
-            '1月',
-            '2月',
-            '3月',
-            '4月',
-            '5月',
-            '6月',
-            '7月',
-            '8月',
-            '9月',
-            '10月',
-            '11月',
-            '12月'
-          ],
+          NARROWMONTHS: const ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+          STANDALONENARROWMONTHS: const ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+          MONTHS: const ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'],
+          STANDALONEMONTHS: const ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'],
+          SHORTMONTHS: const ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
+          STANDALONESHORTMONTHS: const ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
           WEEKDAYS: const ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'],
-          STANDALONEWEEKDAYS: const [
-            '星期日',
-            '星期一',
-            '星期二',
-            '星期三',
-            '星期四',
-            '星期五',
-            '星期六'
-          ],
+          STANDALONEWEEKDAYS: const ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'],
           SHORTWEEKDAYS: const ['周日', '周一', '周二', '周三', '周四', '周五', '周六'],
-          STANDALONESHORTWEEKDAYS: const [
-            '周日',
-            '周一',
-            '周二',
-            '周三',
-            '周四',
-            '周五',
-            '周六'
-          ],
+          STANDALONESHORTWEEKDAYS: const ['周日', '周一', '周二', '周三', '周四', '周五', '周六'],
           NARROWWEEKDAYS: const ['日', '一', '二', '三', '四', '五', '六'],
           STANDALONENARROWWEEKDAYS: const ['日', '一', '二', '三', '四', '五', '六'],
           SHORTQUARTERS: const ['1季度', '2季度', '3季度', '4季度'],
           QUARTERS: const ['第一季度', '第二季度', '第三季度', '第四季度'],
           AMPMS: const ['上午', '下午'],
           DATEFORMATS: const ['y年M月d日EEEE', 'y年M月d日', 'y年M月d日', 'y/M/d'],
-          TIMEFORMATS: const [
-            'zzzz HH:mm:ss',
-            'z HH:mm:ss',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          TIMEFORMATS: const ['zzzz HH:mm:ss', 'z HH:mm:ss', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -17741,122 +8554,23 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "zh_CN",
           ERAS: const ['公元前', '公元'],
           ERANAMES: const ['公元前', '公元'],
-          NARROWMONTHS: const [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5',
-            '6',
-            '7',
-            '8',
-            '9',
-            '10',
-            '11',
-            '12'
-          ],
-          STANDALONENARROWMONTHS: const [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5',
-            '6',
-            '7',
-            '8',
-            '9',
-            '10',
-            '11',
-            '12'
-          ],
-          MONTHS: const [
-            '一月',
-            '二月',
-            '三月',
-            '四月',
-            '五月',
-            '六月',
-            '七月',
-            '八月',
-            '九月',
-            '十月',
-            '十一月',
-            '十二月'
-          ],
-          STANDALONEMONTHS: const [
-            '一月',
-            '二月',
-            '三月',
-            '四月',
-            '五月',
-            '六月',
-            '七月',
-            '八月',
-            '九月',
-            '十月',
-            '十一月',
-            '十二月'
-          ],
-          SHORTMONTHS: const [
-            '1月',
-            '2月',
-            '3月',
-            '4月',
-            '5月',
-            '6月',
-            '7月',
-            '8月',
-            '9月',
-            '10月',
-            '11月',
-            '12月'
-          ],
-          STANDALONESHORTMONTHS: const [
-            '1月',
-            '2月',
-            '3月',
-            '4月',
-            '5月',
-            '6月',
-            '7月',
-            '8月',
-            '9月',
-            '10月',
-            '11月',
-            '12月'
-          ],
+          NARROWMONTHS: const ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+          STANDALONENARROWMONTHS: const ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+          MONTHS: const ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'],
+          STANDALONEMONTHS: const ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'],
+          SHORTMONTHS: const ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
+          STANDALONESHORTMONTHS: const ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
           WEEKDAYS: const ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'],
-          STANDALONEWEEKDAYS: const [
-            '星期日',
-            '星期一',
-            '星期二',
-            '星期三',
-            '星期四',
-            '星期五',
-            '星期六'
-          ],
+          STANDALONEWEEKDAYS: const ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'],
           SHORTWEEKDAYS: const ['周日', '周一', '周二', '周三', '周四', '周五', '周六'],
-          STANDALONESHORTWEEKDAYS: const [
-            '周日',
-            '周一',
-            '周二',
-            '周三',
-            '周四',
-            '周五',
-            '周六'
-          ],
+          STANDALONESHORTWEEKDAYS: const ['周日', '周一', '周二', '周三', '周四', '周五', '周六'],
           NARROWWEEKDAYS: const ['日', '一', '二', '三', '四', '五', '六'],
           STANDALONENARROWWEEKDAYS: const ['日', '一', '二', '三', '四', '五', '六'],
           SHORTQUARTERS: const ['1季度', '2季度', '3季度', '4季度'],
           QUARTERS: const ['第一季度', '第二季度', '第三季度', '第四季度'],
           AMPMS: const ['上午', '下午'],
           DATEFORMATS: const ['y年M月d日EEEE', 'y年M月d日', 'y年M月d日', 'y/M/d'],
-          TIMEFORMATS: const [
-            'zzzz HH:mm:ss',
-            'z HH:mm:ss',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          TIMEFORMATS: const ['zzzz HH:mm:ss', 'z HH:mm:ss', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 0,
           WEEKENDRANGE: const [5, 6],
@@ -17866,122 +8580,23 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "zh_HK",
           ERAS: const ['公元前', '公元'],
           ERANAMES: const ['公元前', '公元'],
-          NARROWMONTHS: const [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5',
-            '6',
-            '7',
-            '8',
-            '9',
-            '10',
-            '11',
-            '12'
-          ],
-          STANDALONENARROWMONTHS: const [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5',
-            '6',
-            '7',
-            '8',
-            '9',
-            '10',
-            '11',
-            '12'
-          ],
-          MONTHS: const [
-            '1月',
-            '2月',
-            '3月',
-            '4月',
-            '5月',
-            '6月',
-            '7月',
-            '8月',
-            '9月',
-            '10月',
-            '11月',
-            '12月'
-          ],
-          STANDALONEMONTHS: const [
-            '1月',
-            '2月',
-            '3月',
-            '4月',
-            '5月',
-            '6月',
-            '7月',
-            '8月',
-            '9月',
-            '10月',
-            '11月',
-            '12月'
-          ],
-          SHORTMONTHS: const [
-            '1月',
-            '2月',
-            '3月',
-            '4月',
-            '5月',
-            '6月',
-            '7月',
-            '8月',
-            '9月',
-            '10月',
-            '11月',
-            '12月'
-          ],
-          STANDALONESHORTMONTHS: const [
-            '1月',
-            '2月',
-            '3月',
-            '4月',
-            '5月',
-            '6月',
-            '7月',
-            '8月',
-            '9月',
-            '10月',
-            '11月',
-            '12月'
-          ],
+          NARROWMONTHS: const ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+          STANDALONENARROWMONTHS: const ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+          MONTHS: const ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
+          STANDALONEMONTHS: const ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
+          SHORTMONTHS: const ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
+          STANDALONESHORTMONTHS: const ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
           WEEKDAYS: const ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'],
-          STANDALONEWEEKDAYS: const [
-            '星期日',
-            '星期一',
-            '星期二',
-            '星期三',
-            '星期四',
-            '星期五',
-            '星期六'
-          ],
+          STANDALONEWEEKDAYS: const ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'],
           SHORTWEEKDAYS: const ['週日', '週一', '週二', '週三', '週四', '週五', '週六'],
-          STANDALONESHORTWEEKDAYS: const [
-            '週日',
-            '週一',
-            '週二',
-            '週三',
-            '週四',
-            '週五',
-            '週六'
-          ],
+          STANDALONESHORTWEEKDAYS: const ['週日', '週一', '週二', '週三', '週四', '週五', '週六'],
           NARROWWEEKDAYS: const ['日', '一', '二', '三', '四', '五', '六'],
           STANDALONENARROWWEEKDAYS: const ['日', '一', '二', '三', '四', '五', '六'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
           QUARTERS: const ['第1季', '第2季', '第3季', '第4季'],
           AMPMS: const ['上午', '下午'],
           DATEFORMATS: const ['y年M月d日EEEE', 'y年M月d日', 'y年M月d日', 'd/M/y'],
-          TIMEFORMATS: const [
-            'ah:mm:ss [zzzz]',
-            'ah:mm:ss [z]',
-            'ah:mm:ss',
-            'ah:mm'
-          ],
+          TIMEFORMATS: const ['ah:mm:ss [zzzz]', 'ah:mm:ss [z]', 'ah:mm:ss', 'ah:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
@@ -17991,122 +8606,23 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "zh_TW",
           ERAS: const ['西元前', '西元'],
           ERANAMES: const ['西元前', '西元'],
-          NARROWMONTHS: const [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5',
-            '6',
-            '7',
-            '8',
-            '9',
-            '10',
-            '11',
-            '12'
-          ],
-          STANDALONENARROWMONTHS: const [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5',
-            '6',
-            '7',
-            '8',
-            '9',
-            '10',
-            '11',
-            '12'
-          ],
-          MONTHS: const [
-            '1月',
-            '2月',
-            '3月',
-            '4月',
-            '5月',
-            '6月',
-            '7月',
-            '8月',
-            '9月',
-            '10月',
-            '11月',
-            '12月'
-          ],
-          STANDALONEMONTHS: const [
-            '1月',
-            '2月',
-            '3月',
-            '4月',
-            '5月',
-            '6月',
-            '7月',
-            '8月',
-            '9月',
-            '10月',
-            '11月',
-            '12月'
-          ],
-          SHORTMONTHS: const [
-            '1月',
-            '2月',
-            '3月',
-            '4月',
-            '5月',
-            '6月',
-            '7月',
-            '8月',
-            '9月',
-            '10月',
-            '11月',
-            '12月'
-          ],
-          STANDALONESHORTMONTHS: const [
-            '1月',
-            '2月',
-            '3月',
-            '4月',
-            '5月',
-            '6月',
-            '7月',
-            '8月',
-            '9月',
-            '10月',
-            '11月',
-            '12月'
-          ],
+          NARROWMONTHS: const ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+          STANDALONENARROWMONTHS: const ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+          MONTHS: const ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
+          STANDALONEMONTHS: const ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
+          SHORTMONTHS: const ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
+          STANDALONESHORTMONTHS: const ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
           WEEKDAYS: const ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'],
-          STANDALONEWEEKDAYS: const [
-            '星期日',
-            '星期一',
-            '星期二',
-            '星期三',
-            '星期四',
-            '星期五',
-            '星期六'
-          ],
+          STANDALONEWEEKDAYS: const ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'],
           SHORTWEEKDAYS: const ['週日', '週一', '週二', '週三', '週四', '週五', '週六'],
-          STANDALONESHORTWEEKDAYS: const [
-            '週日',
-            '週一',
-            '週二',
-            '週三',
-            '週四',
-            '週五',
-            '週六'
-          ],
+          STANDALONESHORTWEEKDAYS: const ['週日', '週一', '週二', '週三', '週四', '週五', '週六'],
           NARROWWEEKDAYS: const ['日', '一', '二', '三', '四', '五', '六'],
           STANDALONENARROWWEEKDAYS: const ['日', '一', '二', '三', '四', '五', '六'],
           SHORTQUARTERS: const ['第1季', '第2季', '第3季', '第4季'],
           QUARTERS: const ['第1季', '第2季', '第3季', '第4季'],
           AMPMS: const ['上午', '下午'],
           DATEFORMATS: const ['y年M月d日 EEEE', 'y年M月d日', 'y年M月d日', 'y/M/d'],
-          TIMEFORMATS: const [
-            'Bh:mm:ss [zzzz]',
-            'Bh:mm:ss [z]',
-            'Bh:mm:ss',
-            'Bh:mm'
-          ],
+          TIMEFORMATS: const ['Bh:mm:ss [zzzz]', 'Bh:mm:ss [z]', 'Bh:mm:ss', 'Bh:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
@@ -18116,34 +8632,8 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
           NAME: "zu",
           ERAS: const ['BC', 'AD'],
           ERANAMES: const ['BC', 'AD'],
-          NARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'E',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
-          STANDALONENARROWMONTHS: const [
-            'J',
-            'F',
-            'M',
-            'A',
-            'M',
-            'J',
-            'J',
-            'A',
-            'S',
-            'O',
-            'N',
-            'D'
-          ],
+          NARROWMONTHS: const ['J', 'F', 'M', 'E', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+          STANDALONENARROWMONTHS: const ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
           MONTHS: const [
             'Januwari',
             'Februwari',
@@ -18172,20 +8662,7 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'Novemba',
             'Disemba'
           ],
-          SHORTMONTHS: const [
-            'Jan',
-            'Feb',
-            'Mas',
-            'Eph',
-            'Mey',
-            'Jun',
-            'Jul',
-            'Aga',
-            'Sep',
-            'Okt',
-            'Nov',
-            'Dis'
-          ],
+          SHORTMONTHS: const ['Jan', 'Feb', 'Mas', 'Eph', 'Mey', 'Jun', 'Jul', 'Aga', 'Sep', 'Okt', 'Nov', 'Dis'],
           STANDALONESHORTMONTHS: const [
             'Jan',
             'Feb',
@@ -18218,46 +8695,15 @@ Map<dynamic, dynamic> dateTimeSymbolMap() => {
             'ULwesihlanu',
             'UMgqibelo'
           ],
-          SHORTWEEKDAYS: const [
-            'Son',
-            'Mso',
-            'Bil',
-            'Tha',
-            'Sin',
-            'Hla',
-            'Mgq'
-          ],
-          STANDALONESHORTWEEKDAYS: const [
-            'Son',
-            'Mso',
-            'Bil',
-            'Tha',
-            'Sin',
-            'Hla',
-            'Mgq'
-          ],
+          SHORTWEEKDAYS: const ['Son', 'Mso', 'Bil', 'Tha', 'Sin', 'Hla', 'Mgq'],
+          STANDALONESHORTWEEKDAYS: const ['Son', 'Mso', 'Bil', 'Tha', 'Sin', 'Hla', 'Mgq'],
           NARROWWEEKDAYS: const ['S', 'M', 'B', 'T', 'S', 'H', 'M'],
           STANDALONENARROWWEEKDAYS: const ['S', 'M', 'B', 'T', 'S', 'H', 'M'],
           SHORTQUARTERS: const ['Q1', 'Q2', 'Q3', 'Q4'],
-          QUARTERS: const [
-            'ikota yesi-1',
-            'ikota yesi-2',
-            'ikota yesi-3',
-            'ikota yesi-4'
-          ],
+          QUARTERS: const ['ikota yesi-1', 'ikota yesi-2', 'ikota yesi-3', 'ikota yesi-4'],
           AMPMS: const ['AM', 'PM'],
-          DATEFORMATS: const [
-            'EEEE, MMMM d, y',
-            'MMMM d, y',
-            'MMM d, y',
-            'M/d/yy'
-          ],
-          TIMEFORMATS: const [
-            'HH:mm:ss zzzz',
-            'HH:mm:ss z',
-            'HH:mm:ss',
-            'HH:mm'
-          ],
+          DATEFORMATS: const ['EEEE, MMMM d, y', 'MMMM d, y', 'MMM d, y', 'M/d/yy'],
+          TIMEFORMATS: const ['HH:mm:ss zzzz', 'HH:mm:ss z', 'HH:mm:ss', 'HH:mm'],
           DATETIMEFORMATS: const ['{1} {0}', '{1} {0}', '{1} {0}', '{1} {0}'],
           FIRSTDAYOFWEEK: 6,
           WEEKENDRANGE: const [5, 6],
